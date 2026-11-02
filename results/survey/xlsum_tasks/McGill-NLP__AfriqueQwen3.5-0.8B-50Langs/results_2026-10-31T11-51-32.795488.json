@@ -1,0 +1,2157 @@
+{
+  "results": {
+    "xlsum_amharic_prompt_1": {
+      "alias": "xlsum_amharic_prompt_1",
+      "rougeL,none": 0.0,
+      "rougeL_stderr,none": "N/A"
+    },
+    "xlsum_amharic_prompt_2": {
+      "alias": "xlsum_amharic_prompt_2",
+      "rougeL,none": 0.0,
+      "rougeL_stderr,none": "N/A"
+    },
+    "xlsum_amharic_prompt_3": {
+      "alias": "xlsum_amharic_prompt_3",
+      "rougeL,none": 0.0,
+      "rougeL_stderr,none": "N/A"
+    },
+    "xlsum_arabic_prompt_1": {
+      "alias": "xlsum_arabic_prompt_1",
+      "rougeL,none": 0.0,
+      "rougeL_stderr,none": "N/A"
+    },
+    "xlsum_arabic_prompt_2": {
+      "alias": "xlsum_arabic_prompt_2",
+      "rougeL,none": 0.0,
+      "rougeL_stderr,none": "N/A"
+    },
+    "xlsum_arabic_prompt_3": {
+      "alias": "xlsum_arabic_prompt_3",
+      "rougeL,none": 0.0,
+      "rougeL_stderr,none": "N/A"
+    },
+    "xlsum_hausa_prompt_1": {
+      "alias": "xlsum_hausa_prompt_1",
+      "rougeL,none": 0.03931996512641674,
+      "rougeL_stderr,none": "N/A"
+    },
+    "xlsum_hausa_prompt_2": {
+      "alias": "xlsum_hausa_prompt_2",
+      "rougeL,none": 0.0,
+      "rougeL_stderr,none": "N/A"
+    },
+    "xlsum_hausa_prompt_3": {
+      "alias": "xlsum_hausa_prompt_3",
+      "rougeL,none": 0.0,
+      "rougeL_stderr,none": "N/A"
+    },
+    "xlsum_igbo_prompt_1": {
+      "alias": "xlsum_igbo_prompt_1",
+      "rougeL,none": 0.004784688995215311,
+      "rougeL_stderr,none": "N/A"
+    },
+    "xlsum_igbo_prompt_2": {
+      "alias": "xlsum_igbo_prompt_2",
+      "rougeL,none": 0.007407407407407408,
+      "rougeL_stderr,none": "N/A"
+    },
+    "xlsum_igbo_prompt_3": {
+      "alias": "xlsum_igbo_prompt_3",
+      "rougeL,none": 0.004587155963302753,
+      "rougeL_stderr,none": "N/A"
+    },
+    "xlsum_kirundi_prompt_1": {
+      "alias": "xlsum_kirundi_prompt_1",
+      "rougeL,none": 0.0,
+      "rougeL_stderr,none": "N/A"
+    },
+    "xlsum_kirundi_prompt_2": {
+      "alias": "xlsum_kirundi_prompt_2",
+      "rougeL,none": 0.0,
+      "rougeL_stderr,none": "N/A"
+    },
+    "xlsum_kirundi_prompt_3": {
+      "alias": "xlsum_kirundi_prompt_3",
+      "rougeL,none": 0.0,
+      "rougeL_stderr,none": "N/A"
+    },
+    "xlsum_oromo_prompt_1": {
+      "alias": "xlsum_oromo_prompt_1",
+      "rougeL,none": 0.0,
+      "rougeL_stderr,none": "N/A"
+    },
+    "xlsum_oromo_prompt_2": {
+      "alias": "xlsum_oromo_prompt_2",
+      "rougeL,none": 0.0,
+      "rougeL_stderr,none": "N/A"
+    },
+    "xlsum_oromo_prompt_3": {
+      "alias": "xlsum_oromo_prompt_3",
+      "rougeL,none": 0.0,
+      "rougeL_stderr,none": "N/A"
+    },
+    "xlsum_pidgin_prompt_1": {
+      "alias": "xlsum_pidgin_prompt_1",
+      "rougeL,none": 0.013913648419496499,
+      "rougeL_stderr,none": "N/A"
+    },
+    "xlsum_pidgin_prompt_2": {
+      "alias": "xlsum_pidgin_prompt_2",
+      "rougeL,none": 0.0,
+      "rougeL_stderr,none": "N/A"
+    },
+    "xlsum_pidgin_prompt_3": {
+      "alias": "xlsum_pidgin_prompt_3",
+      "rougeL,none": 0.011828564257028114,
+      "rougeL_stderr,none": "N/A"
+    },
+    "xlsum_somali_prompt_1": {
+      "alias": "xlsum_somali_prompt_1",
+      "rougeL,none": 0.004566210045662101,
+      "rougeL_stderr,none": "N/A"
+    },
+    "xlsum_somali_prompt_2": {
+      "alias": "xlsum_somali_prompt_2",
+      "rougeL,none": 0.0,
+      "rougeL_stderr,none": "N/A"
+    },
+    "xlsum_somali_prompt_3": {
+      "alias": "xlsum_somali_prompt_3",
+      "rougeL,none": 0.0,
+      "rougeL_stderr,none": "N/A"
+    },
+    "xlsum_swahili_prompt_1": {
+      "alias": "xlsum_swahili_prompt_1",
+      "rougeL,none": 0.0,
+      "rougeL_stderr,none": "N/A"
+    },
+    "xlsum_swahili_prompt_2": {
+      "alias": "xlsum_swahili_prompt_2",
+      "rougeL,none": 0.0,
+      "rougeL_stderr,none": "N/A"
+    },
+    "xlsum_swahili_prompt_3": {
+      "alias": "xlsum_swahili_prompt_3",
+      "rougeL,none": 0.009174311926605503,
+      "rougeL_stderr,none": "N/A"
+    },
+    "xlsum_telugu_prompt_1": {
+      "alias": "xlsum_telugu_prompt_1",
+      "rougeL,none": 0.0,
+      "rougeL_stderr,none": "N/A"
+    },
+    "xlsum_telugu_prompt_2": {
+      "alias": "xlsum_telugu_prompt_2",
+      "rougeL,none": 0.0,
+      "rougeL_stderr,none": "N/A"
+    },
+    "xlsum_telugu_prompt_3": {
+      "alias": "xlsum_telugu_prompt_3",
+      "rougeL,none": 0.0,
+      "rougeL_stderr,none": "N/A"
+    },
+    "xlsum_tigrinya_prompt_1": {
+      "alias": "xlsum_tigrinya_prompt_1",
+      "rougeL,none": 0.0,
+      "rougeL_stderr,none": "N/A"
+    },
+    "xlsum_tigrinya_prompt_2": {
+      "alias": "xlsum_tigrinya_prompt_2",
+      "rougeL,none": 0.0,
+      "rougeL_stderr,none": "N/A"
+    },
+    "xlsum_tigrinya_prompt_3": {
+      "alias": "xlsum_tigrinya_prompt_3",
+      "rougeL,none": 0.0,
+      "rougeL_stderr,none": "N/A"
+    },
+    "xlsum_yoruba_prompt_1": {
+      "alias": "xlsum_yoruba_prompt_1",
+      "rougeL,none": 0.03384887317719841,
+      "rougeL_stderr,none": "N/A"
+    },
+    "xlsum_yoruba_prompt_2": {
+      "alias": "xlsum_yoruba_prompt_2",
+      "rougeL,none": 0.03222375172068577,
+      "rougeL_stderr,none": "N/A"
+    },
+    "xlsum_yoruba_prompt_3": {
+      "alias": "xlsum_yoruba_prompt_3",
+      "rougeL,none": 0.028348623853211012,
+      "rougeL_stderr,none": "N/A"
+    }
+  },
+  "group_subtasks": {
+    "xlsum_telugu_prompt_1": [],
+    "xlsum_oromo_prompt_1": [],
+    "xlsum_arabic_prompt_1": [],
+    "xlsum_amharic_prompt_1": [],
+    "xlsum_kirundi_prompt_1": [],
+    "xlsum_tigrinya_prompt_1": [],
+    "xlsum_pidgin_prompt_1": [],
+    "xlsum_swahili_prompt_1": [],
+    "xlsum_somali_prompt_1": [],
+    "xlsum_hausa_prompt_1": [],
+    "xlsum_yoruba_prompt_1": [],
+    "xlsum_igbo_prompt_1": [],
+    "xlsum_telugu_prompt_3": [],
+    "xlsum_oromo_prompt_3": [],
+    "xlsum_arabic_prompt_3": [],
+    "xlsum_amharic_prompt_3": [],
+    "xlsum_kirundi_prompt_3": [],
+    "xlsum_tigrinya_prompt_3": [],
+    "xlsum_pidgin_prompt_3": [],
+    "xlsum_swahili_prompt_3": [],
+    "xlsum_somali_prompt_3": [],
+    "xlsum_hausa_prompt_3": [],
+    "xlsum_yoruba_prompt_3": [],
+    "xlsum_igbo_prompt_3": [],
+    "xlsum_telugu_prompt_2": [],
+    "xlsum_oromo_prompt_2": [],
+    "xlsum_arabic_prompt_2": [],
+    "xlsum_amharic_prompt_2": [],
+    "xlsum_kirundi_prompt_2": [],
+    "xlsum_tigrinya_prompt_2": [],
+    "xlsum_pidgin_prompt_2": [],
+    "xlsum_swahili_prompt_2": [],
+    "xlsum_somali_prompt_2": [],
+    "xlsum_hausa_prompt_2": [],
+    "xlsum_yoruba_prompt_2": [],
+    "xlsum_igbo_prompt_2": []
+  },
+  "configs": {
+    "xlsum_amharic_prompt_1": {
+      "task": "xlsum_amharic_prompt_1",
+      "tag": [
+        "xlsum_tasks",
+        "xlsum_prompt_1"
+      ],
+      "dataset_path": "csebuetnlp/xlsum",
+      "dataset_name": "amharic",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "validation_split": "validation",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "Provide a summary of the document written in Amharic. Ensure that you provide the summary in Amharic and nothing else.\nDocument in Amharic: {{'text'}}\\nSummary: ",
+      "doc_to_target": "{{summary}}",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "def rougeL(items):\n    \"\"\"\n    # passthrough for efficiency\n    \"\"\"\n    return items\n",
+          "higher_is_better": true,
+          "aggregation": "def rougeL_agg(items):\n    \"\"\"\n    Higher is better\n    \"\"\"\n    refs = list(zip(*items))[0]\n    preds = list(zip(*items))[1]\n    rouge_scorer = evaluate.load(\"rouge\")\n    return rouge_scorer.compute(predictions=preds, references=refs)[\"rougeL\"]\n"
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "xlsum_amharic_prompt_2": {
+      "task": "xlsum_amharic_prompt_2",
+      "tag": [
+        "xlsum_tasks",
+        "xlsum_prompt_2"
+      ],
+      "dataset_path": "csebuetnlp/xlsum",
+      "dataset_name": "amharic",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "validation_split": "validation",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "Summarize the document below in triple backticks and return only the summary and nothing else.\n```{{'text'}}```\\n",
+      "doc_to_target": "{{summary}}",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "def rougeL(items):\n    \"\"\"\n    # passthrough for efficiency\n    \"\"\"\n    return items\n",
+          "higher_is_better": true,
+          "aggregation": "def rougeL_agg(items):\n    \"\"\"\n    Higher is better\n    \"\"\"\n    refs = list(zip(*items))[0]\n    preds = list(zip(*items))[1]\n    rouge_scorer = evaluate.load(\"rouge\")\n    return rouge_scorer.compute(predictions=preds, references=refs)[\"rougeL\"]\n"
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "xlsum_amharic_prompt_3": {
+      "task": "xlsum_amharic_prompt_3",
+      "tag": [
+        "xlsum_tasks",
+        "xlsum_prompt_3"
+      ],
+      "dataset_path": "csebuetnlp/xlsum",
+      "dataset_name": "amharic",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "validation_split": "validation",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "You are an advanced Summarizer, a specialized assistant designed to summarize documents in Amharic. Your main goal is to ensure summaries are concise and informative. Ensure you return the summary only and nothing else.\nDocument: {{'text'}}\\nSummary: ",
+      "doc_to_target": "{{summary}}",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "def rougeL(items):\n    \"\"\"\n    # passthrough for efficiency\n    \"\"\"\n    return items\n",
+          "higher_is_better": true,
+          "aggregation": "def rougeL_agg(items):\n    \"\"\"\n    Higher is better\n    \"\"\"\n    refs = list(zip(*items))[0]\n    preds = list(zip(*items))[1]\n    rouge_scorer = evaluate.load(\"rouge\")\n    return rouge_scorer.compute(predictions=preds, references=refs)[\"rougeL\"]\n"
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "xlsum_arabic_prompt_1": {
+      "task": "xlsum_arabic_prompt_1",
+      "tag": [
+        "xlsum_tasks",
+        "xlsum_prompt_1"
+      ],
+      "dataset_path": "csebuetnlp/xlsum",
+      "dataset_name": "arabic",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "validation_split": "validation",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "Provide a summary of the document written in Arabic. Ensure that you provide the summary in Arabic and nothing else.\nDocument in Arabic: {{'text'}}\\nSummary: ",
+      "doc_to_target": "{{summary}}",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "def rougeL(items):\n    \"\"\"\n    # passthrough for efficiency\n    \"\"\"\n    return items\n",
+          "higher_is_better": true,
+          "aggregation": "def rougeL_agg(items):\n    \"\"\"\n    Higher is better\n    \"\"\"\n    refs = list(zip(*items))[0]\n    preds = list(zip(*items))[1]\n    rouge_scorer = evaluate.load(\"rouge\")\n    return rouge_scorer.compute(predictions=preds, references=refs)[\"rougeL\"]\n"
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "xlsum_arabic_prompt_2": {
+      "task": "xlsum_arabic_prompt_2",
+      "tag": [
+        "xlsum_tasks",
+        "xlsum_prompt_2"
+      ],
+      "dataset_path": "csebuetnlp/xlsum",
+      "dataset_name": "arabic",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "validation_split": "validation",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "Summarize the document below in triple backticks and return only the summary and nothing else.\n```{{'text'}}```\\n",
+      "doc_to_target": "{{summary}}",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "def rougeL(items):\n    \"\"\"\n    # passthrough for efficiency\n    \"\"\"\n    return items\n",
+          "higher_is_better": true,
+          "aggregation": "def rougeL_agg(items):\n    \"\"\"\n    Higher is better\n    \"\"\"\n    refs = list(zip(*items))[0]\n    preds = list(zip(*items))[1]\n    rouge_scorer = evaluate.load(\"rouge\")\n    return rouge_scorer.compute(predictions=preds, references=refs)[\"rougeL\"]\n"
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "xlsum_arabic_prompt_3": {
+      "task": "xlsum_arabic_prompt_3",
+      "tag": [
+        "xlsum_tasks",
+        "xlsum_prompt_3"
+      ],
+      "dataset_path": "csebuetnlp/xlsum",
+      "dataset_name": "arabic",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "validation_split": "validation",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "You are an advanced Summarizer, a specialized assistant designed to summarize documents in Arabic. Your main goal is to ensure summaries are concise and informative. Ensure you return the summary only and nothing else.\nDocument: {{'text'}}\\nSummary: ",
+      "doc_to_target": "{{summary}}",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "def rougeL(items):\n    \"\"\"\n    # passthrough for efficiency\n    \"\"\"\n    return items\n",
+          "higher_is_better": true,
+          "aggregation": "def rougeL_agg(items):\n    \"\"\"\n    Higher is better\n    \"\"\"\n    refs = list(zip(*items))[0]\n    preds = list(zip(*items))[1]\n    rouge_scorer = evaluate.load(\"rouge\")\n    return rouge_scorer.compute(predictions=preds, references=refs)[\"rougeL\"]\n"
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "xlsum_hausa_prompt_1": {
+      "task": "xlsum_hausa_prompt_1",
+      "tag": [
+        "xlsum_tasks",
+        "xlsum_prompt_1"
+      ],
+      "dataset_path": "csebuetnlp/xlsum",
+      "dataset_name": "hausa",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "validation_split": "validation",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "Provide a summary of the document written in Hausa. Ensure that you provide the summary in Hausa and nothing else.\nDocument in Hausa: {{'text'}}\\nSummary: ",
+      "doc_to_target": "{{summary}}",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "def rougeL(items):\n    \"\"\"\n    # passthrough for efficiency\n    \"\"\"\n    return items\n",
+          "higher_is_better": true,
+          "aggregation": "def rougeL_agg(items):\n    \"\"\"\n    Higher is better\n    \"\"\"\n    refs = list(zip(*items))[0]\n    preds = list(zip(*items))[1]\n    rouge_scorer = evaluate.load(\"rouge\")\n    return rouge_scorer.compute(predictions=preds, references=refs)[\"rougeL\"]\n"
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "xlsum_hausa_prompt_2": {
+      "task": "xlsum_hausa_prompt_2",
+      "tag": [
+        "xlsum_tasks",
+        "xlsum_prompt_2"
+      ],
+      "dataset_path": "csebuetnlp/xlsum",
+      "dataset_name": "hausa",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "validation_split": "validation",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "Summarize the document below in triple backticks and return only the summary and nothing else.\n```{{'text'}}```\\n",
+      "doc_to_target": "{{summary}}",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "def rougeL(items):\n    \"\"\"\n    # passthrough for efficiency\n    \"\"\"\n    return items\n",
+          "higher_is_better": true,
+          "aggregation": "def rougeL_agg(items):\n    \"\"\"\n    Higher is better\n    \"\"\"\n    refs = list(zip(*items))[0]\n    preds = list(zip(*items))[1]\n    rouge_scorer = evaluate.load(\"rouge\")\n    return rouge_scorer.compute(predictions=preds, references=refs)[\"rougeL\"]\n"
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "xlsum_hausa_prompt_3": {
+      "task": "xlsum_hausa_prompt_3",
+      "tag": [
+        "xlsum_tasks",
+        "xlsum_prompt_3"
+      ],
+      "dataset_path": "csebuetnlp/xlsum",
+      "dataset_name": "hausa",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "validation_split": "validation",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "You are an advanced Summarizer, a specialized assistant designed to summarize documents in Hausa. Your main goal is to ensure summaries are concise and informative. Ensure you return the summary only and nothing else.\nDocument: {{'text'}}\\nSummary: ",
+      "doc_to_target": "{{summary}}",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "def rougeL(items):\n    \"\"\"\n    # passthrough for efficiency\n    \"\"\"\n    return items\n",
+          "higher_is_better": true,
+          "aggregation": "def rougeL_agg(items):\n    \"\"\"\n    Higher is better\n    \"\"\"\n    refs = list(zip(*items))[0]\n    preds = list(zip(*items))[1]\n    rouge_scorer = evaluate.load(\"rouge\")\n    return rouge_scorer.compute(predictions=preds, references=refs)[\"rougeL\"]\n"
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "xlsum_igbo_prompt_1": {
+      "task": "xlsum_igbo_prompt_1",
+      "tag": [
+        "xlsum_tasks",
+        "xlsum_prompt_1"
+      ],
+      "dataset_path": "csebuetnlp/xlsum",
+      "dataset_name": "igbo",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "validation_split": "validation",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "Provide a summary of the document written in Igbo. Ensure that you provide the summary in Igbo and nothing else.\nDocument in Igbo: {{'text'}}\\nSummary: ",
+      "doc_to_target": "{{summary}}",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "def rougeL(items):\n    \"\"\"\n    # passthrough for efficiency\n    \"\"\"\n    return items\n",
+          "higher_is_better": true,
+          "aggregation": "def rougeL_agg(items):\n    \"\"\"\n    Higher is better\n    \"\"\"\n    refs = list(zip(*items))[0]\n    preds = list(zip(*items))[1]\n    rouge_scorer = evaluate.load(\"rouge\")\n    return rouge_scorer.compute(predictions=preds, references=refs)[\"rougeL\"]\n"
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "xlsum_igbo_prompt_2": {
+      "task": "xlsum_igbo_prompt_2",
+      "tag": [
+        "xlsum_tasks",
+        "xlsum_prompt_2"
+      ],
+      "dataset_path": "csebuetnlp/xlsum",
+      "dataset_name": "igbo",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "validation_split": "validation",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "Summarize the document below in triple backticks and return only the summary and nothing else.\n```{{'text'}}```\\n",
+      "doc_to_target": "{{summary}}",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "def rougeL(items):\n    \"\"\"\n    # passthrough for efficiency\n    \"\"\"\n    return items\n",
+          "higher_is_better": true,
+          "aggregation": "def rougeL_agg(items):\n    \"\"\"\n    Higher is better\n    \"\"\"\n    refs = list(zip(*items))[0]\n    preds = list(zip(*items))[1]\n    rouge_scorer = evaluate.load(\"rouge\")\n    return rouge_scorer.compute(predictions=preds, references=refs)[\"rougeL\"]\n"
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "xlsum_igbo_prompt_3": {
+      "task": "xlsum_igbo_prompt_3",
+      "tag": [
+        "xlsum_tasks",
+        "xlsum_prompt_3"
+      ],
+      "dataset_path": "csebuetnlp/xlsum",
+      "dataset_name": "igbo",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "validation_split": "validation",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "You are an advanced Summarizer, a specialized assistant designed to summarize documents in Igbo. Your main goal is to ensure summaries are concise and informative. Ensure you return the summary only and nothing else.\nDocument: {{'text'}}\\nSummary: ",
+      "doc_to_target": "{{summary}}",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "def rougeL(items):\n    \"\"\"\n    # passthrough for efficiency\n    \"\"\"\n    return items\n",
+          "higher_is_better": true,
+          "aggregation": "def rougeL_agg(items):\n    \"\"\"\n    Higher is better\n    \"\"\"\n    refs = list(zip(*items))[0]\n    preds = list(zip(*items))[1]\n    rouge_scorer = evaluate.load(\"rouge\")\n    return rouge_scorer.compute(predictions=preds, references=refs)[\"rougeL\"]\n"
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "xlsum_kirundi_prompt_1": {
+      "task": "xlsum_kirundi_prompt_1",
+      "tag": [
+        "xlsum_tasks",
+        "xlsum_prompt_1"
+      ],
+      "dataset_path": "csebuetnlp/xlsum",
+      "dataset_name": "kirundi",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "validation_split": "validation",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "Provide a summary of the document written in Kirundi. Ensure that you provide the summary in Kirundi and nothing else.\nDocument in Kirundi: {{'text'}}\\nSummary: ",
+      "doc_to_target": "{{summary}}",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "def rougeL(items):\n    \"\"\"\n    # passthrough for efficiency\n    \"\"\"\n    return items\n",
+          "higher_is_better": true,
+          "aggregation": "def rougeL_agg(items):\n    \"\"\"\n    Higher is better\n    \"\"\"\n    refs = list(zip(*items))[0]\n    preds = list(zip(*items))[1]\n    rouge_scorer = evaluate.load(\"rouge\")\n    return rouge_scorer.compute(predictions=preds, references=refs)[\"rougeL\"]\n"
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "xlsum_kirundi_prompt_2": {
+      "task": "xlsum_kirundi_prompt_2",
+      "tag": [
+        "xlsum_tasks",
+        "xlsum_prompt_2"
+      ],
+      "dataset_path": "csebuetnlp/xlsum",
+      "dataset_name": "kirundi",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "validation_split": "validation",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "Summarize the document below in triple backticks and return only the summary and nothing else.\n```{{'text'}}```\\n",
+      "doc_to_target": "{{summary}}",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "def rougeL(items):\n    \"\"\"\n    # passthrough for efficiency\n    \"\"\"\n    return items\n",
+          "higher_is_better": true,
+          "aggregation": "def rougeL_agg(items):\n    \"\"\"\n    Higher is better\n    \"\"\"\n    refs = list(zip(*items))[0]\n    preds = list(zip(*items))[1]\n    rouge_scorer = evaluate.load(\"rouge\")\n    return rouge_scorer.compute(predictions=preds, references=refs)[\"rougeL\"]\n"
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "xlsum_kirundi_prompt_3": {
+      "task": "xlsum_kirundi_prompt_3",
+      "tag": [
+        "xlsum_tasks",
+        "xlsum_prompt_3"
+      ],
+      "dataset_path": "csebuetnlp/xlsum",
+      "dataset_name": "kirundi",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "validation_split": "validation",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "You are an advanced Summarizer, a specialized assistant designed to summarize documents in Kirundi. Your main goal is to ensure summaries are concise and informative. Ensure you return the summary only and nothing else.\nDocument: {{'text'}}\\nSummary: ",
+      "doc_to_target": "{{summary}}",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "def rougeL(items):\n    \"\"\"\n    # passthrough for efficiency\n    \"\"\"\n    return items\n",
+          "higher_is_better": true,
+          "aggregation": "def rougeL_agg(items):\n    \"\"\"\n    Higher is better\n    \"\"\"\n    refs = list(zip(*items))[0]\n    preds = list(zip(*items))[1]\n    rouge_scorer = evaluate.load(\"rouge\")\n    return rouge_scorer.compute(predictions=preds, references=refs)[\"rougeL\"]\n"
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "xlsum_oromo_prompt_1": {
+      "task": "xlsum_oromo_prompt_1",
+      "tag": [
+        "xlsum_tasks",
+        "xlsum_prompt_1"
+      ],
+      "dataset_path": "csebuetnlp/xlsum",
+      "dataset_name": "oromo",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "validation_split": "validation",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "Provide a summary of the document written in Oromo. Ensure that you provide the summary in Oromo and nothing else.\nDocument in Oromo: {{'text'}}\\nSummary: ",
+      "doc_to_target": "{{summary}}",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "def rougeL(items):\n    \"\"\"\n    # passthrough for efficiency\n    \"\"\"\n    return items\n",
+          "higher_is_better": true,
+          "aggregation": "def rougeL_agg(items):\n    \"\"\"\n    Higher is better\n    \"\"\"\n    refs = list(zip(*items))[0]\n    preds = list(zip(*items))[1]\n    rouge_scorer = evaluate.load(\"rouge\")\n    return rouge_scorer.compute(predictions=preds, references=refs)[\"rougeL\"]\n"
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "xlsum_oromo_prompt_2": {
+      "task": "xlsum_oromo_prompt_2",
+      "tag": [
+        "xlsum_tasks",
+        "xlsum_prompt_2"
+      ],
+      "dataset_path": "csebuetnlp/xlsum",
+      "dataset_name": "oromo",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "validation_split": "validation",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "Summarize the document below in triple backticks and return only the summary and nothing else.\n```{{'text'}}```\\n",
+      "doc_to_target": "{{summary}}",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "def rougeL(items):\n    \"\"\"\n    # passthrough for efficiency\n    \"\"\"\n    return items\n",
+          "higher_is_better": true,
+          "aggregation": "def rougeL_agg(items):\n    \"\"\"\n    Higher is better\n    \"\"\"\n    refs = list(zip(*items))[0]\n    preds = list(zip(*items))[1]\n    rouge_scorer = evaluate.load(\"rouge\")\n    return rouge_scorer.compute(predictions=preds, references=refs)[\"rougeL\"]\n"
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "xlsum_oromo_prompt_3": {
+      "task": "xlsum_oromo_prompt_3",
+      "tag": [
+        "xlsum_tasks",
+        "xlsum_prompt_3"
+      ],
+      "dataset_path": "csebuetnlp/xlsum",
+      "dataset_name": "oromo",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "validation_split": "validation",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "You are an advanced Summarizer, a specialized assistant designed to summarize documents in Oromo. Your main goal is to ensure summaries are concise and informative. Ensure you return the summary only and nothing else.\nDocument: {{'text'}}\\nSummary: ",
+      "doc_to_target": "{{summary}}",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "def rougeL(items):\n    \"\"\"\n    # passthrough for efficiency\n    \"\"\"\n    return items\n",
+          "higher_is_better": true,
+          "aggregation": "def rougeL_agg(items):\n    \"\"\"\n    Higher is better\n    \"\"\"\n    refs = list(zip(*items))[0]\n    preds = list(zip(*items))[1]\n    rouge_scorer = evaluate.load(\"rouge\")\n    return rouge_scorer.compute(predictions=preds, references=refs)[\"rougeL\"]\n"
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "xlsum_pidgin_prompt_1": {
+      "task": "xlsum_pidgin_prompt_1",
+      "tag": [
+        "xlsum_tasks",
+        "xlsum_prompt_1"
+      ],
+      "dataset_path": "csebuetnlp/xlsum",
+      "dataset_name": "pidgin",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "validation_split": "validation",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "Provide a summary of the document written in Nigerian pidgin. Ensure that you provide the summary in Nigerian pidgin and nothing else.\nDocument in Nigerian pidgin: {{'text'}}\\nSummary: ",
+      "doc_to_target": "{{summary}}",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "def rougeL(items):\n    \"\"\"\n    # passthrough for efficiency\n    \"\"\"\n    return items\n",
+          "higher_is_better": true,
+          "aggregation": "def rougeL_agg(items):\n    \"\"\"\n    Higher is better\n    \"\"\"\n    refs = list(zip(*items))[0]\n    preds = list(zip(*items))[1]\n    rouge_scorer = evaluate.load(\"rouge\")\n    return rouge_scorer.compute(predictions=preds, references=refs)[\"rougeL\"]\n"
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "xlsum_pidgin_prompt_2": {
+      "task": "xlsum_pidgin_prompt_2",
+      "tag": [
+        "xlsum_tasks",
+        "xlsum_prompt_2"
+      ],
+      "dataset_path": "csebuetnlp/xlsum",
+      "dataset_name": "pidgin",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "validation_split": "validation",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "Summarize the document below in triple backticks and return only the summary and nothing else.\n```{{'text'}}```\\n",
+      "doc_to_target": "{{summary}}",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "def rougeL(items):\n    \"\"\"\n    # passthrough for efficiency\n    \"\"\"\n    return items\n",
+          "higher_is_better": true,
+          "aggregation": "def rougeL_agg(items):\n    \"\"\"\n    Higher is better\n    \"\"\"\n    refs = list(zip(*items))[0]\n    preds = list(zip(*items))[1]\n    rouge_scorer = evaluate.load(\"rouge\")\n    return rouge_scorer.compute(predictions=preds, references=refs)[\"rougeL\"]\n"
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "xlsum_pidgin_prompt_3": {
+      "task": "xlsum_pidgin_prompt_3",
+      "tag": [
+        "xlsum_tasks",
+        "xlsum_prompt_3"
+      ],
+      "dataset_path": "csebuetnlp/xlsum",
+      "dataset_name": "pidgin",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "validation_split": "validation",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "You are an advanced Summarizer, a specialized assistant designed to summarize documents in Nigerian pidgin. Your main goal is to ensure summaries are concise and informative. Ensure you return the summary only and nothing else.\nDocument: {{'text'}}\\nSummary: ",
+      "doc_to_target": "{{summary}}",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "def rougeL(items):\n    \"\"\"\n    # passthrough for efficiency\n    \"\"\"\n    return items\n",
+          "higher_is_better": true,
+          "aggregation": "def rougeL_agg(items):\n    \"\"\"\n    Higher is better\n    \"\"\"\n    refs = list(zip(*items))[0]\n    preds = list(zip(*items))[1]\n    rouge_scorer = evaluate.load(\"rouge\")\n    return rouge_scorer.compute(predictions=preds, references=refs)[\"rougeL\"]\n"
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "xlsum_somali_prompt_1": {
+      "task": "xlsum_somali_prompt_1",
+      "tag": [
+        "xlsum_tasks",
+        "xlsum_prompt_1"
+      ],
+      "dataset_path": "csebuetnlp/xlsum",
+      "dataset_name": "somali",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "validation_split": "validation",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "Provide a summary of the document written in Somali. Ensure that you provide the summary in Somali and nothing else.\nDocument in Somali: {{'text'}}\\nSummary: ",
+      "doc_to_target": "{{summary}}",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "def rougeL(items):\n    \"\"\"\n    # passthrough for efficiency\n    \"\"\"\n    return items\n",
+          "higher_is_better": true,
+          "aggregation": "def rougeL_agg(items):\n    \"\"\"\n    Higher is better\n    \"\"\"\n    refs = list(zip(*items))[0]\n    preds = list(zip(*items))[1]\n    rouge_scorer = evaluate.load(\"rouge\")\n    return rouge_scorer.compute(predictions=preds, references=refs)[\"rougeL\"]\n"
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "xlsum_somali_prompt_2": {
+      "task": "xlsum_somali_prompt_2",
+      "tag": [
+        "xlsum_tasks",
+        "xlsum_prompt_2"
+      ],
+      "dataset_path": "csebuetnlp/xlsum",
+      "dataset_name": "somali",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "validation_split": "validation",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "Summarize the document below in triple backticks and return only the summary and nothing else.\n```{{'text'}}```\\n",
+      "doc_to_target": "{{summary}}",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "def rougeL(items):\n    \"\"\"\n    # passthrough for efficiency\n    \"\"\"\n    return items\n",
+          "higher_is_better": true,
+          "aggregation": "def rougeL_agg(items):\n    \"\"\"\n    Higher is better\n    \"\"\"\n    refs = list(zip(*items))[0]\n    preds = list(zip(*items))[1]\n    rouge_scorer = evaluate.load(\"rouge\")\n    return rouge_scorer.compute(predictions=preds, references=refs)[\"rougeL\"]\n"
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "xlsum_somali_prompt_3": {
+      "task": "xlsum_somali_prompt_3",
+      "tag": [
+        "xlsum_tasks",
+        "xlsum_prompt_3"
+      ],
+      "dataset_path": "csebuetnlp/xlsum",
+      "dataset_name": "somali",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "validation_split": "validation",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "You are an advanced Summarizer, a specialized assistant designed to summarize documents in Somali. Your main goal is to ensure summaries are concise and informative. Ensure you return the summary only and nothing else.\nDocument: {{'text'}}\\nSummary: ",
+      "doc_to_target": "{{summary}}",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "def rougeL(items):\n    \"\"\"\n    # passthrough for efficiency\n    \"\"\"\n    return items\n",
+          "higher_is_better": true,
+          "aggregation": "def rougeL_agg(items):\n    \"\"\"\n    Higher is better\n    \"\"\"\n    refs = list(zip(*items))[0]\n    preds = list(zip(*items))[1]\n    rouge_scorer = evaluate.load(\"rouge\")\n    return rouge_scorer.compute(predictions=preds, references=refs)[\"rougeL\"]\n"
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "xlsum_swahili_prompt_1": {
+      "task": "xlsum_swahili_prompt_1",
+      "tag": [
+        "xlsum_tasks",
+        "xlsum_prompt_1"
+      ],
+      "dataset_path": "csebuetnlp/xlsum",
+      "dataset_name": "swahili",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "validation_split": "validation",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "Provide a summary of the document written in Swahili. Ensure that you provide the summary in Swahili and nothing else.\nDocument in Swahili: {{'text'}}\\nSummary: ",
+      "doc_to_target": "{{summary}}",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "def rougeL(items):\n    \"\"\"\n    # passthrough for efficiency\n    \"\"\"\n    return items\n",
+          "higher_is_better": true,
+          "aggregation": "def rougeL_agg(items):\n    \"\"\"\n    Higher is better\n    \"\"\"\n    refs = list(zip(*items))[0]\n    preds = list(zip(*items))[1]\n    rouge_scorer = evaluate.load(\"rouge\")\n    return rouge_scorer.compute(predictions=preds, references=refs)[\"rougeL\"]\n"
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "xlsum_swahili_prompt_2": {
+      "task": "xlsum_swahili_prompt_2",
+      "tag": [
+        "xlsum_tasks",
+        "xlsum_prompt_2"
+      ],
+      "dataset_path": "csebuetnlp/xlsum",
+      "dataset_name": "swahili",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "validation_split": "validation",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "Summarize the document below in triple backticks and return only the summary and nothing else.\n```{{'text'}}```\\n",
+      "doc_to_target": "{{summary}}",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "def rougeL(items):\n    \"\"\"\n    # passthrough for efficiency\n    \"\"\"\n    return items\n",
+          "higher_is_better": true,
+          "aggregation": "def rougeL_agg(items):\n    \"\"\"\n    Higher is better\n    \"\"\"\n    refs = list(zip(*items))[0]\n    preds = list(zip(*items))[1]\n    rouge_scorer = evaluate.load(\"rouge\")\n    return rouge_scorer.compute(predictions=preds, references=refs)[\"rougeL\"]\n"
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "xlsum_swahili_prompt_3": {
+      "task": "xlsum_swahili_prompt_3",
+      "tag": [
+        "xlsum_tasks",
+        "xlsum_prompt_3"
+      ],
+      "dataset_path": "csebuetnlp/xlsum",
+      "dataset_name": "swahili",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "validation_split": "validation",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "You are an advanced Summarizer, a specialized assistant designed to summarize documents in Swahili. Your main goal is to ensure summaries are concise and informative. Ensure you return the summary only and nothing else.\nDocument: {{'text'}}\\nSummary: ",
+      "doc_to_target": "{{summary}}",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "def rougeL(items):\n    \"\"\"\n    # passthrough for efficiency\n    \"\"\"\n    return items\n",
+          "higher_is_better": true,
+          "aggregation": "def rougeL_agg(items):\n    \"\"\"\n    Higher is better\n    \"\"\"\n    refs = list(zip(*items))[0]\n    preds = list(zip(*items))[1]\n    rouge_scorer = evaluate.load(\"rouge\")\n    return rouge_scorer.compute(predictions=preds, references=refs)[\"rougeL\"]\n"
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "xlsum_telugu_prompt_1": {
+      "task": "xlsum_telugu_prompt_1",
+      "tag": [
+        "xlsum_tasks",
+        "xlsum_prompt_1"
+      ],
+      "dataset_path": "csebuetnlp/xlsum",
+      "dataset_name": "telugu",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "validation_split": "validation",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "Provide a summary of the document written in Telugu. Ensure that you provide the summary in Telugu and nothing else.\nDocument in Telugu: {{'text'}}\\nSummary: ",
+      "doc_to_target": "{{summary}}",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "def rougeL(items):\n    \"\"\"\n    # passthrough for efficiency\n    \"\"\"\n    return items\n",
+          "higher_is_better": true,
+          "aggregation": "def rougeL_agg(items):\n    \"\"\"\n    Higher is better\n    \"\"\"\n    refs = list(zip(*items))[0]\n    preds = list(zip(*items))[1]\n    rouge_scorer = evaluate.load(\"rouge\")\n    return rouge_scorer.compute(predictions=preds, references=refs)[\"rougeL\"]\n"
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "xlsum_telugu_prompt_2": {
+      "task": "xlsum_telugu_prompt_2",
+      "tag": [
+        "xlsum_tasks",
+        "xlsum_prompt_2"
+      ],
+      "dataset_path": "csebuetnlp/xlsum",
+      "dataset_name": "telugu",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "validation_split": "validation",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "Summarize the document below in triple backticks and return only the summary and nothing else.\n```{{'text'}}```\\n",
+      "doc_to_target": "{{summary}}",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "def rougeL(items):\n    \"\"\"\n    # passthrough for efficiency\n    \"\"\"\n    return items\n",
+          "higher_is_better": true,
+          "aggregation": "def rougeL_agg(items):\n    \"\"\"\n    Higher is better\n    \"\"\"\n    refs = list(zip(*items))[0]\n    preds = list(zip(*items))[1]\n    rouge_scorer = evaluate.load(\"rouge\")\n    return rouge_scorer.compute(predictions=preds, references=refs)[\"rougeL\"]\n"
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "xlsum_telugu_prompt_3": {
+      "task": "xlsum_telugu_prompt_3",
+      "tag": [
+        "xlsum_tasks",
+        "xlsum_prompt_3"
+      ],
+      "dataset_path": "csebuetnlp/xlsum",
+      "dataset_name": "telugu",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "validation_split": "validation",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "You are an advanced Summarizer, a specialized assistant designed to summarize documents in Telugu. Your main goal is to ensure summaries are concise and informative. Ensure you return the summary only and nothing else.\nDocument: {{'text'}}\\nSummary: ",
+      "doc_to_target": "{{summary}}",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "def rougeL(items):\n    \"\"\"\n    # passthrough for efficiency\n    \"\"\"\n    return items\n",
+          "higher_is_better": true,
+          "aggregation": "def rougeL_agg(items):\n    \"\"\"\n    Higher is better\n    \"\"\"\n    refs = list(zip(*items))[0]\n    preds = list(zip(*items))[1]\n    rouge_scorer = evaluate.load(\"rouge\")\n    return rouge_scorer.compute(predictions=preds, references=refs)[\"rougeL\"]\n"
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "xlsum_tigrinya_prompt_1": {
+      "task": "xlsum_tigrinya_prompt_1",
+      "tag": [
+        "xlsum_tasks",
+        "xlsum_prompt_1"
+      ],
+      "dataset_path": "csebuetnlp/xlsum",
+      "dataset_name": "tigrinya",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "validation_split": "validation",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "Provide a summary of the document written in Tigrinya. Ensure that you provide the summary in Tigrinya and nothing else.\nDocument in Tigrinya: {{'text'}}\\nSummary: ",
+      "doc_to_target": "{{summary}}",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "def rougeL(items):\n    \"\"\"\n    # passthrough for efficiency\n    \"\"\"\n    return items\n",
+          "higher_is_better": true,
+          "aggregation": "def rougeL_agg(items):\n    \"\"\"\n    Higher is better\n    \"\"\"\n    refs = list(zip(*items))[0]\n    preds = list(zip(*items))[1]\n    rouge_scorer = evaluate.load(\"rouge\")\n    return rouge_scorer.compute(predictions=preds, references=refs)[\"rougeL\"]\n"
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "xlsum_tigrinya_prompt_2": {
+      "task": "xlsum_tigrinya_prompt_2",
+      "tag": [
+        "xlsum_tasks",
+        "xlsum_prompt_2"
+      ],
+      "dataset_path": "csebuetnlp/xlsum",
+      "dataset_name": "tigrinya",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "validation_split": "validation",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "Summarize the document below in triple backticks and return only the summary and nothing else.\n```{{'text'}}```\\n",
+      "doc_to_target": "{{summary}}",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "def rougeL(items):\n    \"\"\"\n    # passthrough for efficiency\n    \"\"\"\n    return items\n",
+          "higher_is_better": true,
+          "aggregation": "def rougeL_agg(items):\n    \"\"\"\n    Higher is better\n    \"\"\"\n    refs = list(zip(*items))[0]\n    preds = list(zip(*items))[1]\n    rouge_scorer = evaluate.load(\"rouge\")\n    return rouge_scorer.compute(predictions=preds, references=refs)[\"rougeL\"]\n"
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "xlsum_tigrinya_prompt_3": {
+      "task": "xlsum_tigrinya_prompt_3",
+      "tag": [
+        "xlsum_tasks",
+        "xlsum_prompt_3"
+      ],
+      "dataset_path": "csebuetnlp/xlsum",
+      "dataset_name": "tigrinya",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "validation_split": "validation",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "You are an advanced Summarizer, a specialized assistant designed to summarize documents in Tigrinya. Your main goal is to ensure summaries are concise and informative. Ensure you return the summary only and nothing else.\nDocument: {{'text'}}\\nSummary: ",
+      "doc_to_target": "{{summary}}",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "def rougeL(items):\n    \"\"\"\n    # passthrough for efficiency\n    \"\"\"\n    return items\n",
+          "higher_is_better": true,
+          "aggregation": "def rougeL_agg(items):\n    \"\"\"\n    Higher is better\n    \"\"\"\n    refs = list(zip(*items))[0]\n    preds = list(zip(*items))[1]\n    rouge_scorer = evaluate.load(\"rouge\")\n    return rouge_scorer.compute(predictions=preds, references=refs)[\"rougeL\"]\n"
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "xlsum_yoruba_prompt_1": {
+      "task": "xlsum_yoruba_prompt_1",
+      "tag": [
+        "xlsum_tasks",
+        "xlsum_prompt_1"
+      ],
+      "dataset_path": "csebuetnlp/xlsum",
+      "dataset_name": "yoruba",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "validation_split": "validation",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "Provide a summary of the document written in Yoruba. Ensure that you provide the summary in Yoruba and nothing else.\nDocument in Yoruba: {{'text'}}\\nSummary: ",
+      "doc_to_target": "{{summary}}",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "def rougeL(items):\n    \"\"\"\n    # passthrough for efficiency\n    \"\"\"\n    return items\n",
+          "higher_is_better": true,
+          "aggregation": "def rougeL_agg(items):\n    \"\"\"\n    Higher is better\n    \"\"\"\n    refs = list(zip(*items))[0]\n    preds = list(zip(*items))[1]\n    rouge_scorer = evaluate.load(\"rouge\")\n    return rouge_scorer.compute(predictions=preds, references=refs)[\"rougeL\"]\n"
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "xlsum_yoruba_prompt_2": {
+      "task": "xlsum_yoruba_prompt_2",
+      "tag": [
+        "xlsum_tasks",
+        "xlsum_prompt_2"
+      ],
+      "dataset_path": "csebuetnlp/xlsum",
+      "dataset_name": "yoruba",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "validation_split": "validation",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "Summarize the document below in triple backticks and return only the summary and nothing else.\n```{{'text'}}```\\n",
+      "doc_to_target": "{{summary}}",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "def rougeL(items):\n    \"\"\"\n    # passthrough for efficiency\n    \"\"\"\n    return items\n",
+          "higher_is_better": true,
+          "aggregation": "def rougeL_agg(items):\n    \"\"\"\n    Higher is better\n    \"\"\"\n    refs = list(zip(*items))[0]\n    preds = list(zip(*items))[1]\n    rouge_scorer = evaluate.load(\"rouge\")\n    return rouge_scorer.compute(predictions=preds, references=refs)[\"rougeL\"]\n"
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "xlsum_yoruba_prompt_3": {
+      "task": "xlsum_yoruba_prompt_3",
+      "tag": [
+        "xlsum_tasks",
+        "xlsum_prompt_3"
+      ],
+      "dataset_path": "csebuetnlp/xlsum",
+      "dataset_name": "yoruba",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "validation_split": "validation",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "You are an advanced Summarizer, a specialized assistant designed to summarize documents in Yoruba. Your main goal is to ensure summaries are concise and informative. Ensure you return the summary only and nothing else.\nDocument: {{'text'}}\\nSummary: ",
+      "doc_to_target": "{{summary}}",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "def rougeL(items):\n    \"\"\"\n    # passthrough for efficiency\n    \"\"\"\n    return items\n",
+          "higher_is_better": true,
+          "aggregation": "def rougeL_agg(items):\n    \"\"\"\n    Higher is better\n    \"\"\"\n    refs = list(zip(*items))[0]\n    preds = list(zip(*items))[1]\n    rouge_scorer = evaluate.load(\"rouge\")\n    return rouge_scorer.compute(predictions=preds, references=refs)[\"rougeL\"]\n"
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    }
+  },
+  "versions": {
+    "xlsum_amharic_prompt_1": 1.0,
+    "xlsum_amharic_prompt_2": 1.0,
+    "xlsum_amharic_prompt_3": 1.0,
+    "xlsum_arabic_prompt_1": 1.0,
+    "xlsum_arabic_prompt_2": 1.0,
+    "xlsum_arabic_prompt_3": 1.0,
+    "xlsum_hausa_prompt_1": 1.0,
+    "xlsum_hausa_prompt_2": 1.0,
+    "xlsum_hausa_prompt_3": 1.0,
+    "xlsum_igbo_prompt_1": 1.0,
+    "xlsum_igbo_prompt_2": 1.0,
+    "xlsum_igbo_prompt_3": 1.0,
+    "xlsum_kirundi_prompt_1": 1.0,
+    "xlsum_kirundi_prompt_2": 1.0,
+    "xlsum_kirundi_prompt_3": 1.0,
+    "xlsum_oromo_prompt_1": 1.0,
+    "xlsum_oromo_prompt_2": 1.0,
+    "xlsum_oromo_prompt_3": 1.0,
+    "xlsum_pidgin_prompt_1": 1.0,
+    "xlsum_pidgin_prompt_2": 1.0,
+    "xlsum_pidgin_prompt_3": 1.0,
+    "xlsum_somali_prompt_1": 1.0,
+    "xlsum_somali_prompt_2": 1.0,
+    "xlsum_somali_prompt_3": 1.0,
+    "xlsum_swahili_prompt_1": 1.0,
+    "xlsum_swahili_prompt_2": 1.0,
+    "xlsum_swahili_prompt_3": 1.0,
+    "xlsum_telugu_prompt_1": 1.0,
+    "xlsum_telugu_prompt_2": 1.0,
+    "xlsum_telugu_prompt_3": 1.0,
+    "xlsum_tigrinya_prompt_1": 1.0,
+    "xlsum_tigrinya_prompt_2": 1.0,
+    "xlsum_tigrinya_prompt_3": 1.0,
+    "xlsum_yoruba_prompt_1": 1.0,
+    "xlsum_yoruba_prompt_2": 1.0,
+    "xlsum_yoruba_prompt_3": 1.0
+  },
+  "n-shot": {
+    "xlsum_amharic_prompt_1": 0,
+    "xlsum_amharic_prompt_2": 0,
+    "xlsum_amharic_prompt_3": 0,
+    "xlsum_arabic_prompt_1": 0,
+    "xlsum_arabic_prompt_2": 0,
+    "xlsum_arabic_prompt_3": 0,
+    "xlsum_hausa_prompt_1": 0,
+    "xlsum_hausa_prompt_2": 0,
+    "xlsum_hausa_prompt_3": 0,
+    "xlsum_igbo_prompt_1": 0,
+    "xlsum_igbo_prompt_2": 0,
+    "xlsum_igbo_prompt_3": 0,
+    "xlsum_kirundi_prompt_1": 0,
+    "xlsum_kirundi_prompt_2": 0,
+    "xlsum_kirundi_prompt_3": 0,
+    "xlsum_oromo_prompt_1": 0,
+    "xlsum_oromo_prompt_2": 0,
+    "xlsum_oromo_prompt_3": 0,
+    "xlsum_pidgin_prompt_1": 0,
+    "xlsum_pidgin_prompt_2": 0,
+    "xlsum_pidgin_prompt_3": 0,
+    "xlsum_somali_prompt_1": 0,
+    "xlsum_somali_prompt_2": 0,
+    "xlsum_somali_prompt_3": 0,
+    "xlsum_swahili_prompt_1": 0,
+    "xlsum_swahili_prompt_2": 0,
+    "xlsum_swahili_prompt_3": 0,
+    "xlsum_telugu_prompt_1": 0,
+    "xlsum_telugu_prompt_2": 0,
+    "xlsum_telugu_prompt_3": 0,
+    "xlsum_tigrinya_prompt_1": 0,
+    "xlsum_tigrinya_prompt_2": 0,
+    "xlsum_tigrinya_prompt_3": 0,
+    "xlsum_yoruba_prompt_1": 0,
+    "xlsum_yoruba_prompt_2": 0,
+    "xlsum_yoruba_prompt_3": 0
+  },
+  "higher_is_better": {
+    "xlsum_amharic_prompt_1": {
+      "rougeL": true
+    },
+    "xlsum_amharic_prompt_2": {
+      "rougeL": true
+    },
+    "xlsum_amharic_prompt_3": {
+      "rougeL": true
+    },
+    "xlsum_arabic_prompt_1": {
+      "rougeL": true
+    },
+    "xlsum_arabic_prompt_2": {
+      "rougeL": true
+    },
+    "xlsum_arabic_prompt_3": {
+      "rougeL": true
+    },
+    "xlsum_hausa_prompt_1": {
+      "rougeL": true
+    },
+    "xlsum_hausa_prompt_2": {
+      "rougeL": true
+    },
+    "xlsum_hausa_prompt_3": {
+      "rougeL": true
+    },
+    "xlsum_igbo_prompt_1": {
+      "rougeL": true
+    },
+    "xlsum_igbo_prompt_2": {
+      "rougeL": true
+    },
+    "xlsum_igbo_prompt_3": {
+      "rougeL": true
+    },
+    "xlsum_kirundi_prompt_1": {
+      "rougeL": true
+    },
+    "xlsum_kirundi_prompt_2": {
+      "rougeL": true
+    },
+    "xlsum_kirundi_prompt_3": {
+      "rougeL": true
+    },
+    "xlsum_oromo_prompt_1": {
+      "rougeL": true
+    },
+    "xlsum_oromo_prompt_2": {
+      "rougeL": true
+    },
+    "xlsum_oromo_prompt_3": {
+      "rougeL": true
+    },
+    "xlsum_pidgin_prompt_1": {
+      "rougeL": true
+    },
+    "xlsum_pidgin_prompt_2": {
+      "rougeL": true
+    },
+    "xlsum_pidgin_prompt_3": {
+      "rougeL": true
+    },
+    "xlsum_somali_prompt_1": {
+      "rougeL": true
+    },
+    "xlsum_somali_prompt_2": {
+      "rougeL": true
+    },
+    "xlsum_somali_prompt_3": {
+      "rougeL": true
+    },
+    "xlsum_swahili_prompt_1": {
+      "rougeL": true
+    },
+    "xlsum_swahili_prompt_2": {
+      "rougeL": true
+    },
+    "xlsum_swahili_prompt_3": {
+      "rougeL": true
+    },
+    "xlsum_telugu_prompt_1": {
+      "rougeL": true
+    },
+    "xlsum_telugu_prompt_2": {
+      "rougeL": true
+    },
+    "xlsum_telugu_prompt_3": {
+      "rougeL": true
+    },
+    "xlsum_tigrinya_prompt_1": {
+      "rougeL": true
+    },
+    "xlsum_tigrinya_prompt_2": {
+      "rougeL": true
+    },
+    "xlsum_tigrinya_prompt_3": {
+      "rougeL": true
+    },
+    "xlsum_yoruba_prompt_1": {
+      "rougeL": true
+    },
+    "xlsum_yoruba_prompt_2": {
+      "rougeL": true
+    },
+    "xlsum_yoruba_prompt_3": {
+      "rougeL": true
+    }
+  },
+  "n-samples": {
+    "xlsum_igbo_prompt_2": {
+      "original": 522,
+      "effective": 2
+    },
+    "xlsum_yoruba_prompt_2": {
+      "original": 793,
+      "effective": 2
+    },
+    "xlsum_hausa_prompt_2": {
+      "original": 802,
+      "effective": 2
+    },
+    "xlsum_somali_prompt_2": {
+      "original": 745,
+      "effective": 2
+    },
+    "xlsum_swahili_prompt_2": {
+      "original": 987,
+      "effective": 2
+    },
+    "xlsum_pidgin_prompt_2": {
+      "original": 1151,
+      "effective": 2
+    },
+    "xlsum_tigrinya_prompt_2": {
+      "original": 681,
+      "effective": 2
+    },
+    "xlsum_kirundi_prompt_2": {
+      "original": 718,
+      "effective": 2
+    },
+    "xlsum_amharic_prompt_2": {
+      "original": 719,
+      "effective": 2
+    },
+    "xlsum_arabic_prompt_2": {
+      "original": 4689,
+      "effective": 2
+    },
+    "xlsum_oromo_prompt_2": {
+      "original": 757,
+      "effective": 2
+    },
+    "xlsum_telugu_prompt_2": {
+      "original": 1302,
+      "effective": 2
+    },
+    "xlsum_igbo_prompt_3": {
+      "original": 522,
+      "effective": 2
+    },
+    "xlsum_yoruba_prompt_3": {
+      "original": 793,
+      "effective": 2
+    },
+    "xlsum_hausa_prompt_3": {
+      "original": 802,
+      "effective": 2
+    },
+    "xlsum_somali_prompt_3": {
+      "original": 745,
+      "effective": 2
+    },
+    "xlsum_swahili_prompt_3": {
+      "original": 987,
+      "effective": 2
+    },
+    "xlsum_pidgin_prompt_3": {
+      "original": 1151,
+      "effective": 2
+    },
+    "xlsum_tigrinya_prompt_3": {
+      "original": 681,
+      "effective": 2
+    },
+    "xlsum_kirundi_prompt_3": {
+      "original": 718,
+      "effective": 2
+    },
+    "xlsum_amharic_prompt_3": {
+      "original": 719,
+      "effective": 2
+    },
+    "xlsum_arabic_prompt_3": {
+      "original": 4689,
+      "effective": 2
+    },
+    "xlsum_oromo_prompt_3": {
+      "original": 757,
+      "effective": 2
+    },
+    "xlsum_telugu_prompt_3": {
+      "original": 1302,
+      "effective": 2
+    },
+    "xlsum_igbo_prompt_1": {
+      "original": 522,
+      "effective": 2
+    },
+    "xlsum_yoruba_prompt_1": {
+      "original": 793,
+      "effective": 2
+    },
+    "xlsum_hausa_prompt_1": {
+      "original": 802,
+      "effective": 2
+    },
+    "xlsum_somali_prompt_1": {
+      "original": 745,
+      "effective": 2
+    },
+    "xlsum_swahili_prompt_1": {
+      "original": 987,
+      "effective": 2
+    },
+    "xlsum_pidgin_prompt_1": {
+      "original": 1151,
+      "effective": 2
+    },
+    "xlsum_tigrinya_prompt_1": {
+      "original": 681,
+      "effective": 2
+    },
+    "xlsum_kirundi_prompt_1": {
+      "original": 718,
+      "effective": 2
+    },
+    "xlsum_amharic_prompt_1": {
+      "original": 719,
+      "effective": 2
+    },
+    "xlsum_arabic_prompt_1": {
+      "original": 4689,
+      "effective": 2
+    },
+    "xlsum_oromo_prompt_1": {
+      "original": 757,
+      "effective": 2
+    },
+    "xlsum_telugu_prompt_1": {
+      "original": 1302,
+      "effective": 2
+    }
+  },
+  "config": {
+    "model": "hf",
+    "model_args": "pretrained=McGill-NLP/AfriqueQwen3.5-0.8B-50Langs,dtype=bfloat16",
+    "model_num_parameters": 752393024,
+    "model_dtype": "torch.bfloat16",
+    "model_revision": "main",
+    "model_sha": "f49099d79e51bbb783fae622877c4c3415142c82",
+    "batch_size": "1",
+    "batch_sizes": [],
+    "device": null,
+    "use_cache": null,
+    "limit": 2.0,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": {
+      "do_sample": false
+    },
+    "random_seed": 0,
+    "numpy_seed": 1234,
+    "torch_seed": 1234,
+    "fewshot_seed": 1234
+  },
+  "git_hash": "78aaa6e",
+  "date": 1793443499.5415394,
+  "pretty_env_info": "PyTorch version: 2.14.1+cu130\nIs debug build: False\nCUDA used to build PyTorch: 13.0\nROCM used to build PyTorch: N/A\n\nOS: Ubuntu 24.04.3 LTS (aarch64)\nGCC version: (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0\nClang version: Could not collect\nCMake version: version 3.28.3\nLibc version: glibc-2.39\n\nPython version: 3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0] (64-bit runtime)\nPython platform: Linux-6.14.0-1013-nvidia-aarch64-with-glibc2.39\nIs CUDA available: True\nCUDA runtime version: 13.0.88\nCUDA_MODULE_LOADING set to: \nGPU models and configuration: GPU 0: NVIDIA GB10\nNvidia driver version: 580.95.05\ncuDNN version: Could not collect\nIs XPU available: False\nHIP runtime version: N/A\nMIOpen runtime version: N/A\nIs XNNPACK available: False\nCaching allocator config: N/A\n\nCPU:\nArchitektur:                             aarch64\nCPU Operationsmodus:                     64-bit\nByte-Reihenfolge:                        Little Endian\nCPU(s):                                  20\nListe der Online-CPU(s):                 0-19\nAnbieterkennung:                         ARM\nModellname:                              Cortex-X925\nModell:                                  1\nThread(s) pro Kern:                      1\nKern(e) pro Socket:                      10\nSockel:                                  1\nStepping:                                r0p1\nCPU(s) scaling MHz:                      101%\nMaximale Taktfrequenz der CPU:           4004,0000\nMinimale Taktfrequenz der CPU:           1378,0000\nBogoMIPS:                                2000,00\nMarkierungen:                            fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 dgh bti ecv afp wfxt\nModellname:                              Cortex-A725\nModell:                                  1\nThread(s) pro Kern:                      1\nKern(e) pro Socket:                      10\nSockel:                                  1\nStepping:                                r0p1\nCPU(s) scaling MHz:                      104%\nMaximale Taktfrequenz der CPU:           2860,0000\nMinimale Taktfrequenz der CPU:           338,0000\nBogoMIPS:                                2000,00\nMarkierungen:                            fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 dgh bti ecv afp wfxt\nL1d Cache:                               1,3 MiB (20 instances)\nL1i Cache:                               1,3 MiB (20 instances)\nL2 Cache:                                25 MiB (20 instances)\nL3 Cache:                                24 MiB (2 instances)\nNUMA-Knoten:                             1\nNUMA-Knoten0 CPU(s):                     0-19\nSchwachstelle Gather data sampling:      Not affected\nSchwachstelle Ghostwrite:                Not affected\nSchwachstelle Indirect target selection: Not affected\nSchwachstelle Itlb multihit:             Not affected\nSchwachstelle L1tf:                      Not affected\nSchwachstelle Mds:                       Not affected\nSchwachstelle Meltdown:                  Not affected\nSchwachstelle Mmio stale data:           Not affected\nSchwachstelle Reg file data sampling:    Not affected\nSchwachstelle Retbleed:                  Not affected\nSchwachstelle Spec rstack overflow:      Not affected\nSchwachstelle Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl\nSchwachstelle Spectre v1:                Mitigation; __user pointer sanitization\nSchwachstelle Spectre v2:                Mitigation; CSV2, BHB\nSchwachstelle Srbds:                     Not affected\nSchwachstelle Tsa:                       Not affected\nSchwachstelle Tsx async abort:           Not affected\nSchwachstelle Vmscape:                   Not affected\n\nVersions of relevant libraries:\n[pip3] Could not collect\n[conda] Could not collect",
+  "transformers_version": "5.22.1",
+  "lm_eval_version": "0.4.9",
+  "upper_git_hash": null,
+  "tokenizer_pad_token": [
+    "<|endoftext|>",
+    "248044"
+  ],
+  "tokenizer_eos_token": [
+    "<|endoftext|>",
+    "248044"
+  ],
+  "tokenizer_bos_token": [
+    null,
+    "None"
+  ],
+  "eot_token_id": 248044,
+  "max_length": 262144,
+  "task_hashes": {},
+  "model_source": "hf",
+  "model_name": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+  "model_name_sanitized": "McGill-NLP__AfriqueQwen3.5-0.8B-50Langs",
+  "system_instruction": null,
+  "system_instruction_sha": null,
+  "fewshot_as_multiturn": false,
+  "chat_template": null,
+  "chat_template_sha": null,
+  "start_time": 11140640.83351076,
+  "end_time": 11141035.107136697,
+  "total_evaluation_time_seconds": "394.27362593635917"
+}

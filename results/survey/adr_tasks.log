@@ -1,0 +1,535 @@
+2026-11-01:20:38:33 WARNING  [__main__:369]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2026-11-01:20:38:33 INFO     [__main__:441] Selected Tasks: ['adr_tasks']
+2026-11-01:20:38:33 INFO     [evaluator:190] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234 | Setting fewshot manual seed to 1234
+2026-11-01:20:38:33 WARNING  [evaluator:202] generation_kwargs: {'do_sample': False} specified through cli, these settings will update set parameters in yaml tasks. Ensure 'do_sample=True' for non-greedy decoding!
+2026-11-01:20:38:33 INFO     [evaluator:228] Initializing hf model, with arguments: {'pretrained': 'McGill-NLP/AfriqueQwen3.5-0.8B-50Langs', 'dtype': 'bfloat16'}
+2026-11-01:20:38:33 INFO     [models.huggingface:138] Using device 'cuda'
+2026-11-01:20:38:34 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/models/McGill-NLP/AfriqueQwen3.5-0.8B-50Langs/revision/main "HTTP/1.1 200 OK"
+2026-11-01:20:38:34 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/models/McGill-NLP/AfriqueQwen3.5-0.8B-50Langs/revision/main "HTTP/1.1 200 OK"
+2026-11-01:20:38:34 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/models/McGill-NLP/AfriqueQwen3.5-0.8B-50Langs/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:34 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/models/McGill-NLP/AfriqueQwen3.5-0.8B-50Langs/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-11-01:20:38:35 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/models/McGill-NLP/AfriqueQwen3.5-0.8B-50Langs "HTTP/1.1 200 OK"
+2026-11-01:20:38:35 INFO     [models.huggingface:391] Model parallel was set to False, max memory was not set, and device map was set to {'': 'cuda'}
+2026-11-01:20:38:35 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/models/McGill-NLP/AfriqueQwen3.5-0.8B-50Langs/revision/main "HTTP/1.1 200 OK"
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/321 [00:00<?, ?it/s]Loading weights:   3%|▎         | 10/321 [00:00<00:06, 46.82it/s]Loading weights:   7%|▋         | 23/321 [00:00<00:03, 78.06it/s]Loading weights:  10%|█         | 33/321 [00:00<00:04, 71.93it/s]Loading weights:  13%|█▎        | 41/321 [00:00<00:04, 66.27it/s]Loading weights:  15%|█▌        | 49/321 [00:00<00:04, 64.60it/s]Loading weights:  20%|█▉        | 63/321 [00:00<00:03, 82.91it/s]Loading weights:  22%|██▏       | 72/321 [00:01<00:03, 74.45it/s]Loading weights:  25%|██▍       | 80/321 [00:01<00:04, 52.13it/s]Loading weights:  28%|██▊       | 90/321 [00:01<00:04, 57.62it/s]Loading weights:  30%|███       | 97/321 [00:01<00:05, 43.62it/s]Loading weights:  34%|███▍      | 109/321 [00:01<00:03, 57.21it/s]Loading weights:  36%|███▋      | 117/321 [00:01<00:03, 59.07it/s]Loading weights:  39%|███▉      | 125/321 [00:02<00:03, 59.07it/s]Loading weights:  41%|████      | 132/321 [00:02<00:03, 60.48it/s]Loading weights:  43%|████▎     | 139/321 [00:02<00:03, 59.33it/s]Loading weights:  45%|████▌     | 146/321 [00:02<00:04, 42.41it/s]Loading weights:  47%|████▋     | 152/321 [00:02<00:04, 41.08it/s]Loading weights:  52%|█████▏    | 168/321 [00:02<00:02, 56.47it/s]Loading weights:  55%|█████▍    | 175/321 [00:03<00:02, 52.83it/s]Loading weights:  57%|█████▋    | 182/321 [00:03<00:02, 54.95it/s]Loading weights:  59%|█████▊    | 188/321 [00:03<00:02, 49.21it/s]Loading weights:  62%|██████▏   | 199/321 [00:03<00:01, 61.59it/s]Loading weights:  64%|██████▍   | 206/321 [00:03<00:02, 50.02it/s]Loading weights:  66%|██████▋   | 213/321 [00:03<00:02, 51.45it/s]Loading weights:  69%|██████▉   | 222/321 [00:03<00:01, 55.27it/s]Loading weights:  71%|███████   | 228/321 [00:04<00:01, 52.34it/s]Loading weights:  73%|███████▎  | 235/321 [00:04<00:01, 55.52it/s]Loading weights:  75%|███████▌  | 241/321 [00:04<00:01, 50.63it/s]Loading weights:  78%|███████▊  | 250/321 [00:04<00:01, 49.04it/s]Loading weights:  80%|████████  | 258/321 [00:04<00:01, 55.41it/s]Loading weights:  82%|████████▏ | 264/321 [00:04<00:01, 48.37it/s]Loading weights:  85%|████████▌ | 273/321 [00:04<00:00, 53.06it/s]Loading weights:  87%|████████▋ | 279/321 [00:05<00:00, 49.42it/s]Loading weights:  89%|████████▉ | 287/321 [00:05<00:00, 45.96it/s]Loading weights:  94%|█████████▍| 303/321 [00:05<00:00, 61.89it/s]Loading weights:  97%|█████████▋| 310/321 [00:05<00:00, 51.39it/s]Loading weights: 100%|██████████| 321/321 [00:05<00:00, 55.99it/s]
+2026-11-01:20:38:42 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:42 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:42 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/AfriADR/d23261cf0a773242679502433d9ec8831d80b65b/README.md?%2Fdatasets%2Fmasakhane%2FAfriADR%2Fresolve%2Fmain%2FREADME.md=&etag=%220f5d8397ee90d2eddfc6b0a55c14a4981655132a%22 "HTTP/1.1 200 OK"
+2026-11-01:20:38:42 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:42 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:42 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/diacritics-restoration/masakhane/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:43 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/masakhane/diacritics-restoration/revision/d23261cf0a773242679502433d9ec8831d80b65b "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:43 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/masakhane/AfriADR/revision/d23261cf0a773242679502433d9ec8831d80b65b "HTTP/1.1 200 OK"
+2026-11-01:20:38:43 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:43 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:43 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/diacritics-restoration "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:43 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/masakhane/diacritics-restoration/tree/d23261cf0a773242679502433d9ec8831d80b65b/diacritics%2Ftrain?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:44 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/masakhane/AfriADR/tree/d23261cf0a773242679502433d9ec8831d80b65b/diacritics%2Ftrain?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-11-01:20:38:44 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/masakhane/diacritics-restoration/tree/d23261cf0a773242679502433d9ec8831d80b65b/diacritics%2Fvalidation?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:44 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/masakhane/AfriADR/tree/d23261cf0a773242679502433d9ec8831d80b65b/diacritics%2Fvalidation?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-11-01:20:38:44 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/masakhane/diacritics-restoration/tree/d23261cf0a773242679502433d9ec8831d80b65b/diacritics%2Ftest?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:44 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/masakhane/AfriADR/tree/d23261cf0a773242679502433d9ec8831d80b65b/diacritics%2Ftest?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-11-01:20:38:44 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:44 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:44 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:45 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:45 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/AfriADR/d23261cf0a773242679502433d9ec8831d80b65b/README.md?%2Fdatasets%2Fmasakhane%2FAfriADR%2Fresolve%2Fmain%2FREADME.md=&etag=%220f5d8397ee90d2eddfc6b0a55c14a4981655132a%22 "HTTP/1.1 200 OK"
+2026-11-01:20:38:45 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:45 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:45 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/diacritics-restoration/masakhane/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:45 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:45 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:45 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/diacritics-restoration "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:45 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:46 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:46 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:46 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:46 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/AfriADR/d23261cf0a773242679502433d9ec8831d80b65b/README.md?%2Fdatasets%2Fmasakhane%2FAfriADR%2Fresolve%2Fmain%2FREADME.md=&etag=%220f5d8397ee90d2eddfc6b0a55c14a4981655132a%22 "HTTP/1.1 200 OK"
+2026-11-01:20:38:46 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:46 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:46 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/diacritics-restoration/masakhane/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:46 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:46 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:47 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/diacritics-restoration "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:47 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:47 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:47 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:47 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:47 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/AfriADR/d23261cf0a773242679502433d9ec8831d80b65b/README.md?%2Fdatasets%2Fmasakhane%2FAfriADR%2Fresolve%2Fmain%2FREADME.md=&etag=%220f5d8397ee90d2eddfc6b0a55c14a4981655132a%22 "HTTP/1.1 200 OK"
+2026-11-01:20:38:47 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:47 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:47 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/diacritics-restoration/masakhane/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:48 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:48 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:48 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/diacritics-restoration "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:48 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:48 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:48 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:48 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:48 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/AfriADR/d23261cf0a773242679502433d9ec8831d80b65b/README.md?%2Fdatasets%2Fmasakhane%2FAfriADR%2Fresolve%2Fmain%2FREADME.md=&etag=%220f5d8397ee90d2eddfc6b0a55c14a4981655132a%22 "HTTP/1.1 200 OK"
+2026-11-01:20:38:48 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:49 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:49 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/diacritics-restoration/masakhane/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:49 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:49 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:49 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/diacritics-restoration "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:49 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:49 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:49 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:50 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:50 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/AfriADR/d23261cf0a773242679502433d9ec8831d80b65b/README.md?%2Fdatasets%2Fmasakhane%2FAfriADR%2Fresolve%2Fmain%2FREADME.md=&etag=%220f5d8397ee90d2eddfc6b0a55c14a4981655132a%22 "HTTP/1.1 200 OK"
+2026-11-01:20:38:50 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:50 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:50 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/diacritics-restoration/masakhane/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:50 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:50 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:50 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/diacritics-restoration "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:50 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:51 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:51 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:51 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:51 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/AfriADR/d23261cf0a773242679502433d9ec8831d80b65b/README.md?%2Fdatasets%2Fmasakhane%2FAfriADR%2Fresolve%2Fmain%2FREADME.md=&etag=%220f5d8397ee90d2eddfc6b0a55c14a4981655132a%22 "HTTP/1.1 200 OK"
+2026-11-01:20:38:51 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:51 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:51 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/diacritics-restoration/masakhane/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:51 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:51 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:52 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/diacritics-restoration "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:52 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:52 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:52 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:52 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:52 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/AfriADR/d23261cf0a773242679502433d9ec8831d80b65b/README.md?%2Fdatasets%2Fmasakhane%2FAfriADR%2Fresolve%2Fmain%2FREADME.md=&etag=%220f5d8397ee90d2eddfc6b0a55c14a4981655132a%22 "HTTP/1.1 200 OK"
+2026-11-01:20:38:52 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:52 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:52 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/diacritics-restoration/masakhane/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:53 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:53 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:53 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/diacritics-restoration "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:53 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:53 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:53 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:53 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:53 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/AfriADR/d23261cf0a773242679502433d9ec8831d80b65b/README.md?%2Fdatasets%2Fmasakhane%2FAfriADR%2Fresolve%2Fmain%2FREADME.md=&etag=%220f5d8397ee90d2eddfc6b0a55c14a4981655132a%22 "HTTP/1.1 200 OK"
+2026-11-01:20:38:53 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:54 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:54 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/diacritics-restoration/masakhane/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:54 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:54 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:54 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/diacritics-restoration "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:54 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:54 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:54 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:55 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:55 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/AfriADR/d23261cf0a773242679502433d9ec8831d80b65b/README.md?%2Fdatasets%2Fmasakhane%2FAfriADR%2Fresolve%2Fmain%2FREADME.md=&etag=%220f5d8397ee90d2eddfc6b0a55c14a4981655132a%22 "HTTP/1.1 200 OK"
+2026-11-01:20:38:55 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:55 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:55 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/diacritics-restoration/masakhane/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:55 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:55 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:55 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/diacritics-restoration "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:55 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:55 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:56 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:56 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:56 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/AfriADR/d23261cf0a773242679502433d9ec8831d80b65b/README.md?%2Fdatasets%2Fmasakhane%2FAfriADR%2Fresolve%2Fmain%2FREADME.md=&etag=%220f5d8397ee90d2eddfc6b0a55c14a4981655132a%22 "HTTP/1.1 200 OK"
+2026-11-01:20:38:56 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:56 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:56 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/diacritics-restoration/masakhane/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:56 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:56 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:56 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/diacritics-restoration "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:57 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:57 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:57 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:57 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:57 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/AfriADR/d23261cf0a773242679502433d9ec8831d80b65b/README.md?%2Fdatasets%2Fmasakhane%2FAfriADR%2Fresolve%2Fmain%2FREADME.md=&etag=%220f5d8397ee90d2eddfc6b0a55c14a4981655132a%22 "HTTP/1.1 200 OK"
+2026-11-01:20:38:57 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:57 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:57 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/diacritics-restoration/masakhane/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:57 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:58 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:58 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/diacritics-restoration "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:58 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:58 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:58 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:58 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:58 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/AfriADR/d23261cf0a773242679502433d9ec8831d80b65b/README.md?%2Fdatasets%2Fmasakhane%2FAfriADR%2Fresolve%2Fmain%2FREADME.md=&etag=%220f5d8397ee90d2eddfc6b0a55c14a4981655132a%22 "HTTP/1.1 200 OK"
+2026-11-01:20:38:58 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:58 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:59 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/diacritics-restoration/masakhane/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:59 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:59 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:59 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/diacritics-restoration "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:59 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:59 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:38:59 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:59 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:38:59 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/AfriADR/d23261cf0a773242679502433d9ec8831d80b65b/README.md?%2Fdatasets%2Fmasakhane%2FAfriADR%2Fresolve%2Fmain%2FREADME.md=&etag=%220f5d8397ee90d2eddfc6b0a55c14a4981655132a%22 "HTTP/1.1 200 OK"
+2026-11-01:20:39:00 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:00 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:00 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/diacritics-restoration/masakhane/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:00 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:00 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:00 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/diacritics-restoration "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:00 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:00 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:01 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:01 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:01 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/AfriADR/d23261cf0a773242679502433d9ec8831d80b65b/README.md?%2Fdatasets%2Fmasakhane%2FAfriADR%2Fresolve%2Fmain%2FREADME.md=&etag=%220f5d8397ee90d2eddfc6b0a55c14a4981655132a%22 "HTTP/1.1 200 OK"
+2026-11-01:20:39:01 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:01 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:01 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/diacritics-restoration/masakhane/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:01 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:01 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:01 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/diacritics-restoration "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:02 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:02 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:02 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:02 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:02 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/AfriADR/d23261cf0a773242679502433d9ec8831d80b65b/README.md?%2Fdatasets%2Fmasakhane%2FAfriADR%2Fresolve%2Fmain%2FREADME.md=&etag=%220f5d8397ee90d2eddfc6b0a55c14a4981655132a%22 "HTTP/1.1 200 OK"
+2026-11-01:20:39:02 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:02 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:02 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/diacritics-restoration/masakhane/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:02 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:03 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:03 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/diacritics-restoration "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:03 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:03 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:03 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:03 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:03 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/AfriADR/d23261cf0a773242679502433d9ec8831d80b65b/README.md?%2Fdatasets%2Fmasakhane%2FAfriADR%2Fresolve%2Fmain%2FREADME.md=&etag=%220f5d8397ee90d2eddfc6b0a55c14a4981655132a%22 "HTTP/1.1 200 OK"
+2026-11-01:20:39:03 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:03 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:04 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/diacritics-restoration/masakhane/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:04 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:04 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:04 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/diacritics-restoration "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:04 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:04 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:04 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:04 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:04 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/AfriADR/d23261cf0a773242679502433d9ec8831d80b65b/README.md?%2Fdatasets%2Fmasakhane%2FAfriADR%2Fresolve%2Fmain%2FREADME.md=&etag=%220f5d8397ee90d2eddfc6b0a55c14a4981655132a%22 "HTTP/1.1 200 OK"
+2026-11-01:20:39:05 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:05 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:05 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/diacritics-restoration/masakhane/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:05 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:05 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:05 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/diacritics-restoration "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:05 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:05 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:06 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:06 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:06 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/AfriADR/d23261cf0a773242679502433d9ec8831d80b65b/README.md?%2Fdatasets%2Fmasakhane%2FAfriADR%2Fresolve%2Fmain%2FREADME.md=&etag=%220f5d8397ee90d2eddfc6b0a55c14a4981655132a%22 "HTTP/1.1 200 OK"
+2026-11-01:20:39:06 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:06 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:06 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/diacritics-restoration/masakhane/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:06 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:06 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:06 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/diacritics-restoration "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:07 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:07 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:07 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:07 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:07 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/AfriADR/d23261cf0a773242679502433d9ec8831d80b65b/README.md?%2Fdatasets%2Fmasakhane%2FAfriADR%2Fresolve%2Fmain%2FREADME.md=&etag=%220f5d8397ee90d2eddfc6b0a55c14a4981655132a%22 "HTTP/1.1 200 OK"
+2026-11-01:20:39:07 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:07 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:07 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/diacritics-restoration/masakhane/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:07 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:08 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:08 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/diacritics-restoration "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:08 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:08 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:08 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:08 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:08 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/AfriADR/d23261cf0a773242679502433d9ec8831d80b65b/README.md?%2Fdatasets%2Fmasakhane%2FAfriADR%2Fresolve%2Fmain%2FREADME.md=&etag=%220f5d8397ee90d2eddfc6b0a55c14a4981655132a%22 "HTTP/1.1 200 OK"
+2026-11-01:20:39:08 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:08 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:09 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/diacritics-restoration/masakhane/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:09 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:09 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:09 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/diacritics-restoration "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:09 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:09 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:09 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:09 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:09 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/AfriADR/d23261cf0a773242679502433d9ec8831d80b65b/README.md?%2Fdatasets%2Fmasakhane%2FAfriADR%2Fresolve%2Fmain%2FREADME.md=&etag=%220f5d8397ee90d2eddfc6b0a55c14a4981655132a%22 "HTTP/1.1 200 OK"
+2026-11-01:20:39:10 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:10 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:10 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/diacritics-restoration/masakhane/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:10 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:10 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:10 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/diacritics-restoration "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:10 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:10 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:11 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:11 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:11 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/AfriADR/d23261cf0a773242679502433d9ec8831d80b65b/README.md?%2Fdatasets%2Fmasakhane%2FAfriADR%2Fresolve%2Fmain%2FREADME.md=&etag=%220f5d8397ee90d2eddfc6b0a55c14a4981655132a%22 "HTTP/1.1 200 OK"
+2026-11-01:20:39:11 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:11 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:11 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/diacritics-restoration/masakhane/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:11 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:11 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:11 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/diacritics-restoration "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:12 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:12 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:12 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:12 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:12 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/AfriADR/d23261cf0a773242679502433d9ec8831d80b65b/README.md?%2Fdatasets%2Fmasakhane%2FAfriADR%2Fresolve%2Fmain%2FREADME.md=&etag=%220f5d8397ee90d2eddfc6b0a55c14a4981655132a%22 "HTTP/1.1 200 OK"
+2026-11-01:20:39:12 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:12 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:12 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/diacritics-restoration/masakhane/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:12 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:12 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:13 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/diacritics-restoration "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:13 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:13 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:13 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:13 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:13 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/AfriADR/d23261cf0a773242679502433d9ec8831d80b65b/README.md?%2Fdatasets%2Fmasakhane%2FAfriADR%2Fresolve%2Fmain%2FREADME.md=&etag=%220f5d8397ee90d2eddfc6b0a55c14a4981655132a%22 "HTTP/1.1 200 OK"
+2026-11-01:20:39:13 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:13 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:13 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/diacritics-restoration/masakhane/diacritics-restoration.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:14 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:14 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:14 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/diacritics-restoration "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:14 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/diacritics-restoration/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:39:14 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/AfriADR/resolve/d23261cf0a773242679502433d9ec8831d80b65b/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:39:14 INFO     [evaluator:291] afridiacritics_yor_prompt_2: Using gen_kwargs: {'do_sample': False, 'until': ['<eos>', '</s>', '<|im_end|>']}
+2026-11-01:20:39:14 INFO     [evaluator:291] afridiacritics_fon_prompt_2: Using gen_kwargs: {'do_sample': False, 'until': ['<eos>', '</s>', '<|im_end|>']}
+2026-11-01:20:39:14 INFO     [evaluator:291] afridiacritics_wol_prompt_2: Using gen_kwargs: {'do_sample': False, 'until': ['<eos>', '</s>', '<|im_end|>']}
+2026-11-01:20:39:14 INFO     [evaluator:291] afridiacritics_ibo_prompt_2: Using gen_kwargs: {'do_sample': False, 'until': ['<eos>', '</s>', '<|im_end|>']}
+2026-11-01:20:39:14 INFO     [evaluator:291] afridiacritics_bbj_prompt_2: Using gen_kwargs: {'do_sample': False, 'until': ['<eos>', '</s>', '<|im_end|>']}
+2026-11-01:20:39:14 INFO     [evaluator:291] afridiacritics_yor_prompt_5: Using gen_kwargs: {'do_sample': False, 'until': ['<eos>', '</s>', '<|im_end|>']}
+2026-11-01:20:39:14 INFO     [evaluator:291] afridiacritics_fon_prompt_5: Using gen_kwargs: {'do_sample': False, 'until': ['<eos>', '</s>', '<|im_end|>']}
+2026-11-01:20:39:14 INFO     [evaluator:291] afridiacritics_wol_prompt_5: Using gen_kwargs: {'do_sample': False, 'until': ['<eos>', '</s>', '<|im_end|>']}
+2026-11-01:20:39:14 INFO     [evaluator:291] afridiacritics_ibo_prompt_5: Using gen_kwargs: {'do_sample': False, 'until': ['<eos>', '</s>', '<|im_end|>']}
+2026-11-01:20:39:14 INFO     [evaluator:291] afridiacritics_bbj_prompt_5: Using gen_kwargs: {'do_sample': False, 'until': ['<eos>', '</s>', '<|im_end|>']}
+2026-11-01:20:39:14 INFO     [evaluator:291] afridiacritics_yor_prompt_4: Using gen_kwargs: {'do_sample': False, 'until': ['<eos>', '</s>', '<|im_end|>']}
+2026-11-01:20:39:14 INFO     [evaluator:291] afridiacritics_fon_prompt_4: Using gen_kwargs: {'do_sample': False, 'until': ['<eos>', '</s>', '<|im_end|>']}
+2026-11-01:20:39:14 INFO     [evaluator:291] afridiacritics_wol_prompt_4: Using gen_kwargs: {'do_sample': False, 'until': ['<eos>', '</s>', '<|im_end|>']}
+2026-11-01:20:39:14 INFO     [evaluator:291] afridiacritics_ibo_prompt_4: Using gen_kwargs: {'do_sample': False, 'until': ['<eos>', '</s>', '<|im_end|>']}
+2026-11-01:20:39:14 INFO     [evaluator:291] afridiacritics_bbj_prompt_4: Using gen_kwargs: {'do_sample': False, 'until': ['<eos>', '</s>', '<|im_end|>']}
+2026-11-01:20:39:14 INFO     [evaluator:291] afridiacritics_yor_prompt_3: Using gen_kwargs: {'do_sample': False, 'until': ['<eos>', '</s>', '<|im_end|>']}
+2026-11-01:20:39:14 INFO     [evaluator:291] afridiacritics_fon_prompt_3: Using gen_kwargs: {'do_sample': False, 'until': ['<eos>', '</s>', '<|im_end|>']}
+2026-11-01:20:39:14 INFO     [evaluator:291] afridiacritics_wol_prompt_3: Using gen_kwargs: {'do_sample': False, 'until': ['<eos>', '</s>', '<|im_end|>']}
+2026-11-01:20:39:14 INFO     [evaluator:291] afridiacritics_ibo_prompt_3: Using gen_kwargs: {'do_sample': False, 'until': ['<eos>', '</s>', '<|im_end|>']}
+2026-11-01:20:39:14 INFO     [evaluator:291] afridiacritics_bbj_prompt_3: Using gen_kwargs: {'do_sample': False, 'until': ['<eos>', '</s>', '<|im_end|>']}
+2026-11-01:20:39:14 INFO     [evaluator:291] afridiacritics_yor_prompt_1: Using gen_kwargs: {'do_sample': False, 'until': ['<eos>', '</s>', '<|im_end|>']}
+2026-11-01:20:39:14 INFO     [evaluator:291] afridiacritics_fon_prompt_1: Using gen_kwargs: {'do_sample': False, 'until': ['<eos>', '</s>', '<|im_end|>']}
+2026-11-01:20:39:14 INFO     [evaluator:291] afridiacritics_wol_prompt_1: Using gen_kwargs: {'do_sample': False, 'until': ['<eos>', '</s>', '<|im_end|>']}
+2026-11-01:20:39:14 INFO     [evaluator:291] afridiacritics_ibo_prompt_1: Using gen_kwargs: {'do_sample': False, 'until': ['<eos>', '</s>', '<|im_end|>']}
+2026-11-01:20:39:14 INFO     [evaluator:291] afridiacritics_bbj_prompt_1: Using gen_kwargs: {'do_sample': False, 'until': ['<eos>', '</s>', '<|im_end|>']}
+2026-11-01:20:39:14 INFO     [api.task:434] Building contexts for afridiacritics_yor_prompt_2 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2454.24it/s]
+2026-11-01:20:39:14 INFO     [api.task:434] Building contexts for afridiacritics_fon_prompt_2 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2646.25it/s]
+2026-11-01:20:39:14 INFO     [api.task:434] Building contexts for afridiacritics_wol_prompt_2 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2785.99it/s]
+2026-11-01:20:39:14 INFO     [api.task:434] Building contexts for afridiacritics_ibo_prompt_2 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2879.71it/s]
+2026-11-01:20:39:14 INFO     [api.task:434] Building contexts for afridiacritics_bbj_prompt_2 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2894.62it/s]
+2026-11-01:20:39:14 INFO     [api.task:434] Building contexts for afridiacritics_yor_prompt_5 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2417.47it/s]
+2026-11-01:20:39:14 INFO     [api.task:434] Building contexts for afridiacritics_fon_prompt_5 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2781.37it/s]
+2026-11-01:20:39:14 INFO     [api.task:434] Building contexts for afridiacritics_wol_prompt_5 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2823.50it/s]
+2026-11-01:20:39:14 INFO     [api.task:434] Building contexts for afridiacritics_ibo_prompt_5 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2805.55it/s]
+2026-11-01:20:39:14 INFO     [api.task:434] Building contexts for afridiacritics_bbj_prompt_5 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2799.94it/s]
+2026-11-01:20:39:14 INFO     [api.task:434] Building contexts for afridiacritics_yor_prompt_4 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2969.42it/s]
+2026-11-01:20:39:14 INFO     [api.task:434] Building contexts for afridiacritics_fon_prompt_4 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2974.68it/s]
+2026-11-01:20:39:14 INFO     [api.task:434] Building contexts for afridiacritics_wol_prompt_4 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 3018.57it/s]
+2026-11-01:20:39:14 INFO     [api.task:434] Building contexts for afridiacritics_ibo_prompt_4 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2887.64it/s]
+2026-11-01:20:39:14 INFO     [api.task:434] Building contexts for afridiacritics_bbj_prompt_4 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 3005.59it/s]
+2026-11-01:20:39:14 INFO     [api.task:434] Building contexts for afridiacritics_yor_prompt_3 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2963.13it/s]
+2026-11-01:20:39:14 INFO     [api.task:434] Building contexts for afridiacritics_fon_prompt_3 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2968.37it/s]
+2026-11-01:20:39:14 INFO     [api.task:434] Building contexts for afridiacritics_wol_prompt_3 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2885.66it/s]
+2026-11-01:20:39:14 INFO     [api.task:434] Building contexts for afridiacritics_ibo_prompt_3 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2901.63it/s]
+2026-11-01:20:39:14 INFO     [api.task:434] Building contexts for afridiacritics_bbj_prompt_3 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 3006.67it/s]
+2026-11-01:20:39:14 INFO     [api.task:434] Building contexts for afridiacritics_yor_prompt_1 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2968.37it/s]
+2026-11-01:20:39:14 INFO     [api.task:434] Building contexts for afridiacritics_fon_prompt_1 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2954.78it/s]
+2026-11-01:20:39:14 INFO     [api.task:434] Building contexts for afridiacritics_wol_prompt_1 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2938.22it/s]
+2026-11-01:20:39:14 INFO     [api.task:434] Building contexts for afridiacritics_ibo_prompt_1 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2955.82it/s]
+2026-11-01:20:39:14 INFO     [api.task:434] Building contexts for afridiacritics_bbj_prompt_1 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2488.46it/s]
+2026-11-01:20:39:14 INFO     [evaluator:560] Running generate_until requests
+Running generate_until requests:   0%|          | 0/50 [00:00<?, ?it/s][transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+[transformers] `causal_conv1d_update` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `fused_recurrent_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+Running generate_until requests:   2%|▏         | 1/50 [00:05<04:24,  5.40s/it]Running generate_until requests:   4%|▍         | 2/50 [00:10<04:01,  5.02s/it]Running generate_until requests:   6%|▌         | 3/50 [00:15<03:55,  5.00s/it]Running generate_until requests:   8%|▊         | 4/50 [00:20<03:50,  5.01s/it]Running generate_until requests:  10%|█         | 5/50 [00:25<03:43,  4.97s/it]Running generate_until requests:  12%|█▏        | 6/50 [00:29<03:37,  4.94s/it]Running generate_until requests:  14%|█▍        | 7/50 [00:34<03:31,  4.93s/it]Running generate_until requests:  16%|█▌        | 8/50 [00:39<03:27,  4.95s/it]Running generate_until requests:  18%|█▊        | 9/50 [00:44<03:23,  4.97s/it]Running generate_until requests:  20%|██        | 10/50 [00:49<03:16,  4.92s/it]Running generate_until requests:  22%|██▏       | 11/50 [00:54<03:12,  4.93s/it]Running generate_until requests:  24%|██▍       | 12/50 [00:59<03:07,  4.92s/it]Running generate_until requests:  26%|██▌       | 13/50 [01:04<03:00,  4.88s/it]Running generate_until requests:  28%|██▊       | 14/50 [01:09<02:55,  4.87s/it]Running generate_until requests:  30%|███       | 15/50 [01:14<02:50,  4.88s/it]Running generate_until requests:  32%|███▏      | 16/50 [01:18<02:46,  4.90s/it]Running generate_until requests:  34%|███▍      | 17/50 [01:23<02:42,  4.91s/it]Running generate_until requests:  36%|███▌      | 18/50 [01:28<02:37,  4.93s/it]Running generate_until requests:  38%|███▊      | 19/50 [01:33<02:32,  4.92s/it]Running generate_until requests:  40%|████      | 20/50 [01:38<02:27,  4.93s/it]Running generate_until requests:  42%|████▏     | 21/50 [01:43<02:22,  4.93s/it]Running generate_until requests:  44%|████▍     | 22/50 [01:48<02:17,  4.90s/it]Running generate_until requests:  46%|████▌     | 23/50 [01:53<02:13,  4.95s/it]Running generate_until requests:  48%|████▊     | 24/50 [01:58<02:09,  4.98s/it]Running generate_until requests:  50%|█████     | 25/50 [02:03<02:04,  5.00s/it]Running generate_until requests:  52%|█████▏    | 26/50 [02:08<02:00,  5.02s/it]Running generate_until requests:  54%|█████▍    | 27/50 [02:13<01:55,  5.02s/it]Running generate_until requests:  56%|█████▌    | 28/50 [02:18<01:50,  5.03s/it]Running generate_until requests:  58%|█████▊    | 29/50 [02:23<01:45,  5.01s/it]Running generate_until requests:  60%|██████    | 30/50 [02:28<01:40,  5.00s/it]Running generate_until requests:  62%|██████▏   | 31/50 [02:33<01:35,  5.00s/it]Running generate_until requests:  64%|██████▍   | 32/50 [02:38<01:29,  4.99s/it]Running generate_until requests:  66%|██████▌   | 33/50 [02:43<01:24,  4.99s/it]Running generate_until requests:  68%|██████▊   | 34/50 [02:48<01:19,  4.96s/it]Running generate_until requests:  70%|███████   | 35/50 [02:53<01:14,  4.95s/it]Running generate_until requests:  72%|███████▏  | 36/50 [02:58<01:09,  4.95s/it]Running generate_until requests:  74%|███████▍  | 37/50 [03:03<01:04,  4.99s/it]Running generate_until requests:  76%|███████▌  | 38/50 [03:08<00:59,  4.98s/it]Running generate_until requests:  78%|███████▊  | 39/50 [03:13<00:54,  4.97s/it]Running generate_until requests:  80%|████████  | 40/50 [03:18<00:50,  5.01s/it]Running generate_until requests:  82%|████████▏ | 41/50 [03:23<00:45,  5.00s/it]Running generate_until requests:  84%|████████▍ | 42/50 [03:28<00:40,  5.03s/it]Running generate_until requests:  86%|████████▌ | 43/50 [03:33<00:34,  5.00s/it]Running generate_until requests:  88%|████████▊ | 44/50 [03:38<00:30,  5.01s/it]Running generate_until requests:  90%|█████████ | 45/50 [03:43<00:24,  4.95s/it]Running generate_until requests:  92%|█████████▏| 46/50 [03:48<00:19,  4.86s/it]Running generate_until requests:  94%|█████████▍| 47/50 [03:53<00:14,  4.90s/it]Running generate_until requests:  96%|█████████▌| 48/50 [03:57<00:09,  4.88s/it]Running generate_until requests:  98%|█████████▊| 49/50 [04:02<00:04,  4.87s/it]Running generate_until requests: 100%|██████████| 50/50 [04:07<00:00,  4.87s/it]Running generate_until requests: 100%|██████████| 50/50 [04:07<00:00,  4.95s/it]
+bootstrapping for stddev: bleu
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 28.47it/s]
+bootstrapping for stddev: chrf
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  9.09it/s]100%|██████████| 1/1 [00:00<00:00,  9.08it/s]
+bootstrapping for stddev: bleu
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 14.82it/s]
+bootstrapping for stddev: chrf
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 12.35it/s]
+bootstrapping for stddev: bleu
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 15.83it/s]
+bootstrapping for stddev: chrf
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  9.70it/s]100%|██████████| 1/1 [00:00<00:00,  9.68it/s]
+bootstrapping for stddev: bleu
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 38.95it/s]
+bootstrapping for stddev: chrf
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 11.50it/s]
+bootstrapping for stddev: bleu
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 24.16it/s]
+bootstrapping for stddev: chrf
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 15.07it/s]
+bootstrapping for stddev: bleu
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 14.08it/s]
+bootstrapping for stddev: chrf
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  9.99it/s]100%|██████████| 1/1 [00:00<00:00,  9.97it/s]
+bootstrapping for stddev: bleu
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 16.34it/s]
+bootstrapping for stddev: chrf
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  9.20it/s]100%|██████████| 1/1 [00:00<00:00,  9.18it/s]
+bootstrapping for stddev: bleu
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 14.67it/s]
+bootstrapping for stddev: chrf
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  9.26it/s]100%|██████████| 1/1 [00:00<00:00,  9.21it/s]
+bootstrapping for stddev: bleu
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 26.40it/s]
+bootstrapping for stddev: chrf
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  9.37it/s]100%|██████████| 1/1 [00:00<00:00,  9.33it/s]
+bootstrapping for stddev: bleu
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 16.09it/s]
+bootstrapping for stddev: chrf
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 10.04it/s]
+bootstrapping for stddev: bleu
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 15.92it/s]
+bootstrapping for stddev: chrf
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 11.01it/s]
+bootstrapping for stddev: bleu
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 26.35it/s]
+bootstrapping for stddev: chrf
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 17.33it/s]
+bootstrapping for stddev: bleu
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 54.32it/s]
+bootstrapping for stddev: chrf
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 15.13it/s]
+bootstrapping for stddev: bleu
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 28.65it/s]
+bootstrapping for stddev: chrf
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 16.13it/s]
+bootstrapping for stddev: bleu
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 105.15it/s]
+bootstrapping for stddev: chrf
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 31.73it/s]
+bootstrapping for stddev: bleu
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 15.63it/s]
+bootstrapping for stddev: chrf
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 10.95it/s]
+bootstrapping for stddev: bleu
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 20.03it/s]
+bootstrapping for stddev: chrf
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 14.46it/s]
+bootstrapping for stddev: bleu
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 74.01it/s]
+bootstrapping for stddev: chrf
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 25.33it/s]
+bootstrapping for stddev: bleu
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 16.47it/s]
+bootstrapping for stddev: chrf
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  9.86it/s]100%|██████████| 1/1 [00:00<00:00,  9.84it/s]
+bootstrapping for stddev: bleu
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 972.03it/s]
+bootstrapping for stddev: chrf
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 31.72it/s]
+bootstrapping for stddev: bleu
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 15.35it/s]
+bootstrapping for stddev: chrf
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 10.74it/s]
+bootstrapping for stddev: bleu
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 21.49it/s]
+bootstrapping for stddev: chrf
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 16.93it/s]
+bootstrapping for stddev: bleu
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 25.49it/s]
+bootstrapping for stddev: chrf
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 12.59it/s]
+bootstrapping for stddev: bleu
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 31.93it/s]
+bootstrapping for stddev: chrf
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 14.01it/s]
+bootstrapping for stddev: bleu
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 103.95it/s]
+bootstrapping for stddev: chrf
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 31.74it/s]
+2026-11-01:20:43:42 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/models/McGill-NLP/AfriqueQwen3.5-0.8B-50Langs/revision/main "HTTP/1.1 200 OK"
+2026-11-01:20:43:42 INFO     [loggers.evaluation_tracker:209] Saving results aggregated
+hf (pretrained=McGill-NLP/AfriqueQwen3.5-0.8B-50Langs,dtype=bfloat16), gen_kwargs: (do_sample=False), limit: 2.0, num_fewshot: None, batch_size: 1
+|           Tasks           |Version|Filter|n-shot|Metric|   | Value |   |Stderr |
+|---------------------------|------:|------|-----:|------|---|------:|---|------:|
+|afridiacritics_bbj_prompt_1|      1|none  |     0|bleu  |↑  | 0.0000|±  | 0.0000|
+|                           |       |none  |     0|chrf  |↑  | 0.1417|±  | 0.0932|
+|afridiacritics_bbj_prompt_2|      1|none  |     0|bleu  |↑  | 0.5859|±  | 0.1560|
+|                           |       |none  |     0|chrf  |↑  |15.8280|±  | 2.1765|
+|afridiacritics_bbj_prompt_3|      1|none  |     0|bleu  |↑  | 0.0000|±  | 0.0000|
+|                           |       |none  |     0|chrf  |↑  | 0.1417|±  | 0.0932|
+|afridiacritics_bbj_prompt_4|      1|none  |     0|bleu  |↑  | 0.0000|±  | 0.0000|
+|                           |       |none  |     0|chrf  |↑  | 0.1417|±  | 0.0932|
+|afridiacritics_bbj_prompt_5|      1|none  |     0|bleu  |↑  | 0.1333|±  | 0.0017|
+|                           |       |none  |     0|chrf  |↑  | 2.1334|±  | 0.2568|
+|afridiacritics_fon_prompt_1|      1|none  |     0|bleu  |↑  | 0.4560|±  | 0.0325|
+|                           |       |none  |     0|chrf  |↑  | 1.2675|±  | 0.0711|
+|afridiacritics_fon_prompt_2|      1|none  |     0|bleu  |↑  | 0.1187|±  | 0.0024|
+|                           |       |none  |     0|chrf  |↑  | 8.2355|±  | 2.2670|
+|afridiacritics_fon_prompt_3|      1|none  |     0|bleu  |↑  | 0.5400|±  | 0.1363|
+|                           |       |none  |     0|chrf  |↑  | 9.7799|±  | 6.6027|
+|afridiacritics_fon_prompt_4|      1|none  |     0|bleu  |↑  | 0.5918|±  | 0.2301|
+|                           |       |none  |     0|chrf  |↑  | 0.7850|±  | 0.3604|
+|afridiacritics_fon_prompt_5|      1|none  |     0|bleu  |↑  | 0.1064|±  | 0.0034|
+|                           |       |none  |     0|chrf  |↑  | 9.0556|±  | 2.0122|
+|afridiacritics_ibo_prompt_1|      1|none  |     0|bleu  |↑  | 0.3689|±  | 1.4748|
+|                           |       |none  |     0|chrf  |↑  | 2.9218|±  | 1.6744|
+|afridiacritics_ibo_prompt_2|      1|none  |     0|bleu  |↑  | 1.6168|±  | 0.9381|
+|                           |       |none  |     0|chrf  |↑  |12.5606|±  | 4.3273|
+|afridiacritics_ibo_prompt_3|      1|none  |     0|bleu  |↑  | 1.2610|±  | 1.1199|
+|                           |       |none  |     0|chrf  |↑  |10.4820|±  | 5.9175|
+|afridiacritics_ibo_prompt_4|      1|none  |     0|bleu  |↑  | 0.1909|±  | 0.0816|
+|                           |       |none  |     0|chrf  |↑  | 1.6137|±  | 0.8737|
+|afridiacritics_ibo_prompt_5|      1|none  |     0|bleu  |↑  | 1.0265|±  | 0.5751|
+|                           |       |none  |     0|chrf  |↑  | 8.6944|±  | 4.9760|
+|afridiacritics_wol_prompt_1|      1|none  |     0|bleu  |↑  |14.2322|±  | 6.4169|
+|                           |       |none  |     0|chrf  |↑  |38.9324|±  |19.3742|
+|afridiacritics_wol_prompt_2|      1|none  |     0|bleu  |↑  | 8.8083|±  | 3.6489|
+|                           |       |none  |     0|chrf  |↑  |38.9122|±  | 9.0281|
+|afridiacritics_wol_prompt_3|      1|none  |     0|bleu  |↑  | 0.0000|±  | 0.0000|
+|                           |       |none  |     0|chrf  |↑  | 0.2461|±  | 0.0044|
+|afridiacritics_wol_prompt_4|      1|none  |     0|bleu  |↑  |14.2322|±  | 6.4169|
+|                           |       |none  |     0|chrf  |↑  |38.9324|±  |19.3742|
+|afridiacritics_wol_prompt_5|      1|none  |     0|bleu  |↑  | 0.1299|±  | 0.0172|
+|                           |       |none  |     0|chrf  |↑  | 7.0762|±  | 0.8721|
+|afridiacritics_yor_prompt_1|      1|none  |     0|bleu  |↑  | 0.5805|±  | 0.3458|
+|                           |       |none  |     0|chrf  |↑  |10.4003|±  | 4.8596|
+|afridiacritics_yor_prompt_2|      1|none  |     0|bleu  |↑  | 0.1100|±  | 0.0192|
+|                           |       |none  |     0|chrf  |↑  | 4.8151|±  | 2.0916|
+|afridiacritics_yor_prompt_3|      1|none  |     0|bleu  |↑  | 0.5704|±  | 0.3467|
+|                           |       |none  |     0|chrf  |↑  |10.5627|±  | 4.8830|
+|afridiacritics_yor_prompt_4|      1|none  |     0|bleu  |↑  | 0.5840|±  | 0.3455|
+|                           |       |none  |     0|chrf  |↑  |10.5627|±  | 4.8830|
+|afridiacritics_yor_prompt_5|      1|none  |     0|bleu  |↑  | 0.1137|±  | 0.0050|
+|                           |       |none  |     0|chrf  |↑  | 3.4255|±  | 1.2227|
+

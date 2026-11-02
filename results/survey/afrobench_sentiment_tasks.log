@@ -1,0 +1,1092 @@
+2026-11-01:21:01:30 WARNING  [__main__:369]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2026-11-01:21:01:30 INFO     [__main__:441] Selected Tasks: ['afrobench_sentiment_tasks']
+2026-11-01:21:01:30 INFO     [evaluator:190] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234 | Setting fewshot manual seed to 1234
+2026-11-01:21:01:30 WARNING  [evaluator:202] generation_kwargs: {'do_sample': False} specified through cli, these settings will update set parameters in yaml tasks. Ensure 'do_sample=True' for non-greedy decoding!
+2026-11-01:21:01:30 INFO     [evaluator:228] Initializing hf model, with arguments: {'pretrained': 'McGill-NLP/AfriqueQwen3.5-0.8B-50Langs', 'dtype': 'bfloat16'}
+2026-11-01:21:01:31 INFO     [models.huggingface:138] Using device 'cuda'
+2026-11-01:21:01:31 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/models/McGill-NLP/AfriqueQwen3.5-0.8B-50Langs/revision/main "HTTP/1.1 200 OK"
+2026-11-01:21:01:31 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/models/McGill-NLP/AfriqueQwen3.5-0.8B-50Langs/revision/main "HTTP/1.1 200 OK"
+2026-11-01:21:01:31 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/models/McGill-NLP/AfriqueQwen3.5-0.8B-50Langs/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:31 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/models/McGill-NLP/AfriqueQwen3.5-0.8B-50Langs/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-11-01:21:01:32 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/models/McGill-NLP/AfriqueQwen3.5-0.8B-50Langs "HTTP/1.1 200 OK"
+2026-11-01:21:01:32 INFO     [models.huggingface:391] Model parallel was set to False, max memory was not set, and device map was set to {'': 'cuda'}
+2026-11-01:21:01:32 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/models/McGill-NLP/AfriqueQwen3.5-0.8B-50Langs/revision/main "HTTP/1.1 200 OK"
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/321 [00:00<?, ?it/s]Loading weights:   0%|          | 1/321 [00:00<00:43,  7.40it/s]Loading weights:   1%|          | 2/321 [00:00<00:42,  7.53it/s]Loading weights:   3%|▎         | 9/321 [00:00<00:10, 28.44it/s]Loading weights:   7%|▋         | 21/321 [00:00<00:07, 39.17it/s]Loading weights:  12%|█▏        | 37/321 [00:00<00:04, 60.89it/s]Loading weights:  14%|█▎        | 44/321 [00:01<00:05, 50.08it/s]Loading weights:  20%|█▉        | 63/321 [00:01<00:03, 76.12it/s]Loading weights:  22%|██▏       | 72/321 [00:01<00:03, 75.92it/s]Loading weights:  25%|██▌       | 81/321 [00:01<00:03, 66.77it/s]Loading weights:  28%|██▊       | 89/321 [00:01<00:03, 61.86it/s]Loading weights:  30%|███       | 97/321 [00:01<00:04, 54.19it/s]Loading weights:  36%|███▌      | 114/321 [00:01<00:02, 72.60it/s]Loading weights:  38%|███▊      | 122/321 [00:02<00:02, 72.69it/s]Loading weights:  41%|████      | 131/321 [00:02<00:02, 65.12it/s]Loading weights:  45%|████▍     | 143/321 [00:02<00:02, 76.46it/s]Loading weights:  47%|████▋     | 152/321 [00:02<00:03, 55.80it/s]Loading weights:  52%|█████▏    | 167/321 [00:02<00:02, 66.12it/s]Loading weights:  55%|█████▍    | 175/321 [00:02<00:02, 64.98it/s]Loading weights:  57%|█████▋    | 183/321 [00:02<00:02, 66.77it/s]Loading weights:  60%|█████▉    | 191/321 [00:03<00:01, 67.79it/s]Loading weights:  64%|██████▍   | 207/321 [00:03<00:01, 86.07it/s]Loading weights:  69%|██████▊   | 220/321 [00:03<00:01, 69.62it/s]Loading weights:  73%|███████▎  | 235/321 [00:03<00:01, 68.52it/s]Loading weights:  78%|███████▊  | 250/321 [00:03<00:00, 81.19it/s]Loading weights:  81%|████████  | 260/321 [00:04<00:00, 66.22it/s]Loading weights:  85%|████████▌ | 274/321 [00:04<00:00, 76.13it/s]Loading weights:  88%|████████▊ | 283/321 [00:04<00:00, 70.71it/s]Loading weights:  91%|█████████ | 292/321 [00:04<00:00, 69.64it/s]Loading weights:  94%|█████████▍| 302/321 [00:04<00:00, 70.44it/s]Loading weights:  97%|█████████▋| 310/321 [00:04<00:00, 56.41it/s]Loading weights: 100%|██████████| 321/321 [00:04<00:00, 65.30it/s]
+2026-11-01:21:01:38 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:01:38 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:01:39 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:39 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:39 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/masakhane/afrisenti/revision/eb42667d2e83d0081864767b47681fbaf00144fb "HTTP/1.1 200 OK"
+2026-11-01:21:01:39 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:39 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:01:39 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/masakhane/afrisenti/tree/eb42667d2e83d0081864767b47681fbaf00144fb/data%2Famh?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-11-01:21:01:40 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:40 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/masakhane/afrisenti/tree/eb42667d2e83d0081864767b47681fbaf00144fb/data%2Farq?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-11-01:21:01:41 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:01:41 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:01:41 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:41 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:41 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:41 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:01:41 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:41 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/masakhane/afrisenti/tree/eb42667d2e83d0081864767b47681fbaf00144fb/data%2Form?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-11-01:21:01:42 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:01:42 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:01:42 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:42 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:43 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:43 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:01:43 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:43 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/masakhane/afrisenti/tree/eb42667d2e83d0081864767b47681fbaf00144fb/data%2Fpcm?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-11-01:21:01:44 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:01:44 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:01:44 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:44 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:44 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:44 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:01:44 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:45 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/masakhane/afrisenti/tree/eb42667d2e83d0081864767b47681fbaf00144fb/data%2Fary?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-11-01:21:01:45 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:01:45 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:01:46 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:46 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:46 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:46 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:01:46 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:46 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/masakhane/afrisenti/tree/eb42667d2e83d0081864767b47681fbaf00144fb/data%2Ftwi?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-11-01:21:01:47 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:01:47 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:01:47 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:47 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:47 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:48 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:01:48 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:48 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/masakhane/afrisenti/tree/eb42667d2e83d0081864767b47681fbaf00144fb/data%2Ftso?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-11-01:21:01:49 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:01:49 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:01:49 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:49 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:49 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:49 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:01:49 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:50 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:01:50 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:01:50 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:50 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:50 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:51 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:01:51 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:51 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/masakhane/afrisenti/tree/eb42667d2e83d0081864767b47681fbaf00144fb/data%2Fkin?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-11-01:21:01:52 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:01:52 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:01:52 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:52 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:52 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:52 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:01:52 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:53 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/masakhane/afrisenti/tree/eb42667d2e83d0081864767b47681fbaf00144fb/data%2Fibo?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-11-01:21:01:53 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:01:53 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:01:54 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:54 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:54 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:54 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:01:54 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:54 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/masakhane/afrisenti/tree/eb42667d2e83d0081864767b47681fbaf00144fb/data%2Fswa?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-11-01:21:01:55 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:01:55 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:01:55 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:55 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:55 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:56 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:01:56 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:56 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/masakhane/afrisenti/tree/eb42667d2e83d0081864767b47681fbaf00144fb/data%2Fyor?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-11-01:21:01:57 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:01:57 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:01:57 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:57 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:57 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:57 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:01:57 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:57 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/masakhane/afrisenti/tree/eb42667d2e83d0081864767b47681fbaf00144fb/data%2Fhau?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-11-01:21:01:58 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:01:58 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:01:58 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:59 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:59 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:59 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:01:59 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:01:59 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/masakhane/afrisenti/tree/eb42667d2e83d0081864767b47681fbaf00144fb/data%2Ftir?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-11-01:21:02:00 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:02:00 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:02:00 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:00 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:00 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:00 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:02:01 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:01 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/masakhane/afrisenti/tree/eb42667d2e83d0081864767b47681fbaf00144fb/data%2Fpor?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-11-01:21:02:02 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:02:02 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:02:02 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:02 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:02 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:02 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:02:02 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:03 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:02:03 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:02:03 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:03 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:03 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:04 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:02:04 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:05 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:02:05 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:02:05 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:05 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:05 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:05 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:02:05 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:06 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:02:06 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:02:06 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:06 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:06 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:07 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:02:07 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:07 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:02:08 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:02:08 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:08 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:08 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:08 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:02:08 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:09 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:02:09 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:02:09 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:09 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:09 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:09 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:02:10 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:10 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:02:10 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:02:10 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:11 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:11 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:11 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:02:11 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:12 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:02:12 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:02:12 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:12 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:12 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:12 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:02:12 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:13 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:02:13 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:02:13 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:13 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:14 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:14 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:02:14 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:15 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:02:15 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:02:15 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:15 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:15 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:15 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:02:15 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:16 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:02:16 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:02:16 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:16 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:17 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:17 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:02:17 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:18 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:02:18 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:02:18 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:18 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:18 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:18 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:02:18 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:19 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:02:19 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:02:19 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:19 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:20 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:20 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:02:20 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:21 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:02:21 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:02:21 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:21 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:21 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:21 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:02:21 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:22 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:02:22 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:02:22 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:22 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:23 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:23 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:02:23 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:24 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:02:24 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:02:24 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:24 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:24 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:24 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:02:24 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:25 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:02:25 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:02:26 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:26 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:26 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:26 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:02:26 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:27 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:02:27 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:02:27 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:27 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:27 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:27 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:02:28 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:28 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:02:28 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:02:29 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:29 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:29 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:29 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:02:29 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:30 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:02:30 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:02:30 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:30 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:30 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:30 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:02:30 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:31 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:02:31 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:02:31 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:32 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:32 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:32 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:02:32 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:33 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:02:33 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:02:33 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:33 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:33 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:33 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:02:33 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:34 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:02:34 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:02:34 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:34 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:35 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:35 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:02:35 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:36 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:02:36 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:02:36 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:36 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:36 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:36 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:02:36 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:37 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:02:37 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:02:37 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:37 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:38 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:38 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:02:38 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:39 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:02:39 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:02:39 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:39 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:39 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:39 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:02:39 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:40 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:02:40 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:02:40 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:40 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:41 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:41 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:02:41 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:42 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:02:42 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:02:42 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:42 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:42 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:42 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:02:42 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:43 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:02:43 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:02:43 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:43 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:43 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:44 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:02:44 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:45 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:02:45 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:02:45 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:45 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:45 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:45 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:02:45 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:46 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:02:46 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:02:46 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:46 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:46 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:47 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:02:47 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:48 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:02:48 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:02:48 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:48 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:48 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:48 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:02:48 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:49 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:02:49 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:02:49 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:49 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:49 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:50 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:02:50 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:50 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:02:50 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:02:51 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:51 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:51 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:51 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:02:51 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:52 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:02:52 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:02:52 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:52 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:52 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:52 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:02:53 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:53 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:02:53 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:02:54 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:54 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:54 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:54 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:02:54 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:55 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:02:55 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:02:55 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:55 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:55 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:55 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:02:55 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:56 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:02:56 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:02:56 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:57 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:57 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:57 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:02:57 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:58 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:02:58 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:02:58 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:58 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:58 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:58 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:02:58 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:02:59 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:02:59 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:02:59 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:00 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:00 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:00 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:03:00 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:01 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:03:01 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:03:01 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:01 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:01 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:01 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:03:01 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:02 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:03:02 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:03:02 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:03 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:03 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:03 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:03:03 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:04 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:03:04 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:03:04 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:04 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:04 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:04 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:03:04 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:05 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:03:05 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:03:05 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:05 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:06 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:06 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:03:06 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:07 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:03:07 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:03:07 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:07 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:07 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:07 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:03:07 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:08 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:03:08 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:03:08 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:08 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:08 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:09 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:03:09 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:10 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:03:10 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:03:10 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:10 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:10 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:10 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:03:10 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:11 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:03:11 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:03:11 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:11 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:11 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:12 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:03:12 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:13 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:03:13 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:03:13 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:13 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:13 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:13 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:03:13 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:14 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:03:14 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:03:14 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:14 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:14 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:15 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:03:15 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:15 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:03:15 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:03:16 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:16 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:16 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:16 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:03:16 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:17 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:03:17 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:03:17 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:17 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:17 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:17 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:03:18 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:18 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:03:18 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:03:19 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:19 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:19 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:19 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:03:19 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:20 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:03:20 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:03:20 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:20 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:20 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:20 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:03:21 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:21 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:03:21 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:03:22 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:22 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:22 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:22 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:03:22 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:23 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:03:23 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrisenti/eb42667d2e83d0081864767b47681fbaf00144fb/README.md?%2Fdatasets%2Fmasakhane%2Fafrisenti%2Fresolve%2Fmain%2FREADME.md=&etag=%22e3c8df542db0e62607c1b91b2931be08afe036dc%22 "HTTP/1.1 200 OK"
+2026-11-01:21:03:23 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:23 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrisenti/masakhane/afrisenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:23 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:23 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrisenti "HTTP/1.1 200 OK"
+2026-11-01:21:03:24 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrisenti/resolve/eb42667d2e83d0081864767b47681fbaf00144fb/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:24 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:03:24 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/Davlan/nollysenti/8960e8b24aa5b65eeec145b5858142892e1c0154/README.md?%2Fdatasets%2FDavlan%2Fnollysenti%2Fresolve%2Fmain%2FREADME.md=&etag=%229e033ce06db7311fa79ffb0778cc01faacad873c%22 "HTTP/1.1 200 OK"
+2026-11-01:21:03:25 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:25 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/Davlan/nollysenti/Davlan/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:25 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/Davlan/nollysenti/revision/8960e8b24aa5b65eeec145b5858142892e1c0154 "HTTP/1.1 200 OK"
+2026-11-01:21:03:25 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:25 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=Davlan/nollysenti "HTTP/1.1 200 OK"
+2026-11-01:21:03:25 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/Davlan/nollysenti/tree/8960e8b24aa5b65eeec145b5858142892e1c0154/en?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-11-01:21:03:25 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/Davlan/nollysenti/revision/8960e8b24aa5b65eeec145b5858142892e1c0154 "HTTP/1.1 200 OK"
+2026-11-01:21:03:25 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:26 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/Davlan/nollysenti/tree/8960e8b24aa5b65eeec145b5858142892e1c0154/yo?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-11-01:21:03:26 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:03:26 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/Davlan/nollysenti/8960e8b24aa5b65eeec145b5858142892e1c0154/README.md?%2Fdatasets%2FDavlan%2Fnollysenti%2Fresolve%2Fmain%2FREADME.md=&etag=%229e033ce06db7311fa79ffb0778cc01faacad873c%22 "HTTP/1.1 200 OK"
+2026-11-01:21:03:27 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:27 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/Davlan/nollysenti/Davlan/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:27 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:27 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=Davlan/nollysenti "HTTP/1.1 200 OK"
+2026-11-01:21:03:27 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:28 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:03:28 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/Davlan/nollysenti/8960e8b24aa5b65eeec145b5858142892e1c0154/README.md?%2Fdatasets%2FDavlan%2Fnollysenti%2Fresolve%2Fmain%2FREADME.md=&etag=%229e033ce06db7311fa79ffb0778cc01faacad873c%22 "HTTP/1.1 200 OK"
+2026-11-01:21:03:28 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:28 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/Davlan/nollysenti/Davlan/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:28 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:28 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=Davlan/nollysenti "HTTP/1.1 200 OK"
+2026-11-01:21:03:29 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:29 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/Davlan/nollysenti/tree/8960e8b24aa5b65eeec145b5858142892e1c0154/pcm?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-11-01:21:03:30 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:03:30 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/Davlan/nollysenti/8960e8b24aa5b65eeec145b5858142892e1c0154/README.md?%2Fdatasets%2FDavlan%2Fnollysenti%2Fresolve%2Fmain%2FREADME.md=&etag=%229e033ce06db7311fa79ffb0778cc01faacad873c%22 "HTTP/1.1 200 OK"
+2026-11-01:21:03:30 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:30 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/Davlan/nollysenti/Davlan/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:30 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:30 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=Davlan/nollysenti "HTTP/1.1 200 OK"
+2026-11-01:21:03:30 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:31 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/Davlan/nollysenti/tree/8960e8b24aa5b65eeec145b5858142892e1c0154/ha?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-11-01:21:03:31 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:03:31 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/Davlan/nollysenti/8960e8b24aa5b65eeec145b5858142892e1c0154/README.md?%2Fdatasets%2FDavlan%2Fnollysenti%2Fresolve%2Fmain%2FREADME.md=&etag=%229e033ce06db7311fa79ffb0778cc01faacad873c%22 "HTTP/1.1 200 OK"
+2026-11-01:21:03:31 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:32 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/Davlan/nollysenti/Davlan/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:32 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:32 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=Davlan/nollysenti "HTTP/1.1 200 OK"
+2026-11-01:21:03:32 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:32 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/Davlan/nollysenti/tree/8960e8b24aa5b65eeec145b5858142892e1c0154/ig?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-11-01:21:03:33 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:03:33 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/Davlan/nollysenti/8960e8b24aa5b65eeec145b5858142892e1c0154/README.md?%2Fdatasets%2FDavlan%2Fnollysenti%2Fresolve%2Fmain%2FREADME.md=&etag=%229e033ce06db7311fa79ffb0778cc01faacad873c%22 "HTTP/1.1 200 OK"
+2026-11-01:21:03:33 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:33 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/Davlan/nollysenti/Davlan/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:33 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:33 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=Davlan/nollysenti "HTTP/1.1 200 OK"
+2026-11-01:21:03:34 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:34 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:03:34 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/Davlan/nollysenti/8960e8b24aa5b65eeec145b5858142892e1c0154/README.md?%2Fdatasets%2FDavlan%2Fnollysenti%2Fresolve%2Fmain%2FREADME.md=&etag=%229e033ce06db7311fa79ffb0778cc01faacad873c%22 "HTTP/1.1 200 OK"
+2026-11-01:21:03:34 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:35 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/Davlan/nollysenti/Davlan/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:35 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:35 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=Davlan/nollysenti "HTTP/1.1 200 OK"
+2026-11-01:21:03:35 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:36 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:03:36 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/Davlan/nollysenti/8960e8b24aa5b65eeec145b5858142892e1c0154/README.md?%2Fdatasets%2FDavlan%2Fnollysenti%2Fresolve%2Fmain%2FREADME.md=&etag=%229e033ce06db7311fa79ffb0778cc01faacad873c%22 "HTTP/1.1 200 OK"
+2026-11-01:21:03:36 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:36 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/Davlan/nollysenti/Davlan/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:36 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:36 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=Davlan/nollysenti "HTTP/1.1 200 OK"
+2026-11-01:21:03:36 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:37 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:03:37 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/Davlan/nollysenti/8960e8b24aa5b65eeec145b5858142892e1c0154/README.md?%2Fdatasets%2FDavlan%2Fnollysenti%2Fresolve%2Fmain%2FREADME.md=&etag=%229e033ce06db7311fa79ffb0778cc01faacad873c%22 "HTTP/1.1 200 OK"
+2026-11-01:21:03:37 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:37 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/Davlan/nollysenti/Davlan/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:38 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:38 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=Davlan/nollysenti "HTTP/1.1 200 OK"
+2026-11-01:21:03:38 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:39 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:03:39 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/Davlan/nollysenti/8960e8b24aa5b65eeec145b5858142892e1c0154/README.md?%2Fdatasets%2FDavlan%2Fnollysenti%2Fresolve%2Fmain%2FREADME.md=&etag=%229e033ce06db7311fa79ffb0778cc01faacad873c%22 "HTTP/1.1 200 OK"
+2026-11-01:21:03:39 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:39 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/Davlan/nollysenti/Davlan/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:39 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:39 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=Davlan/nollysenti "HTTP/1.1 200 OK"
+2026-11-01:21:03:39 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:40 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:03:40 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/Davlan/nollysenti/8960e8b24aa5b65eeec145b5858142892e1c0154/README.md?%2Fdatasets%2FDavlan%2Fnollysenti%2Fresolve%2Fmain%2FREADME.md=&etag=%229e033ce06db7311fa79ffb0778cc01faacad873c%22 "HTTP/1.1 200 OK"
+2026-11-01:21:03:40 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:40 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/Davlan/nollysenti/Davlan/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:40 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:41 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=Davlan/nollysenti "HTTP/1.1 200 OK"
+2026-11-01:21:03:41 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:42 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:03:42 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/Davlan/nollysenti/8960e8b24aa5b65eeec145b5858142892e1c0154/README.md?%2Fdatasets%2FDavlan%2Fnollysenti%2Fresolve%2Fmain%2FREADME.md=&etag=%229e033ce06db7311fa79ffb0778cc01faacad873c%22 "HTTP/1.1 200 OK"
+2026-11-01:21:03:42 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:42 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/Davlan/nollysenti/Davlan/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:42 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:42 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=Davlan/nollysenti "HTTP/1.1 200 OK"
+2026-11-01:21:03:42 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:43 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:03:43 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/Davlan/nollysenti/8960e8b24aa5b65eeec145b5858142892e1c0154/README.md?%2Fdatasets%2FDavlan%2Fnollysenti%2Fresolve%2Fmain%2FREADME.md=&etag=%229e033ce06db7311fa79ffb0778cc01faacad873c%22 "HTTP/1.1 200 OK"
+2026-11-01:21:03:43 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:43 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/Davlan/nollysenti/Davlan/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:43 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:44 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=Davlan/nollysenti "HTTP/1.1 200 OK"
+2026-11-01:21:03:44 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:45 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:03:45 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/Davlan/nollysenti/8960e8b24aa5b65eeec145b5858142892e1c0154/README.md?%2Fdatasets%2FDavlan%2Fnollysenti%2Fresolve%2Fmain%2FREADME.md=&etag=%229e033ce06db7311fa79ffb0778cc01faacad873c%22 "HTTP/1.1 200 OK"
+2026-11-01:21:03:45 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:45 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/Davlan/nollysenti/Davlan/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:45 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:45 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=Davlan/nollysenti "HTTP/1.1 200 OK"
+2026-11-01:21:03:45 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:46 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:03:46 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/Davlan/nollysenti/8960e8b24aa5b65eeec145b5858142892e1c0154/README.md?%2Fdatasets%2FDavlan%2Fnollysenti%2Fresolve%2Fmain%2FREADME.md=&etag=%229e033ce06db7311fa79ffb0778cc01faacad873c%22 "HTTP/1.1 200 OK"
+2026-11-01:21:03:46 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:46 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/Davlan/nollysenti/Davlan/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:46 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:46 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=Davlan/nollysenti "HTTP/1.1 200 OK"
+2026-11-01:21:03:47 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:47 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:03:47 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/Davlan/nollysenti/8960e8b24aa5b65eeec145b5858142892e1c0154/README.md?%2Fdatasets%2FDavlan%2Fnollysenti%2Fresolve%2Fmain%2FREADME.md=&etag=%229e033ce06db7311fa79ffb0778cc01faacad873c%22 "HTTP/1.1 200 OK"
+2026-11-01:21:03:48 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:48 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/Davlan/nollysenti/Davlan/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:48 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:48 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=Davlan/nollysenti "HTTP/1.1 200 OK"
+2026-11-01:21:03:48 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:49 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:03:49 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/Davlan/nollysenti/8960e8b24aa5b65eeec145b5858142892e1c0154/README.md?%2Fdatasets%2FDavlan%2Fnollysenti%2Fresolve%2Fmain%2FREADME.md=&etag=%229e033ce06db7311fa79ffb0778cc01faacad873c%22 "HTTP/1.1 200 OK"
+2026-11-01:21:03:49 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:49 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/Davlan/nollysenti/Davlan/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:49 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:49 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=Davlan/nollysenti "HTTP/1.1 200 OK"
+2026-11-01:21:03:50 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:50 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:03:50 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/Davlan/nollysenti/8960e8b24aa5b65eeec145b5858142892e1c0154/README.md?%2Fdatasets%2FDavlan%2Fnollysenti%2Fresolve%2Fmain%2FREADME.md=&etag=%229e033ce06db7311fa79ffb0778cc01faacad873c%22 "HTTP/1.1 200 OK"
+2026-11-01:21:03:51 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:51 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/Davlan/nollysenti/Davlan/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:51 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:51 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=Davlan/nollysenti "HTTP/1.1 200 OK"
+2026-11-01:21:03:51 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:52 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:03:52 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/Davlan/nollysenti/8960e8b24aa5b65eeec145b5858142892e1c0154/README.md?%2Fdatasets%2FDavlan%2Fnollysenti%2Fresolve%2Fmain%2FREADME.md=&etag=%229e033ce06db7311fa79ffb0778cc01faacad873c%22 "HTTP/1.1 200 OK"
+2026-11-01:21:03:52 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:52 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/Davlan/nollysenti/Davlan/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:52 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:52 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=Davlan/nollysenti "HTTP/1.1 200 OK"
+2026-11-01:21:03:53 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:53 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:03:53 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/Davlan/nollysenti/8960e8b24aa5b65eeec145b5858142892e1c0154/README.md?%2Fdatasets%2FDavlan%2Fnollysenti%2Fresolve%2Fmain%2FREADME.md=&etag=%229e033ce06db7311fa79ffb0778cc01faacad873c%22 "HTTP/1.1 200 OK"
+2026-11-01:21:03:54 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:54 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/Davlan/nollysenti/Davlan/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:54 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:54 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=Davlan/nollysenti "HTTP/1.1 200 OK"
+2026-11-01:21:03:54 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:55 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:03:55 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/Davlan/nollysenti/8960e8b24aa5b65eeec145b5858142892e1c0154/README.md?%2Fdatasets%2FDavlan%2Fnollysenti%2Fresolve%2Fmain%2FREADME.md=&etag=%229e033ce06db7311fa79ffb0778cc01faacad873c%22 "HTTP/1.1 200 OK"
+2026-11-01:21:03:55 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:55 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/Davlan/nollysenti/Davlan/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:55 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:55 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=Davlan/nollysenti "HTTP/1.1 200 OK"
+2026-11-01:21:03:56 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:56 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:03:56 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/Davlan/nollysenti/8960e8b24aa5b65eeec145b5858142892e1c0154/README.md?%2Fdatasets%2FDavlan%2Fnollysenti%2Fresolve%2Fmain%2FREADME.md=&etag=%229e033ce06db7311fa79ffb0778cc01faacad873c%22 "HTTP/1.1 200 OK"
+2026-11-01:21:03:57 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:57 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/Davlan/nollysenti/Davlan/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:57 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:57 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=Davlan/nollysenti "HTTP/1.1 200 OK"
+2026-11-01:21:03:57 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:58 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:03:58 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/Davlan/nollysenti/8960e8b24aa5b65eeec145b5858142892e1c0154/README.md?%2Fdatasets%2FDavlan%2Fnollysenti%2Fresolve%2Fmain%2FREADME.md=&etag=%229e033ce06db7311fa79ffb0778cc01faacad873c%22 "HTTP/1.1 200 OK"
+2026-11-01:21:03:58 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:58 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/Davlan/nollysenti/Davlan/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:58 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:58 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=Davlan/nollysenti "HTTP/1.1 200 OK"
+2026-11-01:21:03:59 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:03:59 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:03:59 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/Davlan/nollysenti/8960e8b24aa5b65eeec145b5858142892e1c0154/README.md?%2Fdatasets%2FDavlan%2Fnollysenti%2Fresolve%2Fmain%2FREADME.md=&etag=%229e033ce06db7311fa79ffb0778cc01faacad873c%22 "HTTP/1.1 200 OK"
+2026-11-01:21:04:00 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:04:00 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/Davlan/nollysenti/Davlan/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:04:00 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:04:00 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=Davlan/nollysenti "HTTP/1.1 200 OK"
+2026-11-01:21:04:00 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:04:01 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:21:04:01 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/Davlan/nollysenti/8960e8b24aa5b65eeec145b5858142892e1c0154/README.md?%2Fdatasets%2FDavlan%2Fnollysenti%2Fresolve%2Fmain%2FREADME.md=&etag=%229e033ce06db7311fa79ffb0778cc01faacad873c%22 "HTTP/1.1 200 OK"
+2026-11-01:21:04:01 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:04:01 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/Davlan/nollysenti/Davlan/nollysenti.py "HTTP/1.1 404 Not Found"
+2026-11-01:21:04:01 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:21:04:01 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=Davlan/nollysenti "HTTP/1.1 200 OK"
+2026-11-01:21:04:01 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/Davlan/nollysenti/resolve/8960e8b24aa5b65eeec145b5858142892e1c0154/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for nollysenti_ibo_prompt_2 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2326.94it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for nollysenti_hau_prompt_2 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2700.78it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for nollysenti_pcm_prompt_2 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2614.90it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for nollysenti_eng_prompt_2 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2663.90it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for nollysenti_yor_prompt_2 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2614.09it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for nollysenti_ibo_prompt_5 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2345.81it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for nollysenti_hau_prompt_5 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2470.87it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for nollysenti_pcm_prompt_5 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2388.56it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for nollysenti_eng_prompt_5 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2473.79it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for nollysenti_yor_prompt_5 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2454.24it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for nollysenti_ibo_prompt_4 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 3318.28it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for nollysenti_hau_prompt_4 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 5377.31it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for nollysenti_pcm_prompt_4 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 5614.86it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for nollysenti_eng_prompt_4 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 5540.69it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for nollysenti_yor_prompt_4 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 5805.27it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for nollysenti_ibo_prompt_3 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 5599.87it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for nollysenti_hau_prompt_3 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 5729.92it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for nollysenti_pcm_prompt_3 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 5805.27it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for nollysenti_eng_prompt_3 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 5722.11it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for nollysenti_yor_prompt_3 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 5845.72it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for nollysenti_ibo_prompt_1 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 5932.54it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for nollysenti_hau_prompt_1 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 5974.79it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for nollysenti_pcm_prompt_1 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 5936.74it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for nollysenti_eng_prompt_1 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 5940.94it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for nollysenti_yor_prompt_1 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 5111.89it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_por_prompt_2 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6472.69it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_tir_prompt_2 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 7275.46it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_hau_prompt_2 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 7345.54it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_yor_prompt_2 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 7496.52it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_swa_prompt_2 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 7449.92it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_ibo_prompt_2 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 7469.82it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_kin_prompt_2 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 7788.87it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_amh_prompt_2 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 7745.71it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_tso_prompt_2 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 7745.71it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_twi_prompt_2 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 8144.28it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_ary_prompt_2 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 8264.64it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_pcm_prompt_2 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 7774.43it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_orm_prompt_2 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 8240.28it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_arq_prompt_2 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 8035.07it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_por_prompt_5 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6340.60it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_tir_prompt_5 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 5353.29it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_hau_prompt_5 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6269.51it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_yor_prompt_5 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6543.38it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_swa_prompt_5 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6662.91it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_ibo_prompt_5 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6384.02it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_kin_prompt_5 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6626.07it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_amh_prompt_5 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6502.80it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_tso_prompt_5 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6694.82it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_twi_prompt_5 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6814.47it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_ary_prompt_5 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6668.21it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_pcm_prompt_5 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6748.68it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_orm_prompt_5 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6859.04it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_arq_prompt_5 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6594.82it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_por_prompt_4 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 8058.22it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_tir_prompt_4 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 8176.03it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_hau_prompt_4 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 7996.77it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_yor_prompt_4 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 3127.74it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_swa_prompt_4 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 7876.63it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_ibo_prompt_4 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 8004.40it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_kin_prompt_4 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 7847.15it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_amh_prompt_4 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 8208.03it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_tso_prompt_4 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 8184.01it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_twi_prompt_4 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 7966.39it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_ary_prompt_4 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 8264.64it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_pcm_prompt_4 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 8144.28it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_orm_prompt_4 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 8073.73it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_arq_prompt_4 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 8232.20it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_por_prompt_3 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 7854.50it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_tir_prompt_3 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 7449.92it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_hau_prompt_3 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 7839.82it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_yor_prompt_3 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 7839.82it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_swa_prompt_3 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 7225.33it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_ibo_prompt_3 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6269.51it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_kin_prompt_3 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 7619.08it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_amh_prompt_3 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 7503.23it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_tso_prompt_3 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 7774.43it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_twi_prompt_3 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 7619.08it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_ary_prompt_3 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 7884.03it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_pcm_prompt_3 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 7936.24it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_orm_prompt_3 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 7817.90it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_arq_prompt_3 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 7981.55it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_por_prompt_1 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 8289.14it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_tir_prompt_1 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 8297.34it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_hau_prompt_1 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 8346.87it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_yor_prompt_1 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 8603.70it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_swa_prompt_1 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 8473.34it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_ibo_prompt_1 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 8264.64it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_kin_prompt_1 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 8542.37it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_amh_prompt_1 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6477.69it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_tso_prompt_1 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 8120.63it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_twi_prompt_1 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 8397.01it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_ary_prompt_1 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 8568.55it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_pcm_prompt_1 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 8346.87it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_orm_prompt_1 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 8559.80it/s]
+2026-11-01:21:04:02 INFO     [api.task:434] Building contexts for afrisenti_arq_prompt_1 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 8490.49it/s]
+2026-11-01:21:04:02 INFO     [evaluator:560] Running loglikelihood requests
+Running loglikelihood requests:   0%|          | 0/520 [00:00<?, ?it/s][transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+Running loglikelihood requests:   0%|          | 1/520 [00:00<04:50,  1.78it/s]Running loglikelihood requests:   2%|▏         | 9/520 [00:00<00:30, 16.50it/s]Running loglikelihood requests:   3%|▎         | 16/520 [00:00<00:18, 26.67it/s]Running loglikelihood requests:   4%|▍         | 23/520 [00:00<00:14, 35.27it/s]Running loglikelihood requests:   6%|▌         | 29/520 [00:01<00:12, 39.44it/s]Running loglikelihood requests:   7%|▋         | 38/520 [00:01<00:09, 50.89it/s]Running loglikelihood requests:   9%|▊         | 45/520 [00:01<00:08, 54.89it/s]Running loglikelihood requests:  10%|█         | 53/520 [00:01<00:07, 61.02it/s]Running loglikelihood requests:  12%|█▏        | 62/520 [00:01<00:06, 68.37it/s]Running loglikelihood requests:  13%|█▎        | 70/520 [00:01<00:06, 70.56it/s]Running loglikelihood requests:  15%|█▌        | 78/520 [00:01<00:06, 72.60it/s]Running loglikelihood requests:  17%|█▋        | 86/520 [00:01<00:05, 74.00it/s]Running loglikelihood requests:  18%|█▊        | 94/520 [00:01<00:05, 75.02it/s]Running loglikelihood requests:  20%|█▉        | 102/520 [00:01<00:05, 75.70it/s]Running loglikelihood requests:  21%|██        | 110/520 [00:02<00:05, 76.70it/s]Running loglikelihood requests:  23%|██▎       | 118/520 [00:02<00:05, 77.56it/s]Running loglikelihood requests:  25%|██▍       | 128/520 [00:02<00:04, 83.99it/s]Running loglikelihood requests:  26%|██▋       | 137/520 [00:02<00:04, 85.30it/s]Running loglikelihood requests:  28%|██▊       | 146/520 [00:02<00:04, 80.34it/s]Running loglikelihood requests:  30%|███       | 156/520 [00:02<00:04, 85.78it/s]Running loglikelihood requests:  32%|███▏      | 165/520 [00:02<00:04, 76.68it/s]Running loglikelihood requests:  34%|███▍      | 176/520 [00:02<00:04, 81.37it/s]Running loglikelihood requests:  36%|███▌      | 185/520 [00:02<00:04, 81.67it/s]Running loglikelihood requests:  38%|███▊      | 195/520 [00:03<00:03, 84.01it/s]Running loglikelihood requests:  39%|███▉      | 204/520 [00:03<00:03, 83.55it/s]Running loglikelihood requests:  41%|████      | 213/520 [00:03<00:03, 82.22it/s]Running loglikelihood requests:  43%|████▎     | 224/520 [00:03<00:03, 87.88it/s]Running loglikelihood requests:  45%|████▌     | 236/520 [00:03<00:02, 95.62it/s]Running loglikelihood requests:  48%|████▊     | 247/520 [00:03<00:02, 94.17it/s]Running loglikelihood requests:  49%|████▉     | 257/520 [00:03<00:02, 91.59it/s]Running loglikelihood requests:  52%|█████▏    | 268/520 [00:03<00:02, 92.66it/s]Running loglikelihood requests:  54%|█████▎    | 279/520 [00:04<00:02, 95.03it/s]Running loglikelihood requests:  56%|█████▌    | 289/520 [00:04<00:02, 93.41it/s]Running loglikelihood requests:  58%|█████▊    | 300/520 [00:04<00:02, 92.83it/s]Running loglikelihood requests:  60%|█████▉    | 311/520 [00:04<00:02, 93.67it/s]Running loglikelihood requests:  62%|██████▏   | 321/520 [00:04<00:02, 93.77it/s]Running loglikelihood requests:  64%|██████▍   | 335/520 [00:04<00:01, 100.26it/s]Running loglikelihood requests:  67%|██████▋   | 347/520 [00:04<00:01, 104.16it/s]Running loglikelihood requests:  69%|██████▉   | 359/520 [00:04<00:01, 107.05it/s]Running loglikelihood requests:  71%|███████▏  | 371/520 [00:04<00:01, 108.34it/s]Running loglikelihood requests:  74%|███████▎  | 383/520 [00:05<00:01, 110.63it/s]Running loglikelihood requests:  76%|███████▌  | 395/520 [00:05<00:01, 109.36it/s]Running loglikelihood requests:  78%|███████▊  | 407/520 [00:05<00:01, 109.75it/s]Running loglikelihood requests:  81%|████████  | 419/520 [00:05<00:00, 111.65it/s]Running loglikelihood requests:  83%|████████▎ | 434/520 [00:05<00:00, 119.80it/s]Running loglikelihood requests:  86%|████████▌ | 446/520 [00:05<00:00, 117.29it/s]Running loglikelihood requests:  89%|████████▊ | 461/520 [00:05<00:00, 119.16it/s]Running loglikelihood requests:  91%|█████████ | 473/520 [00:05<00:00, 115.93it/s]Running loglikelihood requests:  94%|█████████▎| 487/520 [00:05<00:00, 122.54it/s]Running loglikelihood requests:  96%|█████████▌| 500/520 [00:06<00:00, 114.53it/s]Running loglikelihood requests:  98%|█████████▊| 512/520 [00:06<00:00, 114.64it/s]Running loglikelihood requests: 100%|██████████| 520/520 [00:06<00:00, 84.33it/s] 
+2026-11-01:21:04:08 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/models/McGill-NLP/AfriqueQwen3.5-0.8B-50Langs/revision/main "HTTP/1.1 200 OK"
+2026-11-01:21:04:08 INFO     [loggers.evaluation_tracker:209] Saving results aggregated
+hf (pretrained=McGill-NLP/AfriqueQwen3.5-0.8B-50Langs,dtype=bfloat16), gen_kwargs: (do_sample=False), limit: 2.0, num_fewshot: None, batch_size: 1
+|         Tasks         |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|-----------------------|------:|------|-----:|------|---|-----:|---|------|
+|afrisenti_amh_prompt_1 |      1|none  |     0|acc   |↑  |0.5000|±  |   0.5|
+|                       |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrisenti_amh_prompt_2 |      1|none  |     0|acc   |↑  |0.5000|±  |   0.5|
+|                       |       |none  |     0|f1    |↑  |0.5000|±  |   N/A|
+|afrisenti_amh_prompt_3 |      1|none  |     0|acc   |↑  |0.0000|±  |     0|
+|                       |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|afrisenti_amh_prompt_4 |      1|none  |     0|acc   |↑  |0.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|afrisenti_amh_prompt_5 |      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                       |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrisenti_arq_prompt_1 |      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                       |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrisenti_arq_prompt_2 |      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                       |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrisenti_arq_prompt_3 |      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                       |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrisenti_arq_prompt_4 |      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                       |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrisenti_arq_prompt_5 |      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                       |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrisenti_ary_prompt_1 |      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                       |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrisenti_ary_prompt_2 |      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                       |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrisenti_ary_prompt_3 |      1|none  |     0|acc   |↑  |0.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|afrisenti_ary_prompt_4 |      1|none  |     0|acc   |↑  |0.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|afrisenti_ary_prompt_5 |      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                       |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrisenti_hau_prompt_1 |      1|none  |     0|acc   |↑  |1.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |1.0000|±  |   N/A|
+|afrisenti_hau_prompt_2 |      1|none  |     0|acc   |↑  |1.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |1.0000|±  |   N/A|
+|afrisenti_hau_prompt_3 |      1|none  |     0|acc   |↑  |0.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|afrisenti_hau_prompt_4 |      1|none  |     0|acc   |↑  |0.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|afrisenti_hau_prompt_5 |      1|none  |     0|acc   |↑  |1.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |1.0000|±  |   N/A|
+|afrisenti_ibo_prompt_1 |      1|none  |     0|acc   |↑  |1.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |1.0000|±  |   N/A|
+|afrisenti_ibo_prompt_2 |      1|none  |     0|acc   |↑  |1.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |1.0000|±  |   N/A|
+|afrisenti_ibo_prompt_3 |      1|none  |     0|acc   |↑  |0.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|afrisenti_ibo_prompt_4 |      1|none  |     0|acc   |↑  |0.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|afrisenti_ibo_prompt_5 |      1|none  |     0|acc   |↑  |1.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |1.0000|±  |   N/A|
+|afrisenti_kin_prompt_1 |      1|none  |     0|acc   |↑  |0.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|afrisenti_kin_prompt_2 |      1|none  |     0|acc   |↑  |0.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|afrisenti_kin_prompt_3 |      1|none  |     0|acc   |↑  |1.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |1.0000|±  |   N/A|
+|afrisenti_kin_prompt_4 |      1|none  |     0|acc   |↑  |1.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |1.0000|±  |   N/A|
+|afrisenti_kin_prompt_5 |      1|none  |     0|acc   |↑  |0.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|afrisenti_orm_prompt_1 |      1|none  |     0|acc   |↑  |0.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|afrisenti_orm_prompt_2 |      1|none  |     0|acc   |↑  |0.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|afrisenti_orm_prompt_3 |      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                       |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrisenti_orm_prompt_4 |      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                       |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrisenti_orm_prompt_5 |      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                       |       |none  |     0|f1    |↑  |0.5000|±  |   N/A|
+|afrisenti_pcm_prompt_1 |      1|none  |     0|acc   |↑  |1.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |1.0000|±  |   N/A|
+|afrisenti_pcm_prompt_2 |      1|none  |     0|acc   |↑  |1.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |1.0000|±  |   N/A|
+|afrisenti_pcm_prompt_3 |      1|none  |     0|acc   |↑  |0.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|afrisenti_pcm_prompt_4 |      1|none  |     0|acc   |↑  |0.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|afrisenti_pcm_prompt_5 |      1|none  |     0|acc   |↑  |1.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |1.0000|±  |   N/A|
+|afrisenti_por_prompt_1 |      1|none  |     0|acc   |↑  |0.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|afrisenti_por_prompt_2 |      1|none  |     0|acc   |↑  |0.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|afrisenti_por_prompt_3 |      1|none  |     0|acc   |↑  |0.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|afrisenti_por_prompt_4 |      1|none  |     0|acc   |↑  |0.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|afrisenti_por_prompt_5 |      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                       |       |none  |     0|f1    |↑  |0.6667|±  |   N/A|
+|afrisenti_swa_prompt_1 |      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                       |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrisenti_swa_prompt_2 |      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                       |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrisenti_swa_prompt_3 |      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                       |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrisenti_swa_prompt_4 |      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                       |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrisenti_swa_prompt_5 |      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                       |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrisenti_tir_prompt_1 |      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                       |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrisenti_tir_prompt_2 |      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                       |       |none  |     0|f1    |↑  |0.5000|±  |   N/A|
+|afrisenti_tir_prompt_3 |      1|none  |     0|acc   |↑  |0.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|afrisenti_tir_prompt_4 |      1|none  |     0|acc   |↑  |0.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|afrisenti_tir_prompt_5 |      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                       |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrisenti_tso_prompt_1 |      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                       |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrisenti_tso_prompt_2 |      1|none  |     0|acc   |↑  |0.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|afrisenti_tso_prompt_3 |      1|none  |     0|acc   |↑  |0.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|afrisenti_tso_prompt_4 |      1|none  |     0|acc   |↑  |0.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|afrisenti_tso_prompt_5 |      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                       |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrisenti_twi_prompt_1 |      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                       |       |none  |     0|f1    |↑  |0.6667|±  |   N/A|
+|afrisenti_twi_prompt_2 |      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                       |       |none  |     0|f1    |↑  |0.6667|±  |   N/A|
+|afrisenti_twi_prompt_3 |      1|none  |     0|acc   |↑  |0.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|afrisenti_twi_prompt_4 |      1|none  |     0|acc   |↑  |0.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|afrisenti_twi_prompt_5 |      1|none  |     0|acc   |↑  |1.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |1.0000|±  |   N/A|
+|afrisenti_yor_prompt_1 |      1|none  |     0|acc   |↑  |1.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |1.0000|±  |   N/A|
+|afrisenti_yor_prompt_2 |      1|none  |     0|acc   |↑  |1.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |1.0000|±  |   N/A|
+|afrisenti_yor_prompt_3 |      1|none  |     0|acc   |↑  |0.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|afrisenti_yor_prompt_4 |      1|none  |     0|acc   |↑  |0.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|afrisenti_yor_prompt_5 |      1|none  |     0|acc   |↑  |1.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |1.0000|±  |   N/A|
+|nollysenti_eng_prompt_1|      1|none  |     0|acc   |↑  |0.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|nollysenti_eng_prompt_2|      1|none  |     0|acc   |↑  |0.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|nollysenti_eng_prompt_3|      1|none  |     0|acc   |↑  |1.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |1.0000|±  |   N/A|
+|nollysenti_eng_prompt_4|      1|none  |     0|acc   |↑  |1.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |1.0000|±  |   N/A|
+|nollysenti_eng_prompt_5|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                       |       |none  |     0|f1    |↑  |0.6667|±  |   N/A|
+|nollysenti_hau_prompt_1|      1|none  |     0|acc   |↑  |0.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|nollysenti_hau_prompt_2|      1|none  |     0|acc   |↑  |0.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|nollysenti_hau_prompt_3|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                       |       |none  |     0|f1    |↑  |0.6667|±  |   N/A|
+|nollysenti_hau_prompt_4|      1|none  |     0|acc   |↑  |1.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |1.0000|±  |   N/A|
+|nollysenti_hau_prompt_5|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                       |       |none  |     0|f1    |↑  |0.6667|±  |   N/A|
+|nollysenti_ibo_prompt_1|      1|none  |     0|acc   |↑  |0.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|nollysenti_ibo_prompt_2|      1|none  |     0|acc   |↑  |0.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|nollysenti_ibo_prompt_3|      1|none  |     0|acc   |↑  |1.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |1.0000|±  |   N/A|
+|nollysenti_ibo_prompt_4|      1|none  |     0|acc   |↑  |1.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |1.0000|±  |   N/A|
+|nollysenti_ibo_prompt_5|      1|none  |     0|acc   |↑  |1.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |1.0000|±  |   N/A|
+|nollysenti_pcm_prompt_1|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                       |       |none  |     0|f1    |↑  |0.6667|±  |   N/A|
+|nollysenti_pcm_prompt_2|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                       |       |none  |     0|f1    |↑  |0.6667|±  |   N/A|
+|nollysenti_pcm_prompt_3|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                       |       |none  |     0|f1    |↑  |0.6667|±  |   N/A|
+|nollysenti_pcm_prompt_4|      1|none  |     0|acc   |↑  |1.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |1.0000|±  |   N/A|
+|nollysenti_pcm_prompt_5|      1|none  |     0|acc   |↑  |1.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |1.0000|±  |   N/A|
+|nollysenti_yor_prompt_1|      1|none  |     0|acc   |↑  |0.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|nollysenti_yor_prompt_2|      1|none  |     0|acc   |↑  |0.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|nollysenti_yor_prompt_3|      1|none  |     0|acc   |↑  |1.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |1.0000|±  |   N/A|
+|nollysenti_yor_prompt_4|      1|none  |     0|acc   |↑  |1.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |1.0000|±  |   N/A|
+|nollysenti_yor_prompt_5|      1|none  |     0|acc   |↑  |1.0000|±  |0.0000|
+|                       |       |none  |     0|f1    |↑  |1.0000|±  |   N/A|
+

@@ -1,0 +1,3864 @@
+{
+  "results": {
+    "afriqa_bem_prompt_1": {
+      "alias": "afriqa_bem_prompt_1",
+      "exact_match,remove_whitespace": 0.0,
+      "exact_match_stderr,remove_whitespace": 0.0,
+      "f1,remove_whitespace": 0.14705882352941177,
+      "f1_stderr,remove_whitespace": "N/A"
+    },
+    "afriqa_bem_prompt_2": {
+      "alias": "afriqa_bem_prompt_2",
+      "exact_match,remove_whitespace": 0.0,
+      "exact_match_stderr,remove_whitespace": 0.0,
+      "f1,remove_whitespace": 0.14705882352941177,
+      "f1_stderr,remove_whitespace": "N/A"
+    },
+    "afriqa_bem_prompt_3": {
+      "alias": "afriqa_bem_prompt_3",
+      "exact_match,remove_whitespace": 0.0,
+      "exact_match_stderr,remove_whitespace": 0.0,
+      "f1,remove_whitespace": 0.14705882352941177,
+      "f1_stderr,remove_whitespace": "N/A"
+    },
+    "afriqa_bem_prompt_4": {
+      "alias": "afriqa_bem_prompt_4",
+      "exact_match,remove_whitespace": 0.0,
+      "exact_match_stderr,remove_whitespace": 0.0,
+      "f1,remove_whitespace": 0.14705882352941177,
+      "f1_stderr,remove_whitespace": "N/A"
+    },
+    "afriqa_bem_prompt_5": {
+      "alias": "afriqa_bem_prompt_5",
+      "exact_match,remove_whitespace": 0.0,
+      "exact_match_stderr,remove_whitespace": 0.0,
+      "f1,remove_whitespace": 0.14705882352941177,
+      "f1_stderr,remove_whitespace": "N/A"
+    },
+    "afriqa_fon_prompt_1": {
+      "alias": "afriqa_fon_prompt_1",
+      "exact_match,remove_whitespace": 0.0,
+      "exact_match_stderr,remove_whitespace": 0.0,
+      "f1,remove_whitespace": 0.0,
+      "f1_stderr,remove_whitespace": "N/A"
+    },
+    "afriqa_fon_prompt_2": {
+      "alias": "afriqa_fon_prompt_2",
+      "exact_match,remove_whitespace": 0.0,
+      "exact_match_stderr,remove_whitespace": 0.0,
+      "f1,remove_whitespace": 0.0,
+      "f1_stderr,remove_whitespace": "N/A"
+    },
+    "afriqa_fon_prompt_3": {
+      "alias": "afriqa_fon_prompt_3",
+      "exact_match,remove_whitespace": 0.0,
+      "exact_match_stderr,remove_whitespace": 0.0,
+      "f1,remove_whitespace": 0.006329113924050633,
+      "f1_stderr,remove_whitespace": "N/A"
+    },
+    "afriqa_fon_prompt_4": {
+      "alias": "afriqa_fon_prompt_4",
+      "exact_match,remove_whitespace": 0.0,
+      "exact_match_stderr,remove_whitespace": 0.0,
+      "f1,remove_whitespace": 0.0,
+      "f1_stderr,remove_whitespace": "N/A"
+    },
+    "afriqa_fon_prompt_5": {
+      "alias": "afriqa_fon_prompt_5",
+      "exact_match,remove_whitespace": 0.0,
+      "exact_match_stderr,remove_whitespace": 0.0,
+      "f1,remove_whitespace": 0.006329113924050633,
+      "f1_stderr,remove_whitespace": "N/A"
+    },
+    "afriqa_hau_prompt_1": {
+      "alias": "afriqa_hau_prompt_1",
+      "exact_match,remove_whitespace": 0.0,
+      "exact_match_stderr,remove_whitespace": 0.0,
+      "f1,remove_whitespace": 0.023809523809523808,
+      "f1_stderr,remove_whitespace": "N/A"
+    },
+    "afriqa_hau_prompt_2": {
+      "alias": "afriqa_hau_prompt_2",
+      "exact_match,remove_whitespace": 0.0,
+      "exact_match_stderr,remove_whitespace": 0.0,
+      "f1,remove_whitespace": 0.05606758832565284,
+      "f1_stderr,remove_whitespace": "N/A"
+    },
+    "afriqa_hau_prompt_3": {
+      "alias": "afriqa_hau_prompt_3",
+      "exact_match,remove_whitespace": 0.0,
+      "exact_match_stderr,remove_whitespace": 0.0,
+      "f1,remove_whitespace": 0.09999999999999999,
+      "f1_stderr,remove_whitespace": "N/A"
+    },
+    "afriqa_hau_prompt_4": {
+      "alias": "afriqa_hau_prompt_4",
+      "exact_match,remove_whitespace": 0.0,
+      "exact_match_stderr,remove_whitespace": 0.0,
+      "f1,remove_whitespace": 0.1238095238095238,
+      "f1_stderr,remove_whitespace": "N/A"
+    },
+    "afriqa_hau_prompt_5": {
+      "alias": "afriqa_hau_prompt_5",
+      "exact_match,remove_whitespace": 0.0,
+      "exact_match_stderr,remove_whitespace": 0.0,
+      "f1,remove_whitespace": 0.029411764705882356,
+      "f1_stderr,remove_whitespace": "N/A"
+    },
+    "afriqa_ibo_prompt_1": {
+      "alias": "afriqa_ibo_prompt_1",
+      "exact_match,remove_whitespace": 0.0,
+      "exact_match_stderr,remove_whitespace": 0.0,
+      "f1,remove_whitespace": 0.0,
+      "f1_stderr,remove_whitespace": "N/A"
+    },
+    "afriqa_ibo_prompt_2": {
+      "alias": "afriqa_ibo_prompt_2",
+      "exact_match,remove_whitespace": 0.0,
+      "exact_match_stderr,remove_whitespace": 0.0,
+      "f1,remove_whitespace": 0.0,
+      "f1_stderr,remove_whitespace": "N/A"
+    },
+    "afriqa_ibo_prompt_3": {
+      "alias": "afriqa_ibo_prompt_3",
+      "exact_match,remove_whitespace": 0.0,
+      "exact_match_stderr,remove_whitespace": 0.0,
+      "f1,remove_whitespace": 0.0,
+      "f1_stderr,remove_whitespace": "N/A"
+    },
+    "afriqa_ibo_prompt_4": {
+      "alias": "afriqa_ibo_prompt_4",
+      "exact_match,remove_whitespace": 0.5,
+      "exact_match_stderr,remove_whitespace": 0.5,
+      "f1,remove_whitespace": 0.7727272727272727,
+      "f1_stderr,remove_whitespace": "N/A"
+    },
+    "afriqa_ibo_prompt_5": {
+      "alias": "afriqa_ibo_prompt_5",
+      "exact_match,remove_whitespace": 0.0,
+      "exact_match_stderr,remove_whitespace": 0.0,
+      "f1,remove_whitespace": 0.2,
+      "f1_stderr,remove_whitespace": "N/A"
+    },
+    "afriqa_kin_prompt_1": {
+      "alias": "afriqa_kin_prompt_1",
+      "exact_match,remove_whitespace": 0.0,
+      "exact_match_stderr,remove_whitespace": 0.0,
+      "f1,remove_whitespace": 0.0,
+      "f1_stderr,remove_whitespace": "N/A"
+    },
+    "afriqa_kin_prompt_2": {
+      "alias": "afriqa_kin_prompt_2",
+      "exact_match,remove_whitespace": 0.0,
+      "exact_match_stderr,remove_whitespace": 0.0,
+      "f1,remove_whitespace": 0.0,
+      "f1_stderr,remove_whitespace": "N/A"
+    },
+    "afriqa_kin_prompt_3": {
+      "alias": "afriqa_kin_prompt_3",
+      "exact_match,remove_whitespace": 0.0,
+      "exact_match_stderr,remove_whitespace": 0.0,
+      "f1,remove_whitespace": 0.037037037037037035,
+      "f1_stderr,remove_whitespace": "N/A"
+    },
+    "afriqa_kin_prompt_4": {
+      "alias": "afriqa_kin_prompt_4",
+      "exact_match,remove_whitespace": 0.0,
+      "exact_match_stderr,remove_whitespace": 0.0,
+      "f1,remove_whitespace": 0.0,
+      "f1_stderr,remove_whitespace": "N/A"
+    },
+    "afriqa_kin_prompt_5": {
+      "alias": "afriqa_kin_prompt_5",
+      "exact_match,remove_whitespace": 0.0,
+      "exact_match_stderr,remove_whitespace": 0.0,
+      "f1,remove_whitespace": 0.0,
+      "f1_stderr,remove_whitespace": "N/A"
+    },
+    "afriqa_swa_prompt_1": {
+      "alias": "afriqa_swa_prompt_1",
+      "exact_match,remove_whitespace": 0.0,
+      "exact_match_stderr,remove_whitespace": 0.0,
+      "f1,remove_whitespace": 0.0,
+      "f1_stderr,remove_whitespace": "N/A"
+    },
+    "afriqa_swa_prompt_2": {
+      "alias": "afriqa_swa_prompt_2",
+      "exact_match,remove_whitespace": 0.0,
+      "exact_match_stderr,remove_whitespace": 0.0,
+      "f1,remove_whitespace": 0.012820512820512824,
+      "f1_stderr,remove_whitespace": "N/A"
+    },
+    "afriqa_swa_prompt_3": {
+      "alias": "afriqa_swa_prompt_3",
+      "exact_match,remove_whitespace": 0.0,
+      "exact_match_stderr,remove_whitespace": 0.0,
+      "f1,remove_whitespace": 0.0,
+      "f1_stderr,remove_whitespace": "N/A"
+    },
+    "afriqa_swa_prompt_4": {
+      "alias": "afriqa_swa_prompt_4",
+      "exact_match,remove_whitespace": 0.0,
+      "exact_match_stderr,remove_whitespace": 0.0,
+      "f1,remove_whitespace": 0.0,
+      "f1_stderr,remove_whitespace": "N/A"
+    },
+    "afriqa_swa_prompt_5": {
+      "alias": "afriqa_swa_prompt_5",
+      "exact_match,remove_whitespace": 0.0,
+      "exact_match_stderr,remove_whitespace": 0.0,
+      "f1,remove_whitespace": 0.0,
+      "f1_stderr,remove_whitespace": "N/A"
+    },
+    "afriqa_twi_prompt_1": {
+      "alias": "afriqa_twi_prompt_1",
+      "exact_match,remove_whitespace": 0.0,
+      "exact_match_stderr,remove_whitespace": 0.0,
+      "f1,remove_whitespace": 0.0,
+      "f1_stderr,remove_whitespace": "N/A"
+    },
+    "afriqa_twi_prompt_2": {
+      "alias": "afriqa_twi_prompt_2",
+      "exact_match,remove_whitespace": 0.0,
+      "exact_match_stderr,remove_whitespace": 0.0,
+      "f1,remove_whitespace": 0.0,
+      "f1_stderr,remove_whitespace": "N/A"
+    },
+    "afriqa_twi_prompt_3": {
+      "alias": "afriqa_twi_prompt_3",
+      "exact_match,remove_whitespace": 0.0,
+      "exact_match_stderr,remove_whitespace": 0.0,
+      "f1,remove_whitespace": 0.0,
+      "f1_stderr,remove_whitespace": "N/A"
+    },
+    "afriqa_twi_prompt_4": {
+      "alias": "afriqa_twi_prompt_4",
+      "exact_match,remove_whitespace": 0.0,
+      "exact_match_stderr,remove_whitespace": 0.0,
+      "f1,remove_whitespace": 0.0,
+      "f1_stderr,remove_whitespace": "N/A"
+    },
+    "afriqa_twi_prompt_5": {
+      "alias": "afriqa_twi_prompt_5",
+      "exact_match,remove_whitespace": 0.0,
+      "exact_match_stderr,remove_whitespace": 0.0,
+      "f1,remove_whitespace": 0.0,
+      "f1_stderr,remove_whitespace": "N/A"
+    },
+    "afriqa_yor_prompt_1": {
+      "alias": "afriqa_yor_prompt_1",
+      "exact_match,remove_whitespace": 0.0,
+      "exact_match_stderr,remove_whitespace": 0.0,
+      "f1,remove_whitespace": 0.0,
+      "f1_stderr,remove_whitespace": "N/A"
+    },
+    "afriqa_yor_prompt_2": {
+      "alias": "afriqa_yor_prompt_2",
+      "exact_match,remove_whitespace": 0.0,
+      "exact_match_stderr,remove_whitespace": 0.0,
+      "f1,remove_whitespace": 0.0,
+      "f1_stderr,remove_whitespace": "N/A"
+    },
+    "afriqa_yor_prompt_3": {
+      "alias": "afriqa_yor_prompt_3",
+      "exact_match,remove_whitespace": 0.0,
+      "exact_match_stderr,remove_whitespace": 0.0,
+      "f1,remove_whitespace": 0.07692307692307693,
+      "f1_stderr,remove_whitespace": "N/A"
+    },
+    "afriqa_yor_prompt_4": {
+      "alias": "afriqa_yor_prompt_4",
+      "exact_match,remove_whitespace": 0.0,
+      "exact_match_stderr,remove_whitespace": 0.0,
+      "f1,remove_whitespace": 0.0,
+      "f1_stderr,remove_whitespace": "N/A"
+    },
+    "afriqa_yor_prompt_5": {
+      "alias": "afriqa_yor_prompt_5",
+      "exact_match,remove_whitespace": 0.0,
+      "exact_match_stderr,remove_whitespace": 0.0,
+      "f1,remove_whitespace": 0.0,
+      "f1_stderr,remove_whitespace": "N/A"
+    },
+    "afriqa_zul_prompt_1": {
+      "alias": "afriqa_zul_prompt_1",
+      "exact_match,remove_whitespace": 0.0,
+      "exact_match_stderr,remove_whitespace": 0.0,
+      "f1,remove_whitespace": 0.0,
+      "f1_stderr,remove_whitespace": "N/A"
+    },
+    "afriqa_zul_prompt_2": {
+      "alias": "afriqa_zul_prompt_2",
+      "exact_match,remove_whitespace": 0.0,
+      "exact_match_stderr,remove_whitespace": 0.0,
+      "f1,remove_whitespace": 0.0,
+      "f1_stderr,remove_whitespace": "N/A"
+    },
+    "afriqa_zul_prompt_3": {
+      "alias": "afriqa_zul_prompt_3",
+      "exact_match,remove_whitespace": 0.0,
+      "exact_match_stderr,remove_whitespace": 0.0,
+      "f1,remove_whitespace": 0.0,
+      "f1_stderr,remove_whitespace": "N/A"
+    },
+    "afriqa_zul_prompt_4": {
+      "alias": "afriqa_zul_prompt_4",
+      "exact_match,remove_whitespace": 0.0,
+      "exact_match_stderr,remove_whitespace": 0.0,
+      "f1,remove_whitespace": 0.0,
+      "f1_stderr,remove_whitespace": "N/A"
+    },
+    "afriqa_zul_prompt_5": {
+      "alias": "afriqa_zul_prompt_5",
+      "exact_match,remove_whitespace": 0.0,
+      "exact_match_stderr,remove_whitespace": 0.0,
+      "f1,remove_whitespace": 0.0,
+      "f1_stderr,remove_whitespace": "N/A"
+    }
+  },
+  "group_subtasks": {
+    "afriqa_twi_prompt_1": [],
+    "afriqa_zul_prompt_1": [],
+    "afriqa_fon_prompt_1": [],
+    "afriqa_kin_prompt_1": [],
+    "afriqa_swa_prompt_1": [],
+    "afriqa_ibo_prompt_1": [],
+    "afriqa_hau_prompt_1": [],
+    "afriqa_bem_prompt_1": [],
+    "afriqa_yor_prompt_1": [],
+    "afriqa_twi_prompt_3": [],
+    "afriqa_zul_prompt_3": [],
+    "afriqa_fon_prompt_3": [],
+    "afriqa_kin_prompt_3": [],
+    "afriqa_swa_prompt_3": [],
+    "afriqa_ibo_prompt_3": [],
+    "afriqa_hau_prompt_3": [],
+    "afriqa_bem_prompt_3": [],
+    "afriqa_yor_prompt_3": [],
+    "afriqa_twi_prompt_4": [],
+    "afriqa_zul_prompt_4": [],
+    "afriqa_fon_prompt_4": [],
+    "afriqa_kin_prompt_4": [],
+    "afriqa_swa_prompt_4": [],
+    "afriqa_ibo_prompt_4": [],
+    "afriqa_hau_prompt_4": [],
+    "afriqa_bem_prompt_4": [],
+    "afriqa_yor_prompt_4": [],
+    "afriqa_twi_prompt_5": [],
+    "afriqa_zul_prompt_5": [],
+    "afriqa_fon_prompt_5": [],
+    "afriqa_kin_prompt_5": [],
+    "afriqa_swa_prompt_5": [],
+    "afriqa_ibo_prompt_5": [],
+    "afriqa_hau_prompt_5": [],
+    "afriqa_bem_prompt_5": [],
+    "afriqa_yor_prompt_5": [],
+    "afriqa_twi_prompt_2": [],
+    "afriqa_zul_prompt_2": [],
+    "afriqa_fon_prompt_2": [],
+    "afriqa_kin_prompt_2": [],
+    "afriqa_swa_prompt_2": [],
+    "afriqa_ibo_prompt_2": [],
+    "afriqa_hau_prompt_2": [],
+    "afriqa_bem_prompt_2": [],
+    "afriqa_yor_prompt_2": []
+  },
+  "configs": {
+    "afriqa_bem_prompt_1": {
+      "task": "afriqa_bem_prompt_1",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_1"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "bem",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Your task is to answer a qestion given a context.Make sure you respond with the shortest span containing the answer in the context.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afriqa_bem_prompt_2": {
+      "task": "afriqa_bem_prompt_2",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_2"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "bem",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Your task is to answer a question given a context. The question is in Bemba, while the context is in English or French.Make sure you respond with the shortest span in the context that contains the answer.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afriqa_bem_prompt_3": {
+      "task": "afriqa_bem_prompt_3",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_3"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "bem",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Given the context, provide the answer to the following question.Ensure your response is concise and directly from the context.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afriqa_bem_prompt_4": {
+      "task": "afriqa_bem_prompt_4",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_4"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "bem",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "You are an AI assistant and your task is to answer the question based on the provided context.Your answer should be the shortest span that contains the answer within the context.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afriqa_bem_prompt_5": {
+      "task": "afriqa_bem_prompt_5",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_5"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "bem",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Using the context, find the answer to the question.Respond with the briefest span that includes the answer from the context.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afriqa_fon_prompt_1": {
+      "task": "afriqa_fon_prompt_1",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_1"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "fon",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Your task is to answer a qestion given a context.Make sure you respond with the shortest span containing the answer in the context.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afriqa_fon_prompt_2": {
+      "task": "afriqa_fon_prompt_2",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_2"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "fon",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Your task is to answer a question given a context. The question is in Fon, while the context is in English or French.Make sure you respond with the shortest span in the context that contains the answer.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afriqa_fon_prompt_3": {
+      "task": "afriqa_fon_prompt_3",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_3"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "fon",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Given the context, provide the answer to the following question.Ensure your response is concise and directly from the context.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afriqa_fon_prompt_4": {
+      "task": "afriqa_fon_prompt_4",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_4"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "fon",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "You are an AI assistant and your task is to answer the question based on the provided context.Your answer should be the shortest span that contains the answer within the context.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afriqa_fon_prompt_5": {
+      "task": "afriqa_fon_prompt_5",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_5"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "fon",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Using the context, find the answer to the question.Respond with the briefest span that includes the answer from the context.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afriqa_hau_prompt_1": {
+      "task": "afriqa_hau_prompt_1",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_1"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "hau",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Your task is to answer a qestion given a context.Make sure you respond with the shortest span containing the answer in the context.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afriqa_hau_prompt_2": {
+      "task": "afriqa_hau_prompt_2",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_2"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "hau",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Your task is to answer a question given a context. The question is in Hausa, while the context is in English or French.Make sure you respond with the shortest span in the context that contains the answer.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afriqa_hau_prompt_3": {
+      "task": "afriqa_hau_prompt_3",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_3"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "hau",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Given the context, provide the answer to the following question.Ensure your response is concise and directly from the context.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afriqa_hau_prompt_4": {
+      "task": "afriqa_hau_prompt_4",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_4"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "hau",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "You are an AI assistant and your task is to answer the question based on the provided context.Your answer should be the shortest span that contains the answer within the context.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afriqa_hau_prompt_5": {
+      "task": "afriqa_hau_prompt_5",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_5"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "hau",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Using the context, find the answer to the question.Respond with the briefest span that includes the answer from the context.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afriqa_ibo_prompt_1": {
+      "task": "afriqa_ibo_prompt_1",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_1"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "ibo",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Your task is to answer a qestion given a context.Make sure you respond with the shortest span containing the answer in the context.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afriqa_ibo_prompt_2": {
+      "task": "afriqa_ibo_prompt_2",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_2"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "ibo",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Your task is to answer a question given a context. The question is in Igbo, while the context is in English or French.Make sure you respond with the shortest span in the context that contains the answer.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afriqa_ibo_prompt_3": {
+      "task": "afriqa_ibo_prompt_3",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_3"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "ibo",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Given the context, provide the answer to the following question.Ensure your response is concise and directly from the context.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afriqa_ibo_prompt_4": {
+      "task": "afriqa_ibo_prompt_4",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_4"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "ibo",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "You are an AI assistant and your task is to answer the question based on the provided context.Your answer should be the shortest span that contains the answer within the context.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afriqa_ibo_prompt_5": {
+      "task": "afriqa_ibo_prompt_5",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_5"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "ibo",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Using the context, find the answer to the question.Respond with the briefest span that includes the answer from the context.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afriqa_kin_prompt_1": {
+      "task": "afriqa_kin_prompt_1",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_1"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "kin",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Your task is to answer a qestion given a context.Make sure you respond with the shortest span containing the answer in the context.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afriqa_kin_prompt_2": {
+      "task": "afriqa_kin_prompt_2",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_2"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "kin",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Your task is to answer a question given a context. The question is in Kinyarwanda, while the context is in English or French.Make sure you respond with the shortest span in the context that contains the answer.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afriqa_kin_prompt_3": {
+      "task": "afriqa_kin_prompt_3",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_3"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "kin",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Given the context, provide the answer to the following question.Ensure your response is concise and directly from the context.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afriqa_kin_prompt_4": {
+      "task": "afriqa_kin_prompt_4",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_4"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "kin",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "You are an AI assistant and your task is to answer the question based on the provided context.Your answer should be the shortest span that contains the answer within the context.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afriqa_kin_prompt_5": {
+      "task": "afriqa_kin_prompt_5",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_5"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "kin",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Using the context, find the answer to the question.Respond with the briefest span that includes the answer from the context.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afriqa_swa_prompt_1": {
+      "task": "afriqa_swa_prompt_1",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_1"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "swa",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "Your task is to answer a qestion given a context.Make sure you respond with the shortest span containing the answer in the context.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afriqa_swa_prompt_2": {
+      "task": "afriqa_swa_prompt_2",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_2"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "swa",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "Your task is to answer a question given a context. The question is in Swahili, while the context is in English or French.Make sure you respond with the shortest span in the context that contains the answer.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afriqa_swa_prompt_3": {
+      "task": "afriqa_swa_prompt_3",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_3"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "swa",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "Given the context, provide the answer to the following question.Ensure your response is concise and directly from the context.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afriqa_swa_prompt_4": {
+      "task": "afriqa_swa_prompt_4",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_4"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "swa",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "You are an AI assistant and your task is to answer the question based on the provided context.Your answer should be the shortest span that contains the answer within the context.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afriqa_swa_prompt_5": {
+      "task": "afriqa_swa_prompt_5",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_5"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "swa",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "Using the context, find the answer to the question.Respond with the briefest span that includes the answer from the context.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afriqa_twi_prompt_1": {
+      "task": "afriqa_twi_prompt_1",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_1"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "twi",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Your task is to answer a qestion given a context.Make sure you respond with the shortest span containing the answer in the context.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afriqa_twi_prompt_2": {
+      "task": "afriqa_twi_prompt_2",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_2"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "twi",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Your task is to answer a question given a context. The question is in Twi, while the context is in English or French.Make sure you respond with the shortest span in the context that contains the answer.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afriqa_twi_prompt_3": {
+      "task": "afriqa_twi_prompt_3",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_3"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "twi",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Given the context, provide the answer to the following question.Ensure your response is concise and directly from the context.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afriqa_twi_prompt_4": {
+      "task": "afriqa_twi_prompt_4",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_4"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "twi",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "You are an AI assistant and your task is to answer the question based on the provided context.Your answer should be the shortest span that contains the answer within the context.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afriqa_twi_prompt_5": {
+      "task": "afriqa_twi_prompt_5",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_5"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "twi",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Using the context, find the answer to the question.Respond with the briefest span that includes the answer from the context.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afriqa_yor_prompt_1": {
+      "task": "afriqa_yor_prompt_1",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_1"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "yor",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Your task is to answer a qestion given a context.Make sure you respond with the shortest span containing the answer in the context.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afriqa_yor_prompt_2": {
+      "task": "afriqa_yor_prompt_2",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_2"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "yor",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Your task is to answer a question given a context. The question is in Yoruba, while the context is in English or French.Make sure you respond with the shortest span in the context that contains the answer.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afriqa_yor_prompt_3": {
+      "task": "afriqa_yor_prompt_3",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_3"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "yor",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Given the context, provide the answer to the following question.Ensure your response is concise and directly from the context.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afriqa_yor_prompt_4": {
+      "task": "afriqa_yor_prompt_4",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_4"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "yor",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "You are an AI assistant and your task is to answer the question based on the provided context.Your answer should be the shortest span that contains the answer within the context.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afriqa_yor_prompt_5": {
+      "task": "afriqa_yor_prompt_5",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_5"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "yor",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Using the context, find the answer to the question.Respond with the briefest span that includes the answer from the context.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afriqa_zul_prompt_1": {
+      "task": "afriqa_zul_prompt_1",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_1"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "zul",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Your task is to answer a qestion given a context.Make sure you respond with the shortest span containing the answer in the context.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afriqa_zul_prompt_2": {
+      "task": "afriqa_zul_prompt_2",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_2"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "zul",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Your task is to answer a question given a context. The question is in Zulu, while the context is in English or French.Make sure you respond with the shortest span in the context that contains the answer.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afriqa_zul_prompt_3": {
+      "task": "afriqa_zul_prompt_3",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_3"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "zul",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Given the context, provide the answer to the following question.Ensure your response is concise and directly from the context.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afriqa_zul_prompt_4": {
+      "task": "afriqa_zul_prompt_4",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_4"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "zul",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "You are an AI assistant and your task is to answer the question based on the provided context.Your answer should be the shortest span that contains the answer within the context.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afriqa_zul_prompt_5": {
+      "task": "afriqa_zul_prompt_5",
+      "tag": [
+        "afrobench_xqa_tasks",
+        "afriqa_prompt_5"
+      ],
+      "dataset_path": "masakhane/afriqa-gold-passages",
+      "dataset_name": "zul",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Using the context, find the answer to the question.Respond with the briefest span that includes the answer from the context.\nQuestion: {{question_lang}}\nContext: {{context}}\nAnswer:",
+      "doc_to_target": "answer_pivot",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def f1(items):\n    \"\"\"\n    Taken from the official evaluation script for v1.1 of the SQuAD dataset.\n    \"\"\"\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n\n    f1_list = []\n\n    for i in range(len(golds)):\n        prediction_tokens = normalize_answer(preds[i]).split()\n        references_tokens = normalize_answer(golds[i]).split()\n        common = Counter(prediction_tokens) & Counter(references_tokens)\n        num_same = sum(common.values())\n        if num_same == 0:\n            f1_score = 0\n        else:\n            precision = 1.0 * num_same / len(prediction_tokens)\n            recall = 1.0 * num_same / len(references_tokens)\n            f1_score = (2 * precision * recall) / (precision + recall)\n\n        f1_list.append(f1_score)\n\n    return sum(f1_list) / len(f1_list)\n",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": "true - \".\" - \",\" - \"\\\\$\""
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "remove_whitespace",
+          "filter": [
+            {
+              "function": "remove_whitespace"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "question_lang",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    }
+  },
+  "versions": {
+    "afriqa_bem_prompt_1": 1.0,
+    "afriqa_bem_prompt_2": 1.0,
+    "afriqa_bem_prompt_3": 1.0,
+    "afriqa_bem_prompt_4": 1.0,
+    "afriqa_bem_prompt_5": 1.0,
+    "afriqa_fon_prompt_1": 1.0,
+    "afriqa_fon_prompt_2": 1.0,
+    "afriqa_fon_prompt_3": 1.0,
+    "afriqa_fon_prompt_4": 1.0,
+    "afriqa_fon_prompt_5": 1.0,
+    "afriqa_hau_prompt_1": 1.0,
+    "afriqa_hau_prompt_2": 1.0,
+    "afriqa_hau_prompt_3": 1.0,
+    "afriqa_hau_prompt_4": 1.0,
+    "afriqa_hau_prompt_5": 1.0,
+    "afriqa_ibo_prompt_1": 1.0,
+    "afriqa_ibo_prompt_2": 1.0,
+    "afriqa_ibo_prompt_3": 1.0,
+    "afriqa_ibo_prompt_4": 1.0,
+    "afriqa_ibo_prompt_5": 1.0,
+    "afriqa_kin_prompt_1": 1.0,
+    "afriqa_kin_prompt_2": 1.0,
+    "afriqa_kin_prompt_3": 1.0,
+    "afriqa_kin_prompt_4": 1.0,
+    "afriqa_kin_prompt_5": 1.0,
+    "afriqa_swa_prompt_1": 1.0,
+    "afriqa_swa_prompt_2": 1.0,
+    "afriqa_swa_prompt_3": 1.0,
+    "afriqa_swa_prompt_4": 1.0,
+    "afriqa_swa_prompt_5": 1.0,
+    "afriqa_twi_prompt_1": 1.0,
+    "afriqa_twi_prompt_2": 1.0,
+    "afriqa_twi_prompt_3": 1.0,
+    "afriqa_twi_prompt_4": 1.0,
+    "afriqa_twi_prompt_5": 1.0,
+    "afriqa_yor_prompt_1": 1.0,
+    "afriqa_yor_prompt_2": 1.0,
+    "afriqa_yor_prompt_3": 1.0,
+    "afriqa_yor_prompt_4": 1.0,
+    "afriqa_yor_prompt_5": 1.0,
+    "afriqa_zul_prompt_1": 1.0,
+    "afriqa_zul_prompt_2": 1.0,
+    "afriqa_zul_prompt_3": 1.0,
+    "afriqa_zul_prompt_4": 1.0,
+    "afriqa_zul_prompt_5": 1.0
+  },
+  "n-shot": {
+    "afriqa_bem_prompt_1": 0,
+    "afriqa_bem_prompt_2": 0,
+    "afriqa_bem_prompt_3": 0,
+    "afriqa_bem_prompt_4": 0,
+    "afriqa_bem_prompt_5": 0,
+    "afriqa_fon_prompt_1": 0,
+    "afriqa_fon_prompt_2": 0,
+    "afriqa_fon_prompt_3": 0,
+    "afriqa_fon_prompt_4": 0,
+    "afriqa_fon_prompt_5": 0,
+    "afriqa_hau_prompt_1": 0,
+    "afriqa_hau_prompt_2": 0,
+    "afriqa_hau_prompt_3": 0,
+    "afriqa_hau_prompt_4": 0,
+    "afriqa_hau_prompt_5": 0,
+    "afriqa_ibo_prompt_1": 0,
+    "afriqa_ibo_prompt_2": 0,
+    "afriqa_ibo_prompt_3": 0,
+    "afriqa_ibo_prompt_4": 0,
+    "afriqa_ibo_prompt_5": 0,
+    "afriqa_kin_prompt_1": 0,
+    "afriqa_kin_prompt_2": 0,
+    "afriqa_kin_prompt_3": 0,
+    "afriqa_kin_prompt_4": 0,
+    "afriqa_kin_prompt_5": 0,
+    "afriqa_swa_prompt_1": 0,
+    "afriqa_swa_prompt_2": 0,
+    "afriqa_swa_prompt_3": 0,
+    "afriqa_swa_prompt_4": 0,
+    "afriqa_swa_prompt_5": 0,
+    "afriqa_twi_prompt_1": 0,
+    "afriqa_twi_prompt_2": 0,
+    "afriqa_twi_prompt_3": 0,
+    "afriqa_twi_prompt_4": 0,
+    "afriqa_twi_prompt_5": 0,
+    "afriqa_yor_prompt_1": 0,
+    "afriqa_yor_prompt_2": 0,
+    "afriqa_yor_prompt_3": 0,
+    "afriqa_yor_prompt_4": 0,
+    "afriqa_yor_prompt_5": 0,
+    "afriqa_zul_prompt_1": 0,
+    "afriqa_zul_prompt_2": 0,
+    "afriqa_zul_prompt_3": 0,
+    "afriqa_zul_prompt_4": 0,
+    "afriqa_zul_prompt_5": 0
+  },
+  "higher_is_better": {
+    "afriqa_bem_prompt_1": {
+      "exact_match": true,
+      "f1": true
+    },
+    "afriqa_bem_prompt_2": {
+      "exact_match": true,
+      "f1": true
+    },
+    "afriqa_bem_prompt_3": {
+      "exact_match": true,
+      "f1": true
+    },
+    "afriqa_bem_prompt_4": {
+      "exact_match": true,
+      "f1": true
+    },
+    "afriqa_bem_prompt_5": {
+      "exact_match": true,
+      "f1": true
+    },
+    "afriqa_fon_prompt_1": {
+      "exact_match": true,
+      "f1": true
+    },
+    "afriqa_fon_prompt_2": {
+      "exact_match": true,
+      "f1": true
+    },
+    "afriqa_fon_prompt_3": {
+      "exact_match": true,
+      "f1": true
+    },
+    "afriqa_fon_prompt_4": {
+      "exact_match": true,
+      "f1": true
+    },
+    "afriqa_fon_prompt_5": {
+      "exact_match": true,
+      "f1": true
+    },
+    "afriqa_hau_prompt_1": {
+      "exact_match": true,
+      "f1": true
+    },
+    "afriqa_hau_prompt_2": {
+      "exact_match": true,
+      "f1": true
+    },
+    "afriqa_hau_prompt_3": {
+      "exact_match": true,
+      "f1": true
+    },
+    "afriqa_hau_prompt_4": {
+      "exact_match": true,
+      "f1": true
+    },
+    "afriqa_hau_prompt_5": {
+      "exact_match": true,
+      "f1": true
+    },
+    "afriqa_ibo_prompt_1": {
+      "exact_match": true,
+      "f1": true
+    },
+    "afriqa_ibo_prompt_2": {
+      "exact_match": true,
+      "f1": true
+    },
+    "afriqa_ibo_prompt_3": {
+      "exact_match": true,
+      "f1": true
+    },
+    "afriqa_ibo_prompt_4": {
+      "exact_match": true,
+      "f1": true
+    },
+    "afriqa_ibo_prompt_5": {
+      "exact_match": true,
+      "f1": true
+    },
+    "afriqa_kin_prompt_1": {
+      "exact_match": true,
+      "f1": true
+    },
+    "afriqa_kin_prompt_2": {
+      "exact_match": true,
+      "f1": true
+    },
+    "afriqa_kin_prompt_3": {
+      "exact_match": true,
+      "f1": true
+    },
+    "afriqa_kin_prompt_4": {
+      "exact_match": true,
+      "f1": true
+    },
+    "afriqa_kin_prompt_5": {
+      "exact_match": true,
+      "f1": true
+    },
+    "afriqa_swa_prompt_1": {
+      "exact_match": true,
+      "f1": true
+    },
+    "afriqa_swa_prompt_2": {
+      "exact_match": true,
+      "f1": true
+    },
+    "afriqa_swa_prompt_3": {
+      "exact_match": true,
+      "f1": true
+    },
+    "afriqa_swa_prompt_4": {
+      "exact_match": true,
+      "f1": true
+    },
+    "afriqa_swa_prompt_5": {
+      "exact_match": true,
+      "f1": true
+    },
+    "afriqa_twi_prompt_1": {
+      "exact_match": true,
+      "f1": true
+    },
+    "afriqa_twi_prompt_2": {
+      "exact_match": true,
+      "f1": true
+    },
+    "afriqa_twi_prompt_3": {
+      "exact_match": true,
+      "f1": true
+    },
+    "afriqa_twi_prompt_4": {
+      "exact_match": true,
+      "f1": true
+    },
+    "afriqa_twi_prompt_5": {
+      "exact_match": true,
+      "f1": true
+    },
+    "afriqa_yor_prompt_1": {
+      "exact_match": true,
+      "f1": true
+    },
+    "afriqa_yor_prompt_2": {
+      "exact_match": true,
+      "f1": true
+    },
+    "afriqa_yor_prompt_3": {
+      "exact_match": true,
+      "f1": true
+    },
+    "afriqa_yor_prompt_4": {
+      "exact_match": true,
+      "f1": true
+    },
+    "afriqa_yor_prompt_5": {
+      "exact_match": true,
+      "f1": true
+    },
+    "afriqa_zul_prompt_1": {
+      "exact_match": true,
+      "f1": true
+    },
+    "afriqa_zul_prompt_2": {
+      "exact_match": true,
+      "f1": true
+    },
+    "afriqa_zul_prompt_3": {
+      "exact_match": true,
+      "f1": true
+    },
+    "afriqa_zul_prompt_4": {
+      "exact_match": true,
+      "f1": true
+    },
+    "afriqa_zul_prompt_5": {
+      "exact_match": true,
+      "f1": true
+    }
+  },
+  "n-samples": {
+    "afriqa_yor_prompt_2": {
+      "original": 253,
+      "effective": 2
+    },
+    "afriqa_bem_prompt_2": {
+      "original": 308,
+      "effective": 2
+    },
+    "afriqa_hau_prompt_2": {
+      "original": 300,
+      "effective": 2
+    },
+    "afriqa_ibo_prompt_2": {
+      "original": 409,
+      "effective": 2
+    },
+    "afriqa_swa_prompt_2": {
+      "original": 295,
+      "effective": 2
+    },
+    "afriqa_kin_prompt_2": {
+      "original": 345,
+      "effective": 2
+    },
+    "afriqa_fon_prompt_2": {
+      "original": 386,
+      "effective": 2
+    },
+    "afriqa_zul_prompt_2": {
+      "original": 325,
+      "effective": 2
+    },
+    "afriqa_twi_prompt_2": {
+      "original": 486,
+      "effective": 2
+    },
+    "afriqa_yor_prompt_5": {
+      "original": 253,
+      "effective": 2
+    },
+    "afriqa_bem_prompt_5": {
+      "original": 308,
+      "effective": 2
+    },
+    "afriqa_hau_prompt_5": {
+      "original": 300,
+      "effective": 2
+    },
+    "afriqa_ibo_prompt_5": {
+      "original": 409,
+      "effective": 2
+    },
+    "afriqa_swa_prompt_5": {
+      "original": 295,
+      "effective": 2
+    },
+    "afriqa_kin_prompt_5": {
+      "original": 345,
+      "effective": 2
+    },
+    "afriqa_fon_prompt_5": {
+      "original": 386,
+      "effective": 2
+    },
+    "afriqa_zul_prompt_5": {
+      "original": 325,
+      "effective": 2
+    },
+    "afriqa_twi_prompt_5": {
+      "original": 486,
+      "effective": 2
+    },
+    "afriqa_yor_prompt_4": {
+      "original": 253,
+      "effective": 2
+    },
+    "afriqa_bem_prompt_4": {
+      "original": 308,
+      "effective": 2
+    },
+    "afriqa_hau_prompt_4": {
+      "original": 300,
+      "effective": 2
+    },
+    "afriqa_ibo_prompt_4": {
+      "original": 409,
+      "effective": 2
+    },
+    "afriqa_swa_prompt_4": {
+      "original": 295,
+      "effective": 2
+    },
+    "afriqa_kin_prompt_4": {
+      "original": 345,
+      "effective": 2
+    },
+    "afriqa_fon_prompt_4": {
+      "original": 386,
+      "effective": 2
+    },
+    "afriqa_zul_prompt_4": {
+      "original": 325,
+      "effective": 2
+    },
+    "afriqa_twi_prompt_4": {
+      "original": 486,
+      "effective": 2
+    },
+    "afriqa_yor_prompt_3": {
+      "original": 253,
+      "effective": 2
+    },
+    "afriqa_bem_prompt_3": {
+      "original": 308,
+      "effective": 2
+    },
+    "afriqa_hau_prompt_3": {
+      "original": 300,
+      "effective": 2
+    },
+    "afriqa_ibo_prompt_3": {
+      "original": 409,
+      "effective": 2
+    },
+    "afriqa_swa_prompt_3": {
+      "original": 295,
+      "effective": 2
+    },
+    "afriqa_kin_prompt_3": {
+      "original": 345,
+      "effective": 2
+    },
+    "afriqa_fon_prompt_3": {
+      "original": 386,
+      "effective": 2
+    },
+    "afriqa_zul_prompt_3": {
+      "original": 325,
+      "effective": 2
+    },
+    "afriqa_twi_prompt_3": {
+      "original": 486,
+      "effective": 2
+    },
+    "afriqa_yor_prompt_1": {
+      "original": 253,
+      "effective": 2
+    },
+    "afriqa_bem_prompt_1": {
+      "original": 308,
+      "effective": 2
+    },
+    "afriqa_hau_prompt_1": {
+      "original": 300,
+      "effective": 2
+    },
+    "afriqa_ibo_prompt_1": {
+      "original": 409,
+      "effective": 2
+    },
+    "afriqa_swa_prompt_1": {
+      "original": 295,
+      "effective": 2
+    },
+    "afriqa_kin_prompt_1": {
+      "original": 345,
+      "effective": 2
+    },
+    "afriqa_fon_prompt_1": {
+      "original": 386,
+      "effective": 2
+    },
+    "afriqa_zul_prompt_1": {
+      "original": 325,
+      "effective": 2
+    },
+    "afriqa_twi_prompt_1": {
+      "original": 486,
+      "effective": 2
+    }
+  },
+  "config": {
+    "model": "hf",
+    "model_args": "pretrained=McGill-NLP/AfriqueQwen3.5-0.8B-50Langs,dtype=bfloat16",
+    "model_num_parameters": 752393024,
+    "model_dtype": "torch.bfloat16",
+    "model_revision": "main",
+    "model_sha": "f49099d79e51bbb783fae622877c4c3415142c82",
+    "batch_size": "1",
+    "batch_sizes": [],
+    "device": null,
+    "use_cache": null,
+    "limit": 2.0,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": {
+      "do_sample": false
+    },
+    "random_seed": 0,
+    "numpy_seed": 1234,
+    "torch_seed": 1234,
+    "fewshot_seed": 1234
+  },
+  "git_hash": "78aaa6e",
+  "date": 1793440015.3629127,
+  "pretty_env_info": "PyTorch version: 2.14.1+cu130\nIs debug build: False\nCUDA used to build PyTorch: 13.0\nROCM used to build PyTorch: N/A\n\nOS: Ubuntu 24.04.3 LTS (aarch64)\nGCC version: (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0\nClang version: Could not collect\nCMake version: version 3.28.3\nLibc version: glibc-2.39\n\nPython version: 3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0] (64-bit runtime)\nPython platform: Linux-6.14.0-1013-nvidia-aarch64-with-glibc2.39\nIs CUDA available: True\nCUDA runtime version: 13.0.88\nCUDA_MODULE_LOADING set to: \nGPU models and configuration: GPU 0: NVIDIA GB10\nNvidia driver version: 580.95.05\ncuDNN version: Could not collect\nIs XPU available: False\nHIP runtime version: N/A\nMIOpen runtime version: N/A\nIs XNNPACK available: False\nCaching allocator config: N/A\n\nCPU:\nArchitektur:                             aarch64\nCPU Operationsmodus:                     64-bit\nByte-Reihenfolge:                        Little Endian\nCPU(s):                                  20\nListe der Online-CPU(s):                 0-19\nAnbieterkennung:                         ARM\nModellname:                              Cortex-X925\nModell:                                  1\nThread(s) pro Kern:                      1\nKern(e) pro Socket:                      10\nSockel:                                  1\nStepping:                                r0p1\nCPU(s) scaling MHz:                      100%\nMaximale Taktfrequenz der CPU:           4004,0000\nMinimale Taktfrequenz der CPU:           1378,0000\nBogoMIPS:                                2000,00\nMarkierungen:                            fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 dgh bti ecv afp wfxt\nModellname:                              Cortex-A725\nModell:                                  1\nThread(s) pro Kern:                      1\nKern(e) pro Socket:                      10\nSockel:                                  1\nStepping:                                r0p1\nCPU(s) scaling MHz:                      101%\nMaximale Taktfrequenz der CPU:           2860,0000\nMinimale Taktfrequenz der CPU:           338,0000\nBogoMIPS:                                2000,00\nMarkierungen:                            fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 dgh bti ecv afp wfxt\nL1d Cache:                               1,3 MiB (20 instances)\nL1i Cache:                               1,3 MiB (20 instances)\nL2 Cache:                                25 MiB (20 instances)\nL3 Cache:                                24 MiB (2 instances)\nNUMA-Knoten:                             1\nNUMA-Knoten0 CPU(s):                     0-19\nSchwachstelle Gather data sampling:      Not affected\nSchwachstelle Ghostwrite:                Not affected\nSchwachstelle Indirect target selection: Not affected\nSchwachstelle Itlb multihit:             Not affected\nSchwachstelle L1tf:                      Not affected\nSchwachstelle Mds:                       Not affected\nSchwachstelle Meltdown:                  Not affected\nSchwachstelle Mmio stale data:           Not affected\nSchwachstelle Reg file data sampling:    Not affected\nSchwachstelle Retbleed:                  Not affected\nSchwachstelle Spec rstack overflow:      Not affected\nSchwachstelle Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl\nSchwachstelle Spectre v1:                Mitigation; __user pointer sanitization\nSchwachstelle Spectre v2:                Mitigation; CSV2, BHB\nSchwachstelle Srbds:                     Not affected\nSchwachstelle Tsa:                       Not affected\nSchwachstelle Tsx async abort:           Not affected\nSchwachstelle Vmscape:                   Not affected\n\nVersions of relevant libraries:\n[pip3] Could not collect\n[conda] Could not collect",
+  "transformers_version": "5.22.1",
+  "lm_eval_version": "0.4.9",
+  "upper_git_hash": null,
+  "tokenizer_pad_token": [
+    "<|endoftext|>",
+    "248044"
+  ],
+  "tokenizer_eos_token": [
+    "<|endoftext|>",
+    "248044"
+  ],
+  "tokenizer_bos_token": [
+    null,
+    "None"
+  ],
+  "eot_token_id": 248044,
+  "max_length": 262144,
+  "task_hashes": {},
+  "model_source": "hf",
+  "model_name": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+  "model_name_sanitized": "McGill-NLP__AfriqueQwen3.5-0.8B-50Langs",
+  "system_instruction": null,
+  "system_instruction_sha": null,
+  "fewshot_as_multiturn": false,
+  "chat_template": null,
+  "chat_template_sha": null,
+  "start_time": 11137156.657672968,
+  "end_time": 11137264.326698178,
+  "total_evaluation_time_seconds": "107.66902521066368"
+}

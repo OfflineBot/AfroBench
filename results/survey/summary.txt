@@ -1,0 +1,5 @@
+OK   adr_tasks
+OK   afrimgsm_cot_tasks
+OK   afrixnli_tasks
+OK   afrobench_xqa_tasks
+OK   afrobench_sentiment_tasks

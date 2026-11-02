@@ -1,0 +1,1769 @@
+{
+  "results": {
+    "afridiacritics_bbj_prompt_1": {
+      "alias": "afridiacritics_bbj_prompt_1",
+      "bleu,none": 0.0,
+      "bleu_stderr,none": 0.0,
+      "chrf,none": 0.1417233560090703,
+      "chrf_stderr,none": 0.09315137069393851
+    },
+    "afridiacritics_bbj_prompt_2": {
+      "alias": "afridiacritics_bbj_prompt_2",
+      "bleu,none": 0.5858518567668101,
+      "bleu_stderr,none": 0.15595902292382546,
+      "chrf,none": 15.828021097833798,
+      "chrf_stderr,none": 2.176462196691692
+    },
+    "afridiacritics_bbj_prompt_3": {
+      "alias": "afridiacritics_bbj_prompt_3",
+      "bleu,none": 0.0,
+      "bleu_stderr,none": 0.0,
+      "chrf,none": 0.1417233560090703,
+      "chrf_stderr,none": 0.09315137069393851
+    },
+    "afridiacritics_bbj_prompt_4": {
+      "alias": "afridiacritics_bbj_prompt_4",
+      "bleu,none": 0.0,
+      "bleu_stderr,none": 0.0,
+      "chrf,none": 0.1417233560090703,
+      "chrf_stderr,none": 0.09315137069393851
+    },
+    "afridiacritics_bbj_prompt_5": {
+      "alias": "afridiacritics_bbj_prompt_5",
+      "bleu,none": 0.13332721502425093,
+      "bleu_stderr,none": 0.0017355568621443844,
+      "chrf,none": 2.1334127332001107,
+      "chrf_stderr,none": 0.2567665788507595
+    },
+    "afridiacritics_fon_prompt_1": {
+      "alias": "afridiacritics_fon_prompt_1",
+      "bleu,none": 0.45599906195897255,
+      "bleu_stderr,none": 0.03248430720065153,
+      "chrf,none": 1.267524883730887,
+      "chrf_stderr,none": 0.07112512293507675
+    },
+    "afridiacritics_fon_prompt_2": {
+      "alias": "afridiacritics_fon_prompt_2",
+      "bleu,none": 0.11870153059748358,
+      "bleu_stderr,none": 0.0023601694518857732,
+      "chrf,none": 8.235491749093597,
+      "chrf_stderr,none": 2.267043242390414
+    },
+    "afridiacritics_fon_prompt_3": {
+      "alias": "afridiacritics_fon_prompt_3",
+      "bleu,none": 0.540012536446339,
+      "bleu_stderr,none": 0.13627804436462948,
+      "chrf,none": 9.779850660229897,
+      "chrf_stderr,none": 6.60270930757152
+    },
+    "afridiacritics_fon_prompt_4": {
+      "alias": "afridiacritics_fon_prompt_4",
+      "bleu,none": 0.5917766194333315,
+      "bleu_stderr,none": 0.23005877621576606,
+      "chrf,none": 0.7849528619437931,
+      "chrf_stderr,none": 0.36036848818458556
+    },
+    "afridiacritics_fon_prompt_5": {
+      "alias": "afridiacritics_fon_prompt_5",
+      "bleu,none": 0.10644428980513633,
+      "bleu_stderr,none": 0.0034158196674044837,
+      "chrf,none": 9.055644625752372,
+      "chrf_stderr,none": 2.012202886012942
+    },
+    "afridiacritics_ibo_prompt_1": {
+      "alias": "afridiacritics_ibo_prompt_1",
+      "bleu,none": 0.36888519407923104,
+      "bleu_stderr,none": 1.4748214995035762,
+      "chrf,none": 2.9218208472239566,
+      "chrf_stderr,none": 1.6743658523667868
+    },
+    "afridiacritics_ibo_prompt_2": {
+      "alias": "afridiacritics_ibo_prompt_2",
+      "bleu,none": 1.616844079344485,
+      "bleu_stderr,none": 0.9380572786721308,
+      "chrf,none": 12.560580814121922,
+      "chrf_stderr,none": 4.327323632340236
+    },
+    "afridiacritics_ibo_prompt_3": {
+      "alias": "afridiacritics_ibo_prompt_3",
+      "bleu,none": 1.2610325552694728,
+      "bleu_stderr,none": 1.11990648854236,
+      "chrf,none": 10.482026220049907,
+      "chrf_stderr,none": 5.917525235805058
+    },
+    "afridiacritics_ibo_prompt_4": {
+      "alias": "afridiacritics_ibo_prompt_4",
+      "bleu,none": 0.1908622678869663,
+      "bleu_stderr,none": 0.08164370077772658,
+      "chrf,none": 1.6136821423502548,
+      "chrf_stderr,none": 0.8737489647315566
+    },
+    "afridiacritics_ibo_prompt_5": {
+      "alias": "afridiacritics_ibo_prompt_5",
+      "bleu,none": 1.0265481294850571,
+      "bleu_stderr,none": 0.5750621661441683,
+      "chrf,none": 8.694383017592767,
+      "chrf_stderr,none": 4.9760264440654165
+    },
+    "afridiacritics_wol_prompt_1": {
+      "alias": "afridiacritics_wol_prompt_1",
+      "bleu,none": 14.232249267869284,
+      "bleu_stderr,none": 6.416939544379769,
+      "chrf,none": 38.93238038986323,
+      "chrf_stderr,none": 19.37417499026308
+    },
+    "afridiacritics_wol_prompt_2": {
+      "alias": "afridiacritics_wol_prompt_2",
+      "bleu,none": 8.808286047699339,
+      "bleu_stderr,none": 3.648910326167506,
+      "chrf,none": 38.912248860315984,
+      "chrf_stderr,none": 9.028129549130325
+    },
+    "afridiacritics_wol_prompt_3": {
+      "alias": "afridiacritics_wol_prompt_3",
+      "bleu,none": 0.0,
+      "bleu_stderr,none": 0.0,
+      "chrf,none": 0.24606299212598426,
+      "chrf_stderr,none": 0.0043708713640941465
+    },
+    "afridiacritics_wol_prompt_4": {
+      "alias": "afridiacritics_wol_prompt_4",
+      "bleu,none": 14.232249267869284,
+      "bleu_stderr,none": 6.416939544379769,
+      "chrf,none": 38.93238038986323,
+      "chrf_stderr,none": 19.37417499026308
+    },
+    "afridiacritics_wol_prompt_5": {
+      "alias": "afridiacritics_wol_prompt_5",
+      "bleu,none": 0.1298940335350165,
+      "bleu_stderr,none": 0.017212297244105872,
+      "chrf,none": 7.076231258050138,
+      "chrf_stderr,none": 0.8721049380734011
+    },
+    "afridiacritics_yor_prompt_1": {
+      "alias": "afridiacritics_yor_prompt_1",
+      "bleu,none": 0.5805405560627118,
+      "bleu_stderr,none": 0.3458376317062539,
+      "chrf,none": 10.4003444425168,
+      "chrf_stderr,none": 4.859620654162945
+    },
+    "afridiacritics_yor_prompt_2": {
+      "alias": "afridiacritics_yor_prompt_2",
+      "bleu,none": 0.10995925710921735,
+      "bleu_stderr,none": 0.019210176955773546,
+      "chrf,none": 4.815115808897337,
+      "chrf_stderr,none": 2.0915630436492445
+    },
+    "afridiacritics_yor_prompt_3": {
+      "alias": "afridiacritics_yor_prompt_3",
+      "bleu,none": 0.5704437706551821,
+      "bleu_stderr,none": 0.34673046784874145,
+      "chrf,none": 10.562690764642198,
+      "chrf_stderr,none": 4.882995178114888
+    },
+    "afridiacritics_yor_prompt_4": {
+      "alias": "afridiacritics_yor_prompt_4",
+      "bleu,none": 0.5839860518575845,
+      "bleu_stderr,none": 0.3455371806091463,
+      "chrf,none": 10.562690764642198,
+      "chrf_stderr,none": 4.882995178114888
+    },
+    "afridiacritics_yor_prompt_5": {
+      "alias": "afridiacritics_yor_prompt_5",
+      "bleu,none": 0.11369714936576783,
+      "bleu_stderr,none": 0.004970415976691936,
+      "chrf,none": 3.425486685690473,
+      "chrf_stderr,none": 1.2227249346508746
+    }
+  },
+  "group_subtasks": {
+    "afridiacritics_bbj_prompt_1": [],
+    "afridiacritics_ibo_prompt_1": [],
+    "afridiacritics_wol_prompt_1": [],
+    "afridiacritics_fon_prompt_1": [],
+    "afridiacritics_yor_prompt_1": [],
+    "afridiacritics_bbj_prompt_3": [],
+    "afridiacritics_ibo_prompt_3": [],
+    "afridiacritics_wol_prompt_3": [],
+    "afridiacritics_fon_prompt_3": [],
+    "afridiacritics_yor_prompt_3": [],
+    "afridiacritics_bbj_prompt_4": [],
+    "afridiacritics_ibo_prompt_4": [],
+    "afridiacritics_wol_prompt_4": [],
+    "afridiacritics_fon_prompt_4": [],
+    "afridiacritics_yor_prompt_4": [],
+    "afridiacritics_bbj_prompt_5": [],
+    "afridiacritics_ibo_prompt_5": [],
+    "afridiacritics_wol_prompt_5": [],
+    "afridiacritics_fon_prompt_5": [],
+    "afridiacritics_yor_prompt_5": [],
+    "afridiacritics_bbj_prompt_2": [],
+    "afridiacritics_ibo_prompt_2": [],
+    "afridiacritics_wol_prompt_2": [],
+    "afridiacritics_fon_prompt_2": [],
+    "afridiacritics_yor_prompt_2": []
+  },
+  "configs": {
+    "afridiacritics_bbj_prompt_1": {
+      "task": "afridiacritics_bbj_prompt_1",
+      "tag": [
+        "adr_tasks",
+        "adr_prompt_1"
+      ],
+      "dataset_path": "masakhane/diacritics-restoration",
+      "dataset_name": "bbj",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "Please restore the missing diacritics in the following sentence: {{text}}. Return output sentence only",
+      "doc_to_target": "target",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "bleu",
+          "aggregation": "bleu",
+          "higher_is_better": true
+        },
+        {
+          "metric": "chrf",
+          "aggregation": "chrf",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "do_sample": false,
+        "until": [
+          "<eos>",
+          "</s>",
+          "<|im_end|>"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afridiacritics_bbj_prompt_2": {
+      "task": "afridiacritics_bbj_prompt_2",
+      "tag": [
+        "adr_tasks",
+        "adr_prompt_2"
+      ],
+      "dataset_path": "masakhane/diacritics-restoration",
+      "dataset_name": "bbj",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "Given a sentence without diacritics, add the appropriate diacritics to make it grammatically and semantically correct. \nSentence: {{text}}. Return output sentence only",
+      "doc_to_target": "target",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "bleu",
+          "aggregation": "bleu",
+          "higher_is_better": true
+        },
+        {
+          "metric": "chrf",
+          "aggregation": "chrf",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "do_sample": false,
+        "until": [
+          "<eos>",
+          "</s>",
+          "<|im_end|>"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afridiacritics_bbj_prompt_3": {
+      "task": "afridiacritics_bbj_prompt_3",
+      "tag": [
+        "adr_tasks",
+        "adr_prompt_3"
+      ],
+      "dataset_path": "masakhane/diacritics-restoration",
+      "dataset_name": "bbj",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "This text is in Gbomala. Restore all diacritical marks to their proper places in the following sentence: {{text}}. Return output sentence only",
+      "doc_to_target": "target",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "bleu",
+          "aggregation": "bleu",
+          "higher_is_better": true
+        },
+        {
+          "metric": "chrf",
+          "aggregation": "chrf",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "do_sample": false,
+        "until": [
+          "<eos>",
+          "</s>",
+          "<|im_end|>"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afridiacritics_bbj_prompt_4": {
+      "task": "afridiacritics_bbj_prompt_4",
+      "tag": [
+        "adr_tasks",
+        "adr_prompt_4"
+      ],
+      "dataset_path": "masakhane/diacritics-restoration",
+      "dataset_name": "bbj",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "You are a linguist specializing in diacritical marks for Gbomala. Add the appropriate diacritics to this Gbomala sentence: {{text}}. Return output sentence only",
+      "doc_to_target": "target",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "bleu",
+          "aggregation": "bleu",
+          "higher_is_better": true
+        },
+        {
+          "metric": "chrf",
+          "aggregation": "chrf",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "do_sample": false,
+        "until": [
+          "<eos>",
+          "</s>",
+          "<|im_end|>"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afridiacritics_bbj_prompt_5": {
+      "task": "afridiacritics_bbj_prompt_5",
+      "tag": [
+        "adr_tasks",
+        "adr_prompt_5"
+      ],
+      "dataset_path": "masakhane/diacritics-restoration",
+      "dataset_name": "bbj",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "You are a linguist specializing in diacritical marks for Gbomala. Diacritics are essential for proper pronunciation and meaning in Gbomala. You are tasked with converting Gbomala sentences  without diacritics into their correctly accented forms. Here's the input: {{text}}. Return output sentence only",
+      "doc_to_target": "target",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "bleu",
+          "aggregation": "bleu",
+          "higher_is_better": true
+        },
+        {
+          "metric": "chrf",
+          "aggregation": "chrf",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "do_sample": false,
+        "until": [
+          "<eos>",
+          "</s>",
+          "<|im_end|>"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afridiacritics_fon_prompt_1": {
+      "task": "afridiacritics_fon_prompt_1",
+      "tag": [
+        "adr_tasks",
+        "adr_prompt_1"
+      ],
+      "dataset_path": "masakhane/diacritics-restoration",
+      "dataset_name": "fon",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "Please restore the missing diacritics in the following sentence: {{text}}. Return output sentence only",
+      "doc_to_target": "target",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "bleu",
+          "aggregation": "bleu",
+          "higher_is_better": true
+        },
+        {
+          "metric": "chrf",
+          "aggregation": "chrf",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "do_sample": false,
+        "until": [
+          "<eos>",
+          "</s>",
+          "<|im_end|>"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afridiacritics_fon_prompt_2": {
+      "task": "afridiacritics_fon_prompt_2",
+      "tag": [
+        "adr_tasks",
+        "adr_prompt_2"
+      ],
+      "dataset_path": "masakhane/diacritics-restoration",
+      "dataset_name": "fon",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "Given a sentence without diacritics, add the appropriate diacritics to make it grammatically and semantically correct. \nSentence: {{text}}. Return output sentence only",
+      "doc_to_target": "target",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "bleu",
+          "aggregation": "bleu",
+          "higher_is_better": true
+        },
+        {
+          "metric": "chrf",
+          "aggregation": "chrf",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "do_sample": false,
+        "until": [
+          "<eos>",
+          "</s>",
+          "<|im_end|>"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afridiacritics_fon_prompt_3": {
+      "task": "afridiacritics_fon_prompt_3",
+      "tag": [
+        "adr_tasks",
+        "adr_prompt_3"
+      ],
+      "dataset_path": "masakhane/diacritics-restoration",
+      "dataset_name": "fon",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "This text is in Fon. Restore all diacritical marks to their proper places in the following sentence: {{text}}. Return output sentence only",
+      "doc_to_target": "target",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "bleu",
+          "aggregation": "bleu",
+          "higher_is_better": true
+        },
+        {
+          "metric": "chrf",
+          "aggregation": "chrf",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "do_sample": false,
+        "until": [
+          "<eos>",
+          "</s>",
+          "<|im_end|>"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afridiacritics_fon_prompt_4": {
+      "task": "afridiacritics_fon_prompt_4",
+      "tag": [
+        "adr_tasks",
+        "adr_prompt_4"
+      ],
+      "dataset_path": "masakhane/diacritics-restoration",
+      "dataset_name": "fon",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "You are a linguist specializing in diacritical marks for Fon. Add the appropriate diacritics to this Fon sentence: {{text}}. Return output sentence only",
+      "doc_to_target": "target",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "bleu",
+          "aggregation": "bleu",
+          "higher_is_better": true
+        },
+        {
+          "metric": "chrf",
+          "aggregation": "chrf",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "do_sample": false,
+        "until": [
+          "<eos>",
+          "</s>",
+          "<|im_end|>"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afridiacritics_fon_prompt_5": {
+      "task": "afridiacritics_fon_prompt_5",
+      "tag": [
+        "adr_tasks",
+        "adr_prompt_5"
+      ],
+      "dataset_path": "masakhane/diacritics-restoration",
+      "dataset_name": "fon",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "You are a linguist specializing in diacritical marks for Fon. Diacritics are essential for proper pronunciation and meaning in Fon. You are tasked with converting Fon sentences  without diacritics into their correctly accented forms. Here's the input: {{text}}. Return output sentence only",
+      "doc_to_target": "target",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "bleu",
+          "aggregation": "bleu",
+          "higher_is_better": true
+        },
+        {
+          "metric": "chrf",
+          "aggregation": "chrf",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "do_sample": false,
+        "until": [
+          "<eos>",
+          "</s>",
+          "<|im_end|>"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afridiacritics_ibo_prompt_1": {
+      "task": "afridiacritics_ibo_prompt_1",
+      "tag": [
+        "adr_tasks",
+        "adr_prompt_1"
+      ],
+      "dataset_path": "masakhane/diacritics-restoration",
+      "dataset_name": "ibo",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "Please restore the missing diacritics in the following sentence: {{text}}. Return output sentence only",
+      "doc_to_target": "target",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "bleu",
+          "aggregation": "bleu",
+          "higher_is_better": true
+        },
+        {
+          "metric": "chrf",
+          "aggregation": "chrf",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "do_sample": false,
+        "until": [
+          "<eos>",
+          "</s>",
+          "<|im_end|>"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afridiacritics_ibo_prompt_2": {
+      "task": "afridiacritics_ibo_prompt_2",
+      "tag": [
+        "adr_tasks",
+        "adr_prompt_2"
+      ],
+      "dataset_path": "masakhane/diacritics-restoration",
+      "dataset_name": "ibo",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "Given a sentence without diacritics, add the appropriate diacritics to make it grammatically and semantically correct. \nSentence: {{text}}. Return output sentence only",
+      "doc_to_target": "target",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "bleu",
+          "aggregation": "bleu",
+          "higher_is_better": true
+        },
+        {
+          "metric": "chrf",
+          "aggregation": "chrf",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "do_sample": false,
+        "until": [
+          "<eos>",
+          "</s>",
+          "<|im_end|>"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afridiacritics_ibo_prompt_3": {
+      "task": "afridiacritics_ibo_prompt_3",
+      "tag": [
+        "adr_tasks",
+        "adr_prompt_3"
+      ],
+      "dataset_path": "masakhane/diacritics-restoration",
+      "dataset_name": "ibo",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "This text is in Igbo. Restore all diacritical marks to their proper places in the following sentence: {{text}}. Return output sentence only",
+      "doc_to_target": "target",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "bleu",
+          "aggregation": "bleu",
+          "higher_is_better": true
+        },
+        {
+          "metric": "chrf",
+          "aggregation": "chrf",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "do_sample": false,
+        "until": [
+          "<eos>",
+          "</s>",
+          "<|im_end|>"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afridiacritics_ibo_prompt_4": {
+      "task": "afridiacritics_ibo_prompt_4",
+      "tag": [
+        "adr_tasks",
+        "adr_prompt_4"
+      ],
+      "dataset_path": "masakhane/diacritics-restoration",
+      "dataset_name": "ibo",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "You are a linguist specializing in diacritical marks for Igbo. Add the appropriate diacritics to this Igbo sentence: {{text}}. Return output sentence only",
+      "doc_to_target": "target",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "bleu",
+          "aggregation": "bleu",
+          "higher_is_better": true
+        },
+        {
+          "metric": "chrf",
+          "aggregation": "chrf",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "do_sample": false,
+        "until": [
+          "<eos>",
+          "</s>",
+          "<|im_end|>"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afridiacritics_ibo_prompt_5": {
+      "task": "afridiacritics_ibo_prompt_5",
+      "tag": [
+        "adr_tasks",
+        "adr_prompt_5"
+      ],
+      "dataset_path": "masakhane/diacritics-restoration",
+      "dataset_name": "ibo",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "You are a linguist specializing in diacritical marks for Igbo. Diacritics are essential for proper pronunciation and meaning in Igbo. You are tasked with converting Igbo sentences  without diacritics into their correctly accented forms. Here's the input: {{text}}. Return output sentence only",
+      "doc_to_target": "target",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "bleu",
+          "aggregation": "bleu",
+          "higher_is_better": true
+        },
+        {
+          "metric": "chrf",
+          "aggregation": "chrf",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "do_sample": false,
+        "until": [
+          "<eos>",
+          "</s>",
+          "<|im_end|>"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afridiacritics_wol_prompt_1": {
+      "task": "afridiacritics_wol_prompt_1",
+      "tag": [
+        "adr_tasks",
+        "adr_prompt_1"
+      ],
+      "dataset_path": "masakhane/diacritics-restoration",
+      "dataset_name": "wol",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "Please restore the missing diacritics in the following sentence: {{text}}. Return output sentence only",
+      "doc_to_target": "target",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "bleu",
+          "aggregation": "bleu",
+          "higher_is_better": true
+        },
+        {
+          "metric": "chrf",
+          "aggregation": "chrf",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "do_sample": false,
+        "until": [
+          "<eos>",
+          "</s>",
+          "<|im_end|>"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afridiacritics_wol_prompt_2": {
+      "task": "afridiacritics_wol_prompt_2",
+      "tag": [
+        "adr_tasks",
+        "adr_prompt_2"
+      ],
+      "dataset_path": "masakhane/diacritics-restoration",
+      "dataset_name": "wol",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "Given a sentence without diacritics, add the appropriate diacritics to make it grammatically and semantically correct. \nSentence: {{text}}. Return output sentence only",
+      "doc_to_target": "target",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "bleu",
+          "aggregation": "bleu",
+          "higher_is_better": true
+        },
+        {
+          "metric": "chrf",
+          "aggregation": "chrf",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "do_sample": false,
+        "until": [
+          "<eos>",
+          "</s>",
+          "<|im_end|>"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afridiacritics_wol_prompt_3": {
+      "task": "afridiacritics_wol_prompt_3",
+      "tag": [
+        "adr_tasks",
+        "adr_prompt_3"
+      ],
+      "dataset_path": "masakhane/diacritics-restoration",
+      "dataset_name": "wol",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "This text is in Wolof. Restore all diacritical marks to their proper places in the following sentence: {{text}}. Return output sentence only",
+      "doc_to_target": "target",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "bleu",
+          "aggregation": "bleu",
+          "higher_is_better": true
+        },
+        {
+          "metric": "chrf",
+          "aggregation": "chrf",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "do_sample": false,
+        "until": [
+          "<eos>",
+          "</s>",
+          "<|im_end|>"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afridiacritics_wol_prompt_4": {
+      "task": "afridiacritics_wol_prompt_4",
+      "tag": [
+        "adr_tasks",
+        "adr_prompt_4"
+      ],
+      "dataset_path": "masakhane/diacritics-restoration",
+      "dataset_name": "wol",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "You are a linguist specializing in diacritical marks for Wolof. Add the appropriate diacritics to this Wolof sentence: {{text}}. Return output sentence only",
+      "doc_to_target": "target",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "bleu",
+          "aggregation": "bleu",
+          "higher_is_better": true
+        },
+        {
+          "metric": "chrf",
+          "aggregation": "chrf",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "do_sample": false,
+        "until": [
+          "<eos>",
+          "</s>",
+          "<|im_end|>"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afridiacritics_wol_prompt_5": {
+      "task": "afridiacritics_wol_prompt_5",
+      "tag": [
+        "adr_tasks",
+        "adr_prompt_5"
+      ],
+      "dataset_path": "masakhane/diacritics-restoration",
+      "dataset_name": "wol",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "You are a linguist specializing in diacritical marks for Wolof. Diacritics are essential for proper pronunciation and meaning in Wolof. You are tasked with converting Wolof sentences  without diacritics into their correctly accented forms. Here's the input: {{text}}. Return output sentence only",
+      "doc_to_target": "target",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "bleu",
+          "aggregation": "bleu",
+          "higher_is_better": true
+        },
+        {
+          "metric": "chrf",
+          "aggregation": "chrf",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "do_sample": false,
+        "until": [
+          "<eos>",
+          "</s>",
+          "<|im_end|>"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afridiacritics_yor_prompt_1": {
+      "task": "afridiacritics_yor_prompt_1",
+      "tag": [
+        "adr_tasks",
+        "adr_prompt_1"
+      ],
+      "dataset_path": "masakhane/diacritics-restoration",
+      "dataset_name": "yor",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "Please restore the missing diacritics in the following sentence: {{text}}. Return output sentence only",
+      "doc_to_target": "target",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "bleu",
+          "aggregation": "bleu",
+          "higher_is_better": true
+        },
+        {
+          "metric": "chrf",
+          "aggregation": "chrf",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "do_sample": false,
+        "until": [
+          "<eos>",
+          "</s>",
+          "<|im_end|>"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afridiacritics_yor_prompt_2": {
+      "task": "afridiacritics_yor_prompt_2",
+      "tag": [
+        "adr_tasks",
+        "adr_prompt_2"
+      ],
+      "dataset_path": "masakhane/diacritics-restoration",
+      "dataset_name": "yor",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "Given a sentence without diacritics, add the appropriate diacritics to make it grammatically and semantically correct. \nSentence: {{text}}. Return output sentence only",
+      "doc_to_target": "target",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "bleu",
+          "aggregation": "bleu",
+          "higher_is_better": true
+        },
+        {
+          "metric": "chrf",
+          "aggregation": "chrf",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "do_sample": false,
+        "until": [
+          "<eos>",
+          "</s>",
+          "<|im_end|>"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afridiacritics_yor_prompt_3": {
+      "task": "afridiacritics_yor_prompt_3",
+      "tag": [
+        "adr_tasks",
+        "adr_prompt_3"
+      ],
+      "dataset_path": "masakhane/diacritics-restoration",
+      "dataset_name": "yor",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "This text is in Yoruba. Restore all diacritical marks to their proper places in the following sentence: {{text}}. Return output sentence only",
+      "doc_to_target": "target",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "bleu",
+          "aggregation": "bleu",
+          "higher_is_better": true
+        },
+        {
+          "metric": "chrf",
+          "aggregation": "chrf",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "do_sample": false,
+        "until": [
+          "<eos>",
+          "</s>",
+          "<|im_end|>"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afridiacritics_yor_prompt_4": {
+      "task": "afridiacritics_yor_prompt_4",
+      "tag": [
+        "adr_tasks",
+        "adr_prompt_4"
+      ],
+      "dataset_path": "masakhane/diacritics-restoration",
+      "dataset_name": "yor",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "You are a linguist specializing in diacritical marks for Yoruba. Add the appropriate diacritics to this Yoruba sentence: {{text}}. Return output sentence only",
+      "doc_to_target": "target",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "bleu",
+          "aggregation": "bleu",
+          "higher_is_better": true
+        },
+        {
+          "metric": "chrf",
+          "aggregation": "chrf",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "do_sample": false,
+        "until": [
+          "<eos>",
+          "</s>",
+          "<|im_end|>"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "afridiacritics_yor_prompt_5": {
+      "task": "afridiacritics_yor_prompt_5",
+      "tag": [
+        "adr_tasks",
+        "adr_prompt_5"
+      ],
+      "dataset_path": "masakhane/diacritics-restoration",
+      "dataset_name": "yor",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "You are a linguist specializing in diacritical marks for Yoruba. Diacritics are essential for proper pronunciation and meaning in Yoruba. You are tasked with converting Yoruba sentences  without diacritics into their correctly accented forms. Here's the input: {{text}}. Return output sentence only",
+      "doc_to_target": "target",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "bleu",
+          "aggregation": "bleu",
+          "higher_is_better": true
+        },
+        {
+          "metric": "chrf",
+          "aggregation": "chrf",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "do_sample": false,
+        "until": [
+          "<eos>",
+          "</s>",
+          "<|im_end|>"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    }
+  },
+  "versions": {
+    "afridiacritics_bbj_prompt_1": 1.0,
+    "afridiacritics_bbj_prompt_2": 1.0,
+    "afridiacritics_bbj_prompt_3": 1.0,
+    "afridiacritics_bbj_prompt_4": 1.0,
+    "afridiacritics_bbj_prompt_5": 1.0,
+    "afridiacritics_fon_prompt_1": 1.0,
+    "afridiacritics_fon_prompt_2": 1.0,
+    "afridiacritics_fon_prompt_3": 1.0,
+    "afridiacritics_fon_prompt_4": 1.0,
+    "afridiacritics_fon_prompt_5": 1.0,
+    "afridiacritics_ibo_prompt_1": 1.0,
+    "afridiacritics_ibo_prompt_2": 1.0,
+    "afridiacritics_ibo_prompt_3": 1.0,
+    "afridiacritics_ibo_prompt_4": 1.0,
+    "afridiacritics_ibo_prompt_5": 1.0,
+    "afridiacritics_wol_prompt_1": 1.0,
+    "afridiacritics_wol_prompt_2": 1.0,
+    "afridiacritics_wol_prompt_3": 1.0,
+    "afridiacritics_wol_prompt_4": 1.0,
+    "afridiacritics_wol_prompt_5": 1.0,
+    "afridiacritics_yor_prompt_1": 1.0,
+    "afridiacritics_yor_prompt_2": 1.0,
+    "afridiacritics_yor_prompt_3": 1.0,
+    "afridiacritics_yor_prompt_4": 1.0,
+    "afridiacritics_yor_prompt_5": 1.0
+  },
+  "n-shot": {
+    "afridiacritics_bbj_prompt_1": 0,
+    "afridiacritics_bbj_prompt_2": 0,
+    "afridiacritics_bbj_prompt_3": 0,
+    "afridiacritics_bbj_prompt_4": 0,
+    "afridiacritics_bbj_prompt_5": 0,
+    "afridiacritics_fon_prompt_1": 0,
+    "afridiacritics_fon_prompt_2": 0,
+    "afridiacritics_fon_prompt_3": 0,
+    "afridiacritics_fon_prompt_4": 0,
+    "afridiacritics_fon_prompt_5": 0,
+    "afridiacritics_ibo_prompt_1": 0,
+    "afridiacritics_ibo_prompt_2": 0,
+    "afridiacritics_ibo_prompt_3": 0,
+    "afridiacritics_ibo_prompt_4": 0,
+    "afridiacritics_ibo_prompt_5": 0,
+    "afridiacritics_wol_prompt_1": 0,
+    "afridiacritics_wol_prompt_2": 0,
+    "afridiacritics_wol_prompt_3": 0,
+    "afridiacritics_wol_prompt_4": 0,
+    "afridiacritics_wol_prompt_5": 0,
+    "afridiacritics_yor_prompt_1": 0,
+    "afridiacritics_yor_prompt_2": 0,
+    "afridiacritics_yor_prompt_3": 0,
+    "afridiacritics_yor_prompt_4": 0,
+    "afridiacritics_yor_prompt_5": 0
+  },
+  "higher_is_better": {
+    "afridiacritics_bbj_prompt_1": {
+      "bleu": true,
+      "chrf": true
+    },
+    "afridiacritics_bbj_prompt_2": {
+      "bleu": true,
+      "chrf": true
+    },
+    "afridiacritics_bbj_prompt_3": {
+      "bleu": true,
+      "chrf": true
+    },
+    "afridiacritics_bbj_prompt_4": {
+      "bleu": true,
+      "chrf": true
+    },
+    "afridiacritics_bbj_prompt_5": {
+      "bleu": true,
+      "chrf": true
+    },
+    "afridiacritics_fon_prompt_1": {
+      "bleu": true,
+      "chrf": true
+    },
+    "afridiacritics_fon_prompt_2": {
+      "bleu": true,
+      "chrf": true
+    },
+    "afridiacritics_fon_prompt_3": {
+      "bleu": true,
+      "chrf": true
+    },
+    "afridiacritics_fon_prompt_4": {
+      "bleu": true,
+      "chrf": true
+    },
+    "afridiacritics_fon_prompt_5": {
+      "bleu": true,
+      "chrf": true
+    },
+    "afridiacritics_ibo_prompt_1": {
+      "bleu": true,
+      "chrf": true
+    },
+    "afridiacritics_ibo_prompt_2": {
+      "bleu": true,
+      "chrf": true
+    },
+    "afridiacritics_ibo_prompt_3": {
+      "bleu": true,
+      "chrf": true
+    },
+    "afridiacritics_ibo_prompt_4": {
+      "bleu": true,
+      "chrf": true
+    },
+    "afridiacritics_ibo_prompt_5": {
+      "bleu": true,
+      "chrf": true
+    },
+    "afridiacritics_wol_prompt_1": {
+      "bleu": true,
+      "chrf": true
+    },
+    "afridiacritics_wol_prompt_2": {
+      "bleu": true,
+      "chrf": true
+    },
+    "afridiacritics_wol_prompt_3": {
+      "bleu": true,
+      "chrf": true
+    },
+    "afridiacritics_wol_prompt_4": {
+      "bleu": true,
+      "chrf": true
+    },
+    "afridiacritics_wol_prompt_5": {
+      "bleu": true,
+      "chrf": true
+    },
+    "afridiacritics_yor_prompt_1": {
+      "bleu": true,
+      "chrf": true
+    },
+    "afridiacritics_yor_prompt_2": {
+      "bleu": true,
+      "chrf": true
+    },
+    "afridiacritics_yor_prompt_3": {
+      "bleu": true,
+      "chrf": true
+    },
+    "afridiacritics_yor_prompt_4": {
+      "bleu": true,
+      "chrf": true
+    },
+    "afridiacritics_yor_prompt_5": {
+      "bleu": true,
+      "chrf": true
+    }
+  },
+  "n-samples": {
+    "afridiacritics_yor_prompt_2": {
+      "original": 1558,
+      "effective": 2
+    },
+    "afridiacritics_fon_prompt_2": {
+      "original": 1579,
+      "effective": 2
+    },
+    "afridiacritics_wol_prompt_2": {
+      "original": 1500,
+      "effective": 2
+    },
+    "afridiacritics_ibo_prompt_2": {
+      "original": 1500,
+      "effective": 2
+    },
+    "afridiacritics_bbj_prompt_2": {
+      "original": 1430,
+      "effective": 2
+    },
+    "afridiacritics_yor_prompt_5": {
+      "original": 1558,
+      "effective": 2
+    },
+    "afridiacritics_fon_prompt_5": {
+      "original": 1579,
+      "effective": 2
+    },
+    "afridiacritics_wol_prompt_5": {
+      "original": 1500,
+      "effective": 2
+    },
+    "afridiacritics_ibo_prompt_5": {
+      "original": 1500,
+      "effective": 2
+    },
+    "afridiacritics_bbj_prompt_5": {
+      "original": 1430,
+      "effective": 2
+    },
+    "afridiacritics_yor_prompt_4": {
+      "original": 1558,
+      "effective": 2
+    },
+    "afridiacritics_fon_prompt_4": {
+      "original": 1579,
+      "effective": 2
+    },
+    "afridiacritics_wol_prompt_4": {
+      "original": 1500,
+      "effective": 2
+    },
+    "afridiacritics_ibo_prompt_4": {
+      "original": 1500,
+      "effective": 2
+    },
+    "afridiacritics_bbj_prompt_4": {
+      "original": 1430,
+      "effective": 2
+    },
+    "afridiacritics_yor_prompt_3": {
+      "original": 1558,
+      "effective": 2
+    },
+    "afridiacritics_fon_prompt_3": {
+      "original": 1579,
+      "effective": 2
+    },
+    "afridiacritics_wol_prompt_3": {
+      "original": 1500,
+      "effective": 2
+    },
+    "afridiacritics_ibo_prompt_3": {
+      "original": 1500,
+      "effective": 2
+    },
+    "afridiacritics_bbj_prompt_3": {
+      "original": 1430,
+      "effective": 2
+    },
+    "afridiacritics_yor_prompt_1": {
+      "original": 1558,
+      "effective": 2
+    },
+    "afridiacritics_fon_prompt_1": {
+      "original": 1579,
+      "effective": 2
+    },
+    "afridiacritics_wol_prompt_1": {
+      "original": 1500,
+      "effective": 2
+    },
+    "afridiacritics_ibo_prompt_1": {
+      "original": 1500,
+      "effective": 2
+    },
+    "afridiacritics_bbj_prompt_1": {
+      "original": 1430,
+      "effective": 2
+    }
+  },
+  "config": {
+    "model": "hf",
+    "model_args": "pretrained=McGill-NLP/AfriqueQwen3.5-0.8B-50Langs,dtype=bfloat16",
+    "model_num_parameters": 752393024,
+    "model_dtype": "torch.bfloat16",
+    "model_revision": "main",
+    "model_sha": "f49099d79e51bbb783fae622877c4c3415142c82",
+    "batch_size": "1",
+    "batch_sizes": [],
+    "device": null,
+    "use_cache": null,
+    "limit": 2.0,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": {
+      "do_sample": false
+    },
+    "random_seed": 0,
+    "numpy_seed": 1234,
+    "torch_seed": 1234,
+    "fewshot_seed": 1234
+  },
+  "git_hash": "78aaa6e",
+  "date": 1793438757.1631222,
+  "pretty_env_info": "PyTorch version: 2.14.1+cu130\nIs debug build: False\nCUDA used to build PyTorch: 13.0\nROCM used to build PyTorch: N/A\n\nOS: Ubuntu 24.04.3 LTS (aarch64)\nGCC version: (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0\nClang version: Could not collect\nCMake version: version 3.28.3\nLibc version: glibc-2.39\n\nPython version: 3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0] (64-bit runtime)\nPython platform: Linux-6.14.0-1013-nvidia-aarch64-with-glibc2.39\nIs CUDA available: True\nCUDA runtime version: 13.0.88\nCUDA_MODULE_LOADING set to: \nGPU models and configuration: GPU 0: NVIDIA GB10\nNvidia driver version: 580.95.05\ncuDNN version: Could not collect\nIs XPU available: False\nHIP runtime version: N/A\nMIOpen runtime version: N/A\nIs XNNPACK available: False\nCaching allocator config: N/A\n\nCPU:\nArchitektur:                             aarch64\nCPU Operationsmodus:                     64-bit\nByte-Reihenfolge:                        Little Endian\nCPU(s):                                  20\nListe der Online-CPU(s):                 0-19\nAnbieterkennung:                         ARM\nModellname:                              Cortex-X925\nModell:                                  1\nThread(s) pro Kern:                      1\nKern(e) pro Socket:                      10\nSockel:                                  1\nStepping:                                r0p1\nCPU(s) scaling MHz:                      94%\nMaximale Taktfrequenz der CPU:           4004,0000\nMinimale Taktfrequenz der CPU:           1378,0000\nBogoMIPS:                                2000,00\nMarkierungen:                            fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 dgh bti ecv afp wfxt\nModellname:                              Cortex-A725\nModell:                                  1\nThread(s) pro Kern:                      1\nKern(e) pro Socket:                      10\nSockel:                                  1\nStepping:                                r0p1\nCPU(s) scaling MHz:                      75%\nMaximale Taktfrequenz der CPU:           2860,0000\nMinimale Taktfrequenz der CPU:           338,0000\nBogoMIPS:                                2000,00\nMarkierungen:                            fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 dgh bti ecv afp wfxt\nL1d Cache:                               1,3 MiB (20 instances)\nL1i Cache:                               1,3 MiB (20 instances)\nL2 Cache:                                25 MiB (20 instances)\nL3 Cache:                                24 MiB (2 instances)\nNUMA-Knoten:                             1\nNUMA-Knoten0 CPU(s):                     0-19\nSchwachstelle Gather data sampling:      Not affected\nSchwachstelle Ghostwrite:                Not affected\nSchwachstelle Indirect target selection: Not affected\nSchwachstelle Itlb multihit:             Not affected\nSchwachstelle L1tf:                      Not affected\nSchwachstelle Mds:                       Not affected\nSchwachstelle Meltdown:                  Not affected\nSchwachstelle Mmio stale data:           Not affected\nSchwachstelle Reg file data sampling:    Not affected\nSchwachstelle Retbleed:                  Not affected\nSchwachstelle Spec rstack overflow:      Not affected\nSchwachstelle Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl\nSchwachstelle Spectre v1:                Mitigation; __user pointer sanitization\nSchwachstelle Spectre v2:                Mitigation; CSV2, BHB\nSchwachstelle Srbds:                     Not affected\nSchwachstelle Tsa:                       Not affected\nSchwachstelle Tsx async abort:           Not affected\nSchwachstelle Vmscape:                   Not affected\n\nVersions of relevant libraries:\n[pip3] Could not collect\n[conda] Could not collect",
+  "transformers_version": "5.22.1",
+  "lm_eval_version": "0.4.9",
+  "upper_git_hash": null,
+  "tokenizer_pad_token": [
+    "<|endoftext|>",
+    "248044"
+  ],
+  "tokenizer_eos_token": [
+    "<|endoftext|>",
+    "248044"
+  ],
+  "tokenizer_bos_token": [
+    null,
+    "None"
+  ],
+  "eot_token_id": 248044,
+  "max_length": 262144,
+  "task_hashes": {},
+  "model_source": "hf",
+  "model_name": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+  "model_name_sanitized": "McGill-NLP__AfriqueQwen3.5-0.8B-50Langs",
+  "system_instruction": null,
+  "system_instruction_sha": null,
+  "fewshot_as_multiturn": false,
+  "chat_template": null,
+  "chat_template_sha": null,
+  "start_time": 11135895.901387278,
+  "end_time": 11136195.739225825,
+  "total_evaluation_time_seconds": "299.8378385473043"
+}

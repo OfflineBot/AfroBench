@@ -1,0 +1,2764 @@
+{
+  "results": {
+    "uhura-arc-easy_am_prompt_1": {
+      "alias": "uhura-arc-easy_am_prompt_1",
+      "acc,none": 0.5,
+      "acc_stderr,none": 0.5,
+      "f1,none": 0.5,
+      "f1_stderr,none": "N/A"
+    },
+    "uhura-arc-easy_am_prompt_2": {
+      "alias": "uhura-arc-easy_am_prompt_2",
+      "acc,none": 0.0,
+      "acc_stderr,none": 0.0,
+      "f1,none": 0.0,
+      "f1_stderr,none": "N/A"
+    },
+    "uhura-arc-easy_am_prompt_3": {
+      "alias": "uhura-arc-easy_am_prompt_3",
+      "acc,none": 0.5,
+      "acc_stderr,none": 0.5,
+      "f1,none": 0.5,
+      "f1_stderr,none": "N/A"
+    },
+    "uhura-arc-easy_am_prompt_4": {
+      "alias": "uhura-arc-easy_am_prompt_4",
+      "acc,none": 0.0,
+      "acc_stderr,none": 0.0,
+      "f1,none": 0.0,
+      "f1_stderr,none": "N/A"
+    },
+    "uhura-arc-easy_am_prompt_5": {
+      "alias": "uhura-arc-easy_am_prompt_5",
+      "acc,none": 0.0,
+      "acc_stderr,none": 0.0,
+      "f1,none": 0.0,
+      "f1_stderr,none": "N/A"
+    },
+    "uhura-arc-easy_en_prompt_1": {
+      "alias": "uhura-arc-easy_en_prompt_1",
+      "acc,none": 1.0,
+      "acc_stderr,none": 0.0,
+      "f1,none": 1.0,
+      "f1_stderr,none": "N/A"
+    },
+    "uhura-arc-easy_en_prompt_2": {
+      "alias": "uhura-arc-easy_en_prompt_2",
+      "acc,none": 1.0,
+      "acc_stderr,none": 0.0,
+      "f1,none": 1.0,
+      "f1_stderr,none": "N/A"
+    },
+    "uhura-arc-easy_en_prompt_3": {
+      "alias": "uhura-arc-easy_en_prompt_3",
+      "acc,none": 1.0,
+      "acc_stderr,none": 0.0,
+      "f1,none": 1.0,
+      "f1_stderr,none": "N/A"
+    },
+    "uhura-arc-easy_en_prompt_4": {
+      "alias": "uhura-arc-easy_en_prompt_4",
+      "acc,none": 1.0,
+      "acc_stderr,none": 0.0,
+      "f1,none": 1.0,
+      "f1_stderr,none": "N/A"
+    },
+    "uhura-arc-easy_en_prompt_5": {
+      "alias": "uhura-arc-easy_en_prompt_5",
+      "acc,none": 1.0,
+      "acc_stderr,none": 0.0,
+      "f1,none": 1.0,
+      "f1_stderr,none": "N/A"
+    },
+    "uhura-arc-easy_ha_prompt_1": {
+      "alias": "uhura-arc-easy_ha_prompt_1",
+      "acc,none": 0.5,
+      "acc_stderr,none": 0.5,
+      "f1,none": 0.5,
+      "f1_stderr,none": "N/A"
+    },
+    "uhura-arc-easy_ha_prompt_2": {
+      "alias": "uhura-arc-easy_ha_prompt_2",
+      "acc,none": 0.5,
+      "acc_stderr,none": 0.5,
+      "f1,none": 0.5,
+      "f1_stderr,none": "N/A"
+    },
+    "uhura-arc-easy_ha_prompt_3": {
+      "alias": "uhura-arc-easy_ha_prompt_3",
+      "acc,none": 0.5,
+      "acc_stderr,none": 0.5,
+      "f1,none": 0.5,
+      "f1_stderr,none": "N/A"
+    },
+    "uhura-arc-easy_ha_prompt_4": {
+      "alias": "uhura-arc-easy_ha_prompt_4",
+      "acc,none": 0.5,
+      "acc_stderr,none": 0.5,
+      "f1,none": 0.5,
+      "f1_stderr,none": "N/A"
+    },
+    "uhura-arc-easy_ha_prompt_5": {
+      "alias": "uhura-arc-easy_ha_prompt_5",
+      "acc,none": 0.0,
+      "acc_stderr,none": 0.0,
+      "f1,none": 0.0,
+      "f1_stderr,none": "N/A"
+    },
+    "uhura-arc-easy_nso_prompt_1": {
+      "alias": "uhura-arc-easy_nso_prompt_1",
+      "acc,none": 1.0,
+      "acc_stderr,none": 0.0,
+      "f1,none": 1.0,
+      "f1_stderr,none": "N/A"
+    },
+    "uhura-arc-easy_nso_prompt_2": {
+      "alias": "uhura-arc-easy_nso_prompt_2",
+      "acc,none": 0.5,
+      "acc_stderr,none": 0.5,
+      "f1,none": 0.3333333333333333,
+      "f1_stderr,none": "N/A"
+    },
+    "uhura-arc-easy_nso_prompt_3": {
+      "alias": "uhura-arc-easy_nso_prompt_3",
+      "acc,none": 0.5,
+      "acc_stderr,none": 0.5,
+      "f1,none": 0.3333333333333333,
+      "f1_stderr,none": "N/A"
+    },
+    "uhura-arc-easy_nso_prompt_4": {
+      "alias": "uhura-arc-easy_nso_prompt_4",
+      "acc,none": 0.5,
+      "acc_stderr,none": 0.5,
+      "f1,none": 0.3333333333333333,
+      "f1_stderr,none": "N/A"
+    },
+    "uhura-arc-easy_nso_prompt_5": {
+      "alias": "uhura-arc-easy_nso_prompt_5",
+      "acc,none": 0.5,
+      "acc_stderr,none": 0.5,
+      "f1,none": 0.3333333333333333,
+      "f1_stderr,none": "N/A"
+    },
+    "uhura-arc-easy_sw_prompt_1": {
+      "alias": "uhura-arc-easy_sw_prompt_1",
+      "acc,none": 0.0,
+      "acc_stderr,none": 0.0,
+      "f1,none": 0.0,
+      "f1_stderr,none": "N/A"
+    },
+    "uhura-arc-easy_sw_prompt_2": {
+      "alias": "uhura-arc-easy_sw_prompt_2",
+      "acc,none": 0.0,
+      "acc_stderr,none": 0.0,
+      "f1,none": 0.0,
+      "f1_stderr,none": "N/A"
+    },
+    "uhura-arc-easy_sw_prompt_3": {
+      "alias": "uhura-arc-easy_sw_prompt_3",
+      "acc,none": 0.0,
+      "acc_stderr,none": 0.0,
+      "f1,none": 0.0,
+      "f1_stderr,none": "N/A"
+    },
+    "uhura-arc-easy_sw_prompt_4": {
+      "alias": "uhura-arc-easy_sw_prompt_4",
+      "acc,none": 0.0,
+      "acc_stderr,none": 0.0,
+      "f1,none": 0.0,
+      "f1_stderr,none": "N/A"
+    },
+    "uhura-arc-easy_sw_prompt_5": {
+      "alias": "uhura-arc-easy_sw_prompt_5",
+      "acc,none": 0.0,
+      "acc_stderr,none": 0.0,
+      "f1,none": 0.0,
+      "f1_stderr,none": "N/A"
+    },
+    "uhura-arc-easy_yo_prompt_1": {
+      "alias": "uhura-arc-easy_yo_prompt_1",
+      "acc,none": 0.0,
+      "acc_stderr,none": 0.0,
+      "f1,none": 0.0,
+      "f1_stderr,none": "N/A"
+    },
+    "uhura-arc-easy_yo_prompt_2": {
+      "alias": "uhura-arc-easy_yo_prompt_2",
+      "acc,none": 0.0,
+      "acc_stderr,none": 0.0,
+      "f1,none": 0.0,
+      "f1_stderr,none": "N/A"
+    },
+    "uhura-arc-easy_yo_prompt_3": {
+      "alias": "uhura-arc-easy_yo_prompt_3",
+      "acc,none": 0.0,
+      "acc_stderr,none": 0.0,
+      "f1,none": 0.0,
+      "f1_stderr,none": "N/A"
+    },
+    "uhura-arc-easy_yo_prompt_4": {
+      "alias": "uhura-arc-easy_yo_prompt_4",
+      "acc,none": 0.0,
+      "acc_stderr,none": 0.0,
+      "f1,none": 0.0,
+      "f1_stderr,none": "N/A"
+    },
+    "uhura-arc-easy_yo_prompt_5": {
+      "alias": "uhura-arc-easy_yo_prompt_5",
+      "acc,none": 0.0,
+      "acc_stderr,none": 0.0,
+      "f1,none": 0.0,
+      "f1_stderr,none": "N/A"
+    },
+    "uhura-arc-easy_zu_prompt_1": {
+      "alias": "uhura-arc-easy_zu_prompt_1",
+      "acc,none": 1.0,
+      "acc_stderr,none": 0.0,
+      "f1,none": 1.0,
+      "f1_stderr,none": "N/A"
+    },
+    "uhura-arc-easy_zu_prompt_2": {
+      "alias": "uhura-arc-easy_zu_prompt_2",
+      "acc,none": 0.5,
+      "acc_stderr,none": 0.5,
+      "f1,none": 0.5,
+      "f1_stderr,none": "N/A"
+    },
+    "uhura-arc-easy_zu_prompt_3": {
+      "alias": "uhura-arc-easy_zu_prompt_3",
+      "acc,none": 1.0,
+      "acc_stderr,none": 0.0,
+      "f1,none": 1.0,
+      "f1_stderr,none": "N/A"
+    },
+    "uhura-arc-easy_zu_prompt_4": {
+      "alias": "uhura-arc-easy_zu_prompt_4",
+      "acc,none": 1.0,
+      "acc_stderr,none": 0.0,
+      "f1,none": 1.0,
+      "f1_stderr,none": "N/A"
+    },
+    "uhura-arc-easy_zu_prompt_5": {
+      "alias": "uhura-arc-easy_zu_prompt_5",
+      "acc,none": 0.5,
+      "acc_stderr,none": 0.5,
+      "f1,none": 0.5,
+      "f1_stderr,none": "N/A"
+    }
+  },
+  "group_subtasks": {
+    "uhura-arc-easy_am_prompt_1": [],
+    "uhura-arc-easy_ha_prompt_1": [],
+    "uhura-arc-easy_yo_prompt_1": [],
+    "uhura-arc-easy_en_prompt_1": [],
+    "uhura-arc-easy_zu_prompt_1": [],
+    "uhura-arc-easy_nso_prompt_1": [],
+    "uhura-arc-easy_sw_prompt_1": [],
+    "uhura-arc-easy_am_prompt_3": [],
+    "uhura-arc-easy_ha_prompt_3": [],
+    "uhura-arc-easy_yo_prompt_3": [],
+    "uhura-arc-easy_en_prompt_3": [],
+    "uhura-arc-easy_zu_prompt_3": [],
+    "uhura-arc-easy_nso_prompt_3": [],
+    "uhura-arc-easy_sw_prompt_3": [],
+    "uhura-arc-easy_am_prompt_4": [],
+    "uhura-arc-easy_ha_prompt_4": [],
+    "uhura-arc-easy_yo_prompt_4": [],
+    "uhura-arc-easy_en_prompt_4": [],
+    "uhura-arc-easy_zu_prompt_4": [],
+    "uhura-arc-easy_nso_prompt_4": [],
+    "uhura-arc-easy_sw_prompt_4": [],
+    "uhura-arc-easy_am_prompt_5": [],
+    "uhura-arc-easy_ha_prompt_5": [],
+    "uhura-arc-easy_yo_prompt_5": [],
+    "uhura-arc-easy_en_prompt_5": [],
+    "uhura-arc-easy_zu_prompt_5": [],
+    "uhura-arc-easy_nso_prompt_5": [],
+    "uhura-arc-easy_sw_prompt_5": [],
+    "uhura-arc-easy_am_prompt_2": [],
+    "uhura-arc-easy_ha_prompt_2": [],
+    "uhura-arc-easy_yo_prompt_2": [],
+    "uhura-arc-easy_en_prompt_2": [],
+    "uhura-arc-easy_zu_prompt_2": [],
+    "uhura-arc-easy_nso_prompt_2": [],
+    "uhura-arc-easy_sw_prompt_2": []
+  },
+  "configs": {
+    "uhura-arc-easy_am_prompt_1": {
+      "task": "uhura-arc-easy_am_prompt_1",
+      "tag": [
+        "uhura_arc_easy_tasks",
+        "uhura_arc_easy_prompt_1"
+      ],
+      "dataset_path": "masakhane/uhura-arc-easy",
+      "dataset_name": "am_multiple_choice",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "You are a virtual assistant that answers multiple-choice questions with the correct option only.\n\nQuestion: {{question}}\n\nChoices:\n\n{% for i in range(choices['text']|length) %}\t{{ 'ABCD'[i] }}: {{ choices['text'][i] }}\n{% endfor %}\nAnswer: ",
+      "doc_to_target": "{{['A', 'B', 'C', 'D'].index(answerKey)}}",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "f1",
+          "aggregation": "def weighted_f1_score(items):\n    from sklearn.metrics import f1_score\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n    fscore = f1_score(golds, preds, average=\"weighted\")\n    return fscore\n",
+          "average": "weighted",
+          "hf_evaluate": true,
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        },
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "doc_to_decontamination_query": "Question: {{question}}\nAnswer:",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "uhura-arc-easy_am_prompt_2": {
+      "task": "uhura-arc-easy_am_prompt_2",
+      "tag": [
+        "uhura_arc_easy_tasks",
+        "uhura_arc_easy_prompt_2"
+      ],
+      "dataset_path": "masakhane/uhura-arc-easy",
+      "dataset_name": "am_multiple_choice",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "Choose the correct option that answers the question below:\n\nQuestion: {{question}}\n\nChoices:\n\n{% for i in range(choices['text']|length) %}\t{{ 'ABCD'[i] }}: {{ choices['text'][i] }}\n{% endfor %}\nAnswer: ",
+      "doc_to_target": "{{['A', 'B', 'C', 'D'].index(answerKey)}}",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "f1",
+          "aggregation": "def weighted_f1_score(items):\n    from sklearn.metrics import f1_score\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n    fscore = f1_score(golds, preds, average=\"weighted\")\n    return fscore\n",
+          "average": "weighted",
+          "hf_evaluate": true,
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        },
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "doc_to_decontamination_query": "Question: {{question}}\nAnswer:",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "uhura-arc-easy_am_prompt_3": {
+      "task": "uhura-arc-easy_am_prompt_3",
+      "tag": [
+        "uhura_arc_easy_tasks",
+        "uhura_arc_easy_prompt_3"
+      ],
+      "dataset_path": "masakhane/uhura-arc-easy",
+      "dataset_name": "am_multiple_choice",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "Answer the following multiple-choice question by picking 'A', 'B', 'C', or 'D'.\n\nQuestion: {{question}}\n\nOptions:\n\n{% for i in range(choices['text']|length) %}\t{{ 'ABCD'[i] }}: {{ choices['text'][i] }}\n{% endfor %}\nAnswer: ",
+      "doc_to_target": "{{['A', 'B', 'C', 'D'].index(answerKey)}}",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "f1",
+          "aggregation": "def weighted_f1_score(items):\n    from sklearn.metrics import f1_score\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n    fscore = f1_score(golds, preds, average=\"weighted\")\n    return fscore\n",
+          "average": "weighted",
+          "hf_evaluate": true,
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        },
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "doc_to_decontamination_query": "Question: {{question}}\nAnswer:",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "uhura-arc-easy_am_prompt_4": {
+      "task": "uhura-arc-easy_am_prompt_4",
+      "tag": [
+        "uhura_arc_easy_tasks",
+        "uhura_arc_easy_prompt_4"
+      ],
+      "dataset_path": "masakhane/uhura-arc-easy",
+      "dataset_name": "am_multiple_choice",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "Question: {{question}}\n\nOptions:\n\n{% for i in range(choices['text']|length) %}\t{{ 'ABCD'[i] }}: {{ choices['text'][i] }}\n{% endfor %}\nAnswer: ",
+      "doc_to_target": "{{['A', 'B', 'C', 'D'].index(answerKey)}}",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "f1",
+          "aggregation": "def weighted_f1_score(items):\n    from sklearn.metrics import f1_score\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n    fscore = f1_score(golds, preds, average=\"weighted\")\n    return fscore\n",
+          "average": "weighted",
+          "hf_evaluate": true,
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        },
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "doc_to_decontamination_query": "Question: {{question}}\nAnswer:",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "uhura-arc-easy_am_prompt_5": {
+      "task": "uhura-arc-easy_am_prompt_5",
+      "tag": [
+        "uhura_arc_easy_tasks",
+        "uhura_arc_easy_prompt_5"
+      ],
+      "dataset_path": "masakhane/uhura-arc-easy",
+      "dataset_name": "am_multiple_choice",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "Which of the following options answers this question: {{question}}\n\n{% for i in range(choices['text']|length) %}\t{{ 'ABCD'[i] }}: {{ choices['text'][i] }}\n{% endfor %}\nAnswer: ",
+      "doc_to_target": "{{['A', 'B', 'C', 'D'].index(answerKey)}}",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "f1",
+          "aggregation": "def weighted_f1_score(items):\n    from sklearn.metrics import f1_score\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n    fscore = f1_score(golds, preds, average=\"weighted\")\n    return fscore\n",
+          "average": "weighted",
+          "hf_evaluate": true,
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        },
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "doc_to_decontamination_query": "Question: {{question}}\nAnswer:",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "uhura-arc-easy_en_prompt_1": {
+      "task": "uhura-arc-easy_en_prompt_1",
+      "tag": [
+        "uhura_arc_easy_tasks",
+        "uhura_arc_easy_prompt_1"
+      ],
+      "dataset_path": "masakhane/uhura-arc-easy",
+      "dataset_name": "en_multiple_choice",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "You are a virtual assistant that answers multiple-choice questions with the correct option only.\n\nQuestion: {{question}}\n\nChoices:\n\n{% for i in range(choices['text']|length) %}\t{{ 'ABCD'[i] }}: {{ choices['text'][i] }}\n{% endfor %}\nAnswer: ",
+      "doc_to_target": "{{['A', 'B', 'C', 'D'].index(answerKey)}}",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "f1",
+          "aggregation": "def weighted_f1_score(items):\n    from sklearn.metrics import f1_score\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n    fscore = f1_score(golds, preds, average=\"weighted\")\n    return fscore\n",
+          "average": "weighted",
+          "hf_evaluate": true,
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        },
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "doc_to_decontamination_query": "Question: {{question}}\nAnswer:",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "uhura-arc-easy_en_prompt_2": {
+      "task": "uhura-arc-easy_en_prompt_2",
+      "tag": [
+        "uhura_arc_easy_tasks",
+        "uhura_arc_easy_prompt_2"
+      ],
+      "dataset_path": "masakhane/uhura-arc-easy",
+      "dataset_name": "en_multiple_choice",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "Choose the correct option that answers the question below:\n\nQuestion: {{question}}\n\nChoices:\n\n{% for i in range(choices['text']|length) %}\t{{ 'ABCD'[i] }}: {{ choices['text'][i] }}\n{% endfor %}\nAnswer: ",
+      "doc_to_target": "{{['A', 'B', 'C', 'D'].index(answerKey)}}",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "f1",
+          "aggregation": "def weighted_f1_score(items):\n    from sklearn.metrics import f1_score\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n    fscore = f1_score(golds, preds, average=\"weighted\")\n    return fscore\n",
+          "average": "weighted",
+          "hf_evaluate": true,
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        },
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "doc_to_decontamination_query": "Question: {{question}}\nAnswer:",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "uhura-arc-easy_en_prompt_3": {
+      "task": "uhura-arc-easy_en_prompt_3",
+      "tag": [
+        "uhura_arc_easy_tasks",
+        "uhura_arc_easy_prompt_3"
+      ],
+      "dataset_path": "masakhane/uhura-arc-easy",
+      "dataset_name": "en_multiple_choice",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "Answer the following multiple-choice question by picking 'A', 'B', 'C', or 'D'.\n\nQuestion: {{question}}\n\nOptions:\n\n{% for i in range(choices['text']|length) %}\t{{ 'ABCD'[i] }}: {{ choices['text'][i] }}\n{% endfor %}\nAnswer: ",
+      "doc_to_target": "{{['A', 'B', 'C', 'D'].index(answerKey)}}",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "f1",
+          "aggregation": "def weighted_f1_score(items):\n    from sklearn.metrics import f1_score\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n    fscore = f1_score(golds, preds, average=\"weighted\")\n    return fscore\n",
+          "average": "weighted",
+          "hf_evaluate": true,
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        },
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "doc_to_decontamination_query": "Question: {{question}}\nAnswer:",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "uhura-arc-easy_en_prompt_4": {
+      "task": "uhura-arc-easy_en_prompt_4",
+      "tag": [
+        "uhura_arc_easy_tasks",
+        "uhura_arc_easy_prompt_4"
+      ],
+      "dataset_path": "masakhane/uhura-arc-easy",
+      "dataset_name": "en_multiple_choice",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "Question: {{question}}\n\nOptions:\n\n{% for i in range(choices['text']|length) %}\t{{ 'ABCD'[i] }}: {{ choices['text'][i] }}\n{% endfor %}\nAnswer: ",
+      "doc_to_target": "{{['A', 'B', 'C', 'D'].index(answerKey)}}",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "f1",
+          "aggregation": "def weighted_f1_score(items):\n    from sklearn.metrics import f1_score\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n    fscore = f1_score(golds, preds, average=\"weighted\")\n    return fscore\n",
+          "average": "weighted",
+          "hf_evaluate": true,
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        },
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "doc_to_decontamination_query": "Question: {{question}}\nAnswer:",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "uhura-arc-easy_en_prompt_5": {
+      "task": "uhura-arc-easy_en_prompt_5",
+      "tag": [
+        "uhura_arc_easy_tasks",
+        "uhura_arc_easy_prompt_5"
+      ],
+      "dataset_path": "masakhane/uhura-arc-easy",
+      "dataset_name": "en_multiple_choice",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "Which of the following options answers this question: {{question}}\n\n{% for i in range(choices['text']|length) %}\t{{ 'ABCD'[i] }}: {{ choices['text'][i] }}\n{% endfor %}\nAnswer: ",
+      "doc_to_target": "{{['A', 'B', 'C', 'D'].index(answerKey)}}",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "f1",
+          "aggregation": "def weighted_f1_score(items):\n    from sklearn.metrics import f1_score\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n    fscore = f1_score(golds, preds, average=\"weighted\")\n    return fscore\n",
+          "average": "weighted",
+          "hf_evaluate": true,
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        },
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "doc_to_decontamination_query": "Question: {{question}}\nAnswer:",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "uhura-arc-easy_ha_prompt_1": {
+      "task": "uhura-arc-easy_ha_prompt_1",
+      "tag": [
+        "uhura_arc_easy_tasks",
+        "uhura_arc_easy_prompt_1"
+      ],
+      "dataset_path": "masakhane/uhura-arc-easy",
+      "dataset_name": "ha_multiple_choice",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "You are a virtual assistant that answers multiple-choice questions with the correct option only.\n\nQuestion: {{question}}\n\nChoices:\n\n{% for i in range(choices['text']|length) %}\t{{ 'ABCD'[i] }}: {{ choices['text'][i] }}\n{% endfor %}\nAnswer: ",
+      "doc_to_target": "{{['A', 'B', 'C', 'D'].index(answerKey)}}",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "f1",
+          "aggregation": "def weighted_f1_score(items):\n    from sklearn.metrics import f1_score\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n    fscore = f1_score(golds, preds, average=\"weighted\")\n    return fscore\n",
+          "average": "weighted",
+          "hf_evaluate": true,
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        },
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "doc_to_decontamination_query": "Question: {{question}}\nAnswer:",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "uhura-arc-easy_ha_prompt_2": {
+      "task": "uhura-arc-easy_ha_prompt_2",
+      "tag": [
+        "uhura_arc_easy_tasks",
+        "uhura_arc_easy_prompt_2"
+      ],
+      "dataset_path": "masakhane/uhura-arc-easy",
+      "dataset_name": "ha_multiple_choice",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "Choose the correct option that answers the question below:\n\nQuestion: {{question}}\n\nChoices:\n\n{% for i in range(choices['text']|length) %}\t{{ 'ABCD'[i] }}: {{ choices['text'][i] }}\n{% endfor %}\nAnswer: ",
+      "doc_to_target": "{{['A', 'B', 'C', 'D'].index(answerKey)}}",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "f1",
+          "aggregation": "def weighted_f1_score(items):\n    from sklearn.metrics import f1_score\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n    fscore = f1_score(golds, preds, average=\"weighted\")\n    return fscore\n",
+          "average": "weighted",
+          "hf_evaluate": true,
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        },
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "doc_to_decontamination_query": "Question: {{question}}\nAnswer:",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "uhura-arc-easy_ha_prompt_3": {
+      "task": "uhura-arc-easy_ha_prompt_3",
+      "tag": [
+        "uhura_arc_easy_tasks",
+        "uhura_arc_easy_prompt_3"
+      ],
+      "dataset_path": "masakhane/uhura-arc-easy",
+      "dataset_name": "ha_multiple_choice",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "Answer the following multiple-choice question by picking 'A', 'B', 'C', or 'D'.\n\nQuestion: {{question}}\n\nOptions:\n\n{% for i in range(choices['text']|length) %}\t{{ 'ABCD'[i] }}: {{ choices['text'][i] }}\n{% endfor %}\nAnswer: ",
+      "doc_to_target": "{{['A', 'B', 'C', 'D'].index(answerKey)}}",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "f1",
+          "aggregation": "def weighted_f1_score(items):\n    from sklearn.metrics import f1_score\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n    fscore = f1_score(golds, preds, average=\"weighted\")\n    return fscore\n",
+          "average": "weighted",
+          "hf_evaluate": true,
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        },
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "doc_to_decontamination_query": "Question: {{question}}\nAnswer:",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "uhura-arc-easy_ha_prompt_4": {
+      "task": "uhura-arc-easy_ha_prompt_4",
+      "tag": [
+        "uhura_arc_easy_tasks",
+        "uhura_arc_easy_prompt_4"
+      ],
+      "dataset_path": "masakhane/uhura-arc-easy",
+      "dataset_name": "ha_multiple_choice",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "Question: {{question}}\n\nOptions:\n\n{% for i in range(choices['text']|length) %}\t{{ 'ABCD'[i] }}: {{ choices['text'][i] }}\n{% endfor %}\nAnswer: ",
+      "doc_to_target": "{{['A', 'B', 'C', 'D'].index(answerKey)}}",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "f1",
+          "aggregation": "def weighted_f1_score(items):\n    from sklearn.metrics import f1_score\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n    fscore = f1_score(golds, preds, average=\"weighted\")\n    return fscore\n",
+          "average": "weighted",
+          "hf_evaluate": true,
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        },
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "doc_to_decontamination_query": "Question: {{question}}\nAnswer:",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "uhura-arc-easy_ha_prompt_5": {
+      "task": "uhura-arc-easy_ha_prompt_5",
+      "tag": [
+        "uhura_arc_easy_tasks",
+        "uhura_arc_easy_prompt_5"
+      ],
+      "dataset_path": "masakhane/uhura-arc-easy",
+      "dataset_name": "ha_multiple_choice",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "Which of the following options answers this question: {{question}}\n\n{% for i in range(choices['text']|length) %}\t{{ 'ABCD'[i] }}: {{ choices['text'][i] }}\n{% endfor %}\nAnswer: ",
+      "doc_to_target": "{{['A', 'B', 'C', 'D'].index(answerKey)}}",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "f1",
+          "aggregation": "def weighted_f1_score(items):\n    from sklearn.metrics import f1_score\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n    fscore = f1_score(golds, preds, average=\"weighted\")\n    return fscore\n",
+          "average": "weighted",
+          "hf_evaluate": true,
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        },
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "doc_to_decontamination_query": "Question: {{question}}\nAnswer:",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "uhura-arc-easy_nso_prompt_1": {
+      "task": "uhura-arc-easy_nso_prompt_1",
+      "tag": [
+        "uhura_arc_easy_tasks",
+        "uhura_arc_easy_prompt_1"
+      ],
+      "dataset_path": "masakhane/uhura-arc-easy",
+      "dataset_name": "nso_multiple_choice",
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "You are a virtual assistant that answers multiple-choice questions with the correct option only.\n\nQuestion: {{question}}\n\nChoices:\n\n{% for i in range(choices['text']|length) %}\t{{ 'ABCD'[i] }}: {{ choices['text'][i] }}\n{% endfor %}\nAnswer: ",
+      "doc_to_target": "{{['A', 'B', 'C', 'D'].index(answerKey)}}",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "f1",
+          "aggregation": "def weighted_f1_score(items):\n    from sklearn.metrics import f1_score\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n    fscore = f1_score(golds, preds, average=\"weighted\")\n    return fscore\n",
+          "average": "weighted",
+          "hf_evaluate": true,
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        },
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "doc_to_decontamination_query": "Question: {{question}}\nAnswer:",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "uhura-arc-easy_nso_prompt_2": {
+      "task": "uhura-arc-easy_nso_prompt_2",
+      "tag": [
+        "uhura_arc_easy_tasks",
+        "uhura_arc_easy_prompt_2"
+      ],
+      "dataset_path": "masakhane/uhura-arc-easy",
+      "dataset_name": "nso_multiple_choice",
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Choose the correct option that answers the question below:\n\nQuestion: {{question}}\n\nChoices:\n\n{% for i in range(choices['text']|length) %}\t{{ 'ABCD'[i] }}: {{ choices['text'][i] }}\n{% endfor %}\nAnswer: ",
+      "doc_to_target": "{{['A', 'B', 'C', 'D'].index(answerKey)}}",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "f1",
+          "aggregation": "def weighted_f1_score(items):\n    from sklearn.metrics import f1_score\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n    fscore = f1_score(golds, preds, average=\"weighted\")\n    return fscore\n",
+          "average": "weighted",
+          "hf_evaluate": true,
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        },
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "doc_to_decontamination_query": "Question: {{question}}\nAnswer:",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "uhura-arc-easy_nso_prompt_3": {
+      "task": "uhura-arc-easy_nso_prompt_3",
+      "tag": [
+        "uhura_arc_easy_tasks",
+        "uhura_arc_easy_prompt_3"
+      ],
+      "dataset_path": "masakhane/uhura-arc-easy",
+      "dataset_name": "nso_multiple_choice",
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Answer the following multiple-choice question by picking 'A', 'B', 'C', or 'D'.\n\nQuestion: {{question}}\n\nOptions:\n\n{% for i in range(choices['text']|length) %}\t{{ 'ABCD'[i] }}: {{ choices['text'][i] }}\n{% endfor %}\nAnswer: ",
+      "doc_to_target": "{{['A', 'B', 'C', 'D'].index(answerKey)}}",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "f1",
+          "aggregation": "def weighted_f1_score(items):\n    from sklearn.metrics import f1_score\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n    fscore = f1_score(golds, preds, average=\"weighted\")\n    return fscore\n",
+          "average": "weighted",
+          "hf_evaluate": true,
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        },
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "doc_to_decontamination_query": "Question: {{question}}\nAnswer:",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "uhura-arc-easy_nso_prompt_4": {
+      "task": "uhura-arc-easy_nso_prompt_4",
+      "tag": [
+        "uhura_arc_easy_tasks",
+        "uhura_arc_easy_prompt_4"
+      ],
+      "dataset_path": "masakhane/uhura-arc-easy",
+      "dataset_name": "nso_multiple_choice",
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Question: {{question}}\n\nOptions:\n\n{% for i in range(choices['text']|length) %}\t{{ 'ABCD'[i] }}: {{ choices['text'][i] }}\n{% endfor %}\nAnswer: ",
+      "doc_to_target": "{{['A', 'B', 'C', 'D'].index(answerKey)}}",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "f1",
+          "aggregation": "def weighted_f1_score(items):\n    from sklearn.metrics import f1_score\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n    fscore = f1_score(golds, preds, average=\"weighted\")\n    return fscore\n",
+          "average": "weighted",
+          "hf_evaluate": true,
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        },
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "doc_to_decontamination_query": "Question: {{question}}\nAnswer:",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "uhura-arc-easy_nso_prompt_5": {
+      "task": "uhura-arc-easy_nso_prompt_5",
+      "tag": [
+        "uhura_arc_easy_tasks",
+        "uhura_arc_easy_prompt_5"
+      ],
+      "dataset_path": "masakhane/uhura-arc-easy",
+      "dataset_name": "nso_multiple_choice",
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Which of the following options answers this question: {{question}}\n\n{% for i in range(choices['text']|length) %}\t{{ 'ABCD'[i] }}: {{ choices['text'][i] }}\n{% endfor %}\nAnswer: ",
+      "doc_to_target": "{{['A', 'B', 'C', 'D'].index(answerKey)}}",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "f1",
+          "aggregation": "def weighted_f1_score(items):\n    from sklearn.metrics import f1_score\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n    fscore = f1_score(golds, preds, average=\"weighted\")\n    return fscore\n",
+          "average": "weighted",
+          "hf_evaluate": true,
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        },
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "doc_to_decontamination_query": "Question: {{question}}\nAnswer:",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "uhura-arc-easy_sw_prompt_1": {
+      "task": "uhura-arc-easy_sw_prompt_1",
+      "tag": [
+        "uhura_arc_easy_tasks",
+        "uhura_arc_easy_prompt_1"
+      ],
+      "dataset_path": "masakhane/uhura-arc-easy",
+      "dataset_name": "sw_multiple_choice",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "You are a virtual assistant that answers multiple-choice questions with the correct option only.\n\nQuestion: {{question}}\n\nChoices:\n\n{% for i in range(choices['text']|length) %}\t{{ 'ABCD'[i] }}: {{ choices['text'][i] }}\n{% endfor %}\nAnswer: ",
+      "doc_to_target": "{{['A', 'B', 'C', 'D'].index(answerKey)}}",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "f1",
+          "aggregation": "def weighted_f1_score(items):\n    from sklearn.metrics import f1_score\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n    fscore = f1_score(golds, preds, average=\"weighted\")\n    return fscore\n",
+          "average": "weighted",
+          "hf_evaluate": true,
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        },
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "doc_to_decontamination_query": "Question: {{question}}\nAnswer:",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "uhura-arc-easy_sw_prompt_2": {
+      "task": "uhura-arc-easy_sw_prompt_2",
+      "tag": [
+        "uhura_arc_easy_tasks",
+        "uhura_arc_easy_prompt_2"
+      ],
+      "dataset_path": "masakhane/uhura-arc-easy",
+      "dataset_name": "sw_multiple_choice",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "Choose the correct option that answers the question below:\n\nQuestion: {{question}}\n\nChoices:\n\n{% for i in range(choices['text']|length) %}\t{{ 'ABCD'[i] }}: {{ choices['text'][i] }}\n{% endfor %}\nAnswer: ",
+      "doc_to_target": "{{['A', 'B', 'C', 'D'].index(answerKey)}}",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "f1",
+          "aggregation": "def weighted_f1_score(items):\n    from sklearn.metrics import f1_score\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n    fscore = f1_score(golds, preds, average=\"weighted\")\n    return fscore\n",
+          "average": "weighted",
+          "hf_evaluate": true,
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        },
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "doc_to_decontamination_query": "Question: {{question}}\nAnswer:",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "uhura-arc-easy_sw_prompt_3": {
+      "task": "uhura-arc-easy_sw_prompt_3",
+      "tag": [
+        "uhura_arc_easy_tasks",
+        "uhura_arc_easy_prompt_3"
+      ],
+      "dataset_path": "masakhane/uhura-arc-easy",
+      "dataset_name": "sw_multiple_choice",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "Answer the following multiple-choice question by picking 'A', 'B', 'C', or 'D'.\n\nQuestion: {{question}}\n\nOptions:\n\n{% for i in range(choices['text']|length) %}\t{{ 'ABCD'[i] }}: {{ choices['text'][i] }}\n{% endfor %}\nAnswer: ",
+      "doc_to_target": "{{['A', 'B', 'C', 'D'].index(answerKey)}}",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "f1",
+          "aggregation": "def weighted_f1_score(items):\n    from sklearn.metrics import f1_score\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n    fscore = f1_score(golds, preds, average=\"weighted\")\n    return fscore\n",
+          "average": "weighted",
+          "hf_evaluate": true,
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        },
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "doc_to_decontamination_query": "Question: {{question}}\nAnswer:",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "uhura-arc-easy_sw_prompt_4": {
+      "task": "uhura-arc-easy_sw_prompt_4",
+      "tag": [
+        "uhura_arc_easy_tasks",
+        "uhura_arc_easy_prompt_4"
+      ],
+      "dataset_path": "masakhane/uhura-arc-easy",
+      "dataset_name": "sw_multiple_choice",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "Question: {{question}}\n\nOptions:\n\n{% for i in range(choices['text']|length) %}\t{{ 'ABCD'[i] }}: {{ choices['text'][i] }}\n{% endfor %}\nAnswer: ",
+      "doc_to_target": "{{['A', 'B', 'C', 'D'].index(answerKey)}}",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "f1",
+          "aggregation": "def weighted_f1_score(items):\n    from sklearn.metrics import f1_score\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n    fscore = f1_score(golds, preds, average=\"weighted\")\n    return fscore\n",
+          "average": "weighted",
+          "hf_evaluate": true,
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        },
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "doc_to_decontamination_query": "Question: {{question}}\nAnswer:",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "uhura-arc-easy_sw_prompt_5": {
+      "task": "uhura-arc-easy_sw_prompt_5",
+      "tag": [
+        "uhura_arc_easy_tasks",
+        "uhura_arc_easy_prompt_5"
+      ],
+      "dataset_path": "masakhane/uhura-arc-easy",
+      "dataset_name": "sw_multiple_choice",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "Which of the following options answers this question: {{question}}\n\n{% for i in range(choices['text']|length) %}\t{{ 'ABCD'[i] }}: {{ choices['text'][i] }}\n{% endfor %}\nAnswer: ",
+      "doc_to_target": "{{['A', 'B', 'C', 'D'].index(answerKey)}}",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "f1",
+          "aggregation": "def weighted_f1_score(items):\n    from sklearn.metrics import f1_score\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n    fscore = f1_score(golds, preds, average=\"weighted\")\n    return fscore\n",
+          "average": "weighted",
+          "hf_evaluate": true,
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        },
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "doc_to_decontamination_query": "Question: {{question}}\nAnswer:",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "uhura-arc-easy_yo_prompt_1": {
+      "task": "uhura-arc-easy_yo_prompt_1",
+      "tag": [
+        "uhura_arc_easy_tasks",
+        "uhura_arc_easy_prompt_1"
+      ],
+      "dataset_path": "masakhane/uhura-arc-easy",
+      "dataset_name": "yo_multiple_choice",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "You are a virtual assistant that answers multiple-choice questions with the correct option only.\n\nQuestion: {{question}}\n\nChoices:\n\n{% for i in range(choices['text']|length) %}\t{{ 'ABCD'[i] }}: {{ choices['text'][i] }}\n{% endfor %}\nAnswer: ",
+      "doc_to_target": "{{['A', 'B', 'C', 'D'].index(answerKey)}}",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "f1",
+          "aggregation": "def weighted_f1_score(items):\n    from sklearn.metrics import f1_score\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n    fscore = f1_score(golds, preds, average=\"weighted\")\n    return fscore\n",
+          "average": "weighted",
+          "hf_evaluate": true,
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        },
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "doc_to_decontamination_query": "Question: {{question}}\nAnswer:",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "uhura-arc-easy_yo_prompt_2": {
+      "task": "uhura-arc-easy_yo_prompt_2",
+      "tag": [
+        "uhura_arc_easy_tasks",
+        "uhura_arc_easy_prompt_2"
+      ],
+      "dataset_path": "masakhane/uhura-arc-easy",
+      "dataset_name": "yo_multiple_choice",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "Choose the correct option that answers the question below:\n\nQuestion: {{question}}\n\nChoices:\n\n{% for i in range(choices['text']|length) %}\t{{ 'ABCD'[i] }}: {{ choices['text'][i] }}\n{% endfor %}\nAnswer: ",
+      "doc_to_target": "{{['A', 'B', 'C', 'D'].index(answerKey)}}",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "f1",
+          "aggregation": "def weighted_f1_score(items):\n    from sklearn.metrics import f1_score\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n    fscore = f1_score(golds, preds, average=\"weighted\")\n    return fscore\n",
+          "average": "weighted",
+          "hf_evaluate": true,
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        },
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "doc_to_decontamination_query": "Question: {{question}}\nAnswer:",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "uhura-arc-easy_yo_prompt_3": {
+      "task": "uhura-arc-easy_yo_prompt_3",
+      "tag": [
+        "uhura_arc_easy_tasks",
+        "uhura_arc_easy_prompt_3"
+      ],
+      "dataset_path": "masakhane/uhura-arc-easy",
+      "dataset_name": "yo_multiple_choice",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "Answer the following multiple-choice question by picking 'A', 'B', 'C', or 'D'.\n\nQuestion: {{question}}\n\nOptions:\n\n{% for i in range(choices['text']|length) %}\t{{ 'ABCD'[i] }}: {{ choices['text'][i] }}\n{% endfor %}\nAnswer: ",
+      "doc_to_target": "{{['A', 'B', 'C', 'D'].index(answerKey)}}",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "f1",
+          "aggregation": "def weighted_f1_score(items):\n    from sklearn.metrics import f1_score\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n    fscore = f1_score(golds, preds, average=\"weighted\")\n    return fscore\n",
+          "average": "weighted",
+          "hf_evaluate": true,
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        },
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "doc_to_decontamination_query": "Question: {{question}}\nAnswer:",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "uhura-arc-easy_yo_prompt_4": {
+      "task": "uhura-arc-easy_yo_prompt_4",
+      "tag": [
+        "uhura_arc_easy_tasks",
+        "uhura_arc_easy_prompt_4"
+      ],
+      "dataset_path": "masakhane/uhura-arc-easy",
+      "dataset_name": "yo_multiple_choice",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "Question: {{question}}\n\nOptions:\n\n{% for i in range(choices['text']|length) %}\t{{ 'ABCD'[i] }}: {{ choices['text'][i] }}\n{% endfor %}\nAnswer: ",
+      "doc_to_target": "{{['A', 'B', 'C', 'D'].index(answerKey)}}",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "f1",
+          "aggregation": "def weighted_f1_score(items):\n    from sklearn.metrics import f1_score\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n    fscore = f1_score(golds, preds, average=\"weighted\")\n    return fscore\n",
+          "average": "weighted",
+          "hf_evaluate": true,
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        },
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "doc_to_decontamination_query": "Question: {{question}}\nAnswer:",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "uhura-arc-easy_yo_prompt_5": {
+      "task": "uhura-arc-easy_yo_prompt_5",
+      "tag": [
+        "uhura_arc_easy_tasks",
+        "uhura_arc_easy_prompt_5"
+      ],
+      "dataset_path": "masakhane/uhura-arc-easy",
+      "dataset_name": "yo_multiple_choice",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "Which of the following options answers this question: {{question}}\n\n{% for i in range(choices['text']|length) %}\t{{ 'ABCD'[i] }}: {{ choices['text'][i] }}\n{% endfor %}\nAnswer: ",
+      "doc_to_target": "{{['A', 'B', 'C', 'D'].index(answerKey)}}",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "f1",
+          "aggregation": "def weighted_f1_score(items):\n    from sklearn.metrics import f1_score\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n    fscore = f1_score(golds, preds, average=\"weighted\")\n    return fscore\n",
+          "average": "weighted",
+          "hf_evaluate": true,
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        },
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "doc_to_decontamination_query": "Question: {{question}}\nAnswer:",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "uhura-arc-easy_zu_prompt_1": {
+      "task": "uhura-arc-easy_zu_prompt_1",
+      "tag": [
+        "uhura_arc_easy_tasks",
+        "uhura_arc_easy_prompt_1"
+      ],
+      "dataset_path": "masakhane/uhura-arc-easy",
+      "dataset_name": "zu_multiple_choice",
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "You are a virtual assistant that answers multiple-choice questions with the correct option only.\n\nQuestion: {{question}}\n\nChoices:\n\n{% for i in range(choices['text']|length) %}\t{{ 'ABCD'[i] }}: {{ choices['text'][i] }}\n{% endfor %}\nAnswer: ",
+      "doc_to_target": "{{['A', 'B', 'C', 'D'].index(answerKey)}}",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "f1",
+          "aggregation": "def weighted_f1_score(items):\n    from sklearn.metrics import f1_score\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n    fscore = f1_score(golds, preds, average=\"weighted\")\n    return fscore\n",
+          "average": "weighted",
+          "hf_evaluate": true,
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        },
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "doc_to_decontamination_query": "Question: {{question}}\nAnswer:",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "uhura-arc-easy_zu_prompt_2": {
+      "task": "uhura-arc-easy_zu_prompt_2",
+      "tag": [
+        "uhura_arc_easy_tasks",
+        "uhura_arc_easy_prompt_2"
+      ],
+      "dataset_path": "masakhane/uhura-arc-easy",
+      "dataset_name": "zu_multiple_choice",
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Choose the correct option that answers the question below:\n\nQuestion: {{question}}\n\nChoices:\n\n{% for i in range(choices['text']|length) %}\t{{ 'ABCD'[i] }}: {{ choices['text'][i] }}\n{% endfor %}\nAnswer: ",
+      "doc_to_target": "{{['A', 'B', 'C', 'D'].index(answerKey)}}",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "f1",
+          "aggregation": "def weighted_f1_score(items):\n    from sklearn.metrics import f1_score\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n    fscore = f1_score(golds, preds, average=\"weighted\")\n    return fscore\n",
+          "average": "weighted",
+          "hf_evaluate": true,
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        },
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "doc_to_decontamination_query": "Question: {{question}}\nAnswer:",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "uhura-arc-easy_zu_prompt_3": {
+      "task": "uhura-arc-easy_zu_prompt_3",
+      "tag": [
+        "uhura_arc_easy_tasks",
+        "uhura_arc_easy_prompt_3"
+      ],
+      "dataset_path": "masakhane/uhura-arc-easy",
+      "dataset_name": "zu_multiple_choice",
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Answer the following multiple-choice question by picking 'A', 'B', 'C', or 'D'.\n\nQuestion: {{question}}\n\nOptions:\n\n{% for i in range(choices['text']|length) %}\t{{ 'ABCD'[i] }}: {{ choices['text'][i] }}\n{% endfor %}\nAnswer: ",
+      "doc_to_target": "{{['A', 'B', 'C', 'D'].index(answerKey)}}",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "f1",
+          "aggregation": "def weighted_f1_score(items):\n    from sklearn.metrics import f1_score\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n    fscore = f1_score(golds, preds, average=\"weighted\")\n    return fscore\n",
+          "average": "weighted",
+          "hf_evaluate": true,
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        },
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "doc_to_decontamination_query": "Question: {{question}}\nAnswer:",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "uhura-arc-easy_zu_prompt_4": {
+      "task": "uhura-arc-easy_zu_prompt_4",
+      "tag": [
+        "uhura_arc_easy_tasks",
+        "uhura_arc_easy_prompt_4"
+      ],
+      "dataset_path": "masakhane/uhura-arc-easy",
+      "dataset_name": "zu_multiple_choice",
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Question: {{question}}\n\nOptions:\n\n{% for i in range(choices['text']|length) %}\t{{ 'ABCD'[i] }}: {{ choices['text'][i] }}\n{% endfor %}\nAnswer: ",
+      "doc_to_target": "{{['A', 'B', 'C', 'D'].index(answerKey)}}",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "f1",
+          "aggregation": "def weighted_f1_score(items):\n    from sklearn.metrics import f1_score\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n    fscore = f1_score(golds, preds, average=\"weighted\")\n    return fscore\n",
+          "average": "weighted",
+          "hf_evaluate": true,
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        },
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "doc_to_decontamination_query": "Question: {{question}}\nAnswer:",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    },
+    "uhura-arc-easy_zu_prompt_5": {
+      "task": "uhura-arc-easy_zu_prompt_5",
+      "tag": [
+        "uhura_arc_easy_tasks",
+        "uhura_arc_easy_prompt_5"
+      ],
+      "dataset_path": "masakhane/uhura-arc-easy",
+      "dataset_name": "zu_multiple_choice",
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Which of the following options answers this question: {{question}}\n\n{% for i in range(choices['text']|length) %}\t{{ 'ABCD'[i] }}: {{ choices['text'][i] }}\n{% endfor %}\nAnswer: ",
+      "doc_to_target": "{{['A', 'B', 'C', 'D'].index(answerKey)}}",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "f1",
+          "aggregation": "def weighted_f1_score(items):\n    from sklearn.metrics import f1_score\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n    fscore = f1_score(golds, preds, average=\"weighted\")\n    return fscore\n",
+          "average": "weighted",
+          "hf_evaluate": true,
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        },
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true,
+          "regexes_to_ignore": [
+            ",",
+            "\\$"
+          ]
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "doc_to_decontamination_query": "Question: {{question}}\nAnswer:",
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+        "dtype": "bfloat16"
+      }
+    }
+  },
+  "versions": {
+    "uhura-arc-easy_am_prompt_1": 1.0,
+    "uhura-arc-easy_am_prompt_2": 1.0,
+    "uhura-arc-easy_am_prompt_3": 1.0,
+    "uhura-arc-easy_am_prompt_4": 1.0,
+    "uhura-arc-easy_am_prompt_5": 1.0,
+    "uhura-arc-easy_en_prompt_1": 1.0,
+    "uhura-arc-easy_en_prompt_2": 1.0,
+    "uhura-arc-easy_en_prompt_3": 1.0,
+    "uhura-arc-easy_en_prompt_4": 1.0,
+    "uhura-arc-easy_en_prompt_5": 1.0,
+    "uhura-arc-easy_ha_prompt_1": 1.0,
+    "uhura-arc-easy_ha_prompt_2": 1.0,
+    "uhura-arc-easy_ha_prompt_3": 1.0,
+    "uhura-arc-easy_ha_prompt_4": 1.0,
+    "uhura-arc-easy_ha_prompt_5": 1.0,
+    "uhura-arc-easy_nso_prompt_1": 1.0,
+    "uhura-arc-easy_nso_prompt_2": 1.0,
+    "uhura-arc-easy_nso_prompt_3": 1.0,
+    "uhura-arc-easy_nso_prompt_4": 1.0,
+    "uhura-arc-easy_nso_prompt_5": 1.0,
+    "uhura-arc-easy_sw_prompt_1": 1.0,
+    "uhura-arc-easy_sw_prompt_2": 1.0,
+    "uhura-arc-easy_sw_prompt_3": 1.0,
+    "uhura-arc-easy_sw_prompt_4": 1.0,
+    "uhura-arc-easy_sw_prompt_5": 1.0,
+    "uhura-arc-easy_yo_prompt_1": 1.0,
+    "uhura-arc-easy_yo_prompt_2": 1.0,
+    "uhura-arc-easy_yo_prompt_3": 1.0,
+    "uhura-arc-easy_yo_prompt_4": 1.0,
+    "uhura-arc-easy_yo_prompt_5": 1.0,
+    "uhura-arc-easy_zu_prompt_1": 1.0,
+    "uhura-arc-easy_zu_prompt_2": 1.0,
+    "uhura-arc-easy_zu_prompt_3": 1.0,
+    "uhura-arc-easy_zu_prompt_4": 1.0,
+    "uhura-arc-easy_zu_prompt_5": 1.0
+  },
+  "n-shot": {
+    "uhura-arc-easy_am_prompt_1": 0,
+    "uhura-arc-easy_am_prompt_2": 0,
+    "uhura-arc-easy_am_prompt_3": 0,
+    "uhura-arc-easy_am_prompt_4": 0,
+    "uhura-arc-easy_am_prompt_5": 0,
+    "uhura-arc-easy_en_prompt_1": 0,
+    "uhura-arc-easy_en_prompt_2": 0,
+    "uhura-arc-easy_en_prompt_3": 0,
+    "uhura-arc-easy_en_prompt_4": 0,
+    "uhura-arc-easy_en_prompt_5": 0,
+    "uhura-arc-easy_ha_prompt_1": 0,
+    "uhura-arc-easy_ha_prompt_2": 0,
+    "uhura-arc-easy_ha_prompt_3": 0,
+    "uhura-arc-easy_ha_prompt_4": 0,
+    "uhura-arc-easy_ha_prompt_5": 0,
+    "uhura-arc-easy_nso_prompt_1": 0,
+    "uhura-arc-easy_nso_prompt_2": 0,
+    "uhura-arc-easy_nso_prompt_3": 0,
+    "uhura-arc-easy_nso_prompt_4": 0,
+    "uhura-arc-easy_nso_prompt_5": 0,
+    "uhura-arc-easy_sw_prompt_1": 0,
+    "uhura-arc-easy_sw_prompt_2": 0,
+    "uhura-arc-easy_sw_prompt_3": 0,
+    "uhura-arc-easy_sw_prompt_4": 0,
+    "uhura-arc-easy_sw_prompt_5": 0,
+    "uhura-arc-easy_yo_prompt_1": 0,
+    "uhura-arc-easy_yo_prompt_2": 0,
+    "uhura-arc-easy_yo_prompt_3": 0,
+    "uhura-arc-easy_yo_prompt_4": 0,
+    "uhura-arc-easy_yo_prompt_5": 0,
+    "uhura-arc-easy_zu_prompt_1": 0,
+    "uhura-arc-easy_zu_prompt_2": 0,
+    "uhura-arc-easy_zu_prompt_3": 0,
+    "uhura-arc-easy_zu_prompt_4": 0,
+    "uhura-arc-easy_zu_prompt_5": 0
+  },
+  "higher_is_better": {
+    "uhura-arc-easy_am_prompt_1": {
+      "f1": true,
+      "acc": true
+    },
+    "uhura-arc-easy_am_prompt_2": {
+      "f1": true,
+      "acc": true
+    },
+    "uhura-arc-easy_am_prompt_3": {
+      "f1": true,
+      "acc": true
+    },
+    "uhura-arc-easy_am_prompt_4": {
+      "f1": true,
+      "acc": true
+    },
+    "uhura-arc-easy_am_prompt_5": {
+      "f1": true,
+      "acc": true
+    },
+    "uhura-arc-easy_en_prompt_1": {
+      "f1": true,
+      "acc": true
+    },
+    "uhura-arc-easy_en_prompt_2": {
+      "f1": true,
+      "acc": true
+    },
+    "uhura-arc-easy_en_prompt_3": {
+      "f1": true,
+      "acc": true
+    },
+    "uhura-arc-easy_en_prompt_4": {
+      "f1": true,
+      "acc": true
+    },
+    "uhura-arc-easy_en_prompt_5": {
+      "f1": true,
+      "acc": true
+    },
+    "uhura-arc-easy_ha_prompt_1": {
+      "f1": true,
+      "acc": true
+    },
+    "uhura-arc-easy_ha_prompt_2": {
+      "f1": true,
+      "acc": true
+    },
+    "uhura-arc-easy_ha_prompt_3": {
+      "f1": true,
+      "acc": true
+    },
+    "uhura-arc-easy_ha_prompt_4": {
+      "f1": true,
+      "acc": true
+    },
+    "uhura-arc-easy_ha_prompt_5": {
+      "f1": true,
+      "acc": true
+    },
+    "uhura-arc-easy_nso_prompt_1": {
+      "f1": true,
+      "acc": true
+    },
+    "uhura-arc-easy_nso_prompt_2": {
+      "f1": true,
+      "acc": true
+    },
+    "uhura-arc-easy_nso_prompt_3": {
+      "f1": true,
+      "acc": true
+    },
+    "uhura-arc-easy_nso_prompt_4": {
+      "f1": true,
+      "acc": true
+    },
+    "uhura-arc-easy_nso_prompt_5": {
+      "f1": true,
+      "acc": true
+    },
+    "uhura-arc-easy_sw_prompt_1": {
+      "f1": true,
+      "acc": true
+    },
+    "uhura-arc-easy_sw_prompt_2": {
+      "f1": true,
+      "acc": true
+    },
+    "uhura-arc-easy_sw_prompt_3": {
+      "f1": true,
+      "acc": true
+    },
+    "uhura-arc-easy_sw_prompt_4": {
+      "f1": true,
+      "acc": true
+    },
+    "uhura-arc-easy_sw_prompt_5": {
+      "f1": true,
+      "acc": true
+    },
+    "uhura-arc-easy_yo_prompt_1": {
+      "f1": true,
+      "acc": true
+    },
+    "uhura-arc-easy_yo_prompt_2": {
+      "f1": true,
+      "acc": true
+    },
+    "uhura-arc-easy_yo_prompt_3": {
+      "f1": true,
+      "acc": true
+    },
+    "uhura-arc-easy_yo_prompt_4": {
+      "f1": true,
+      "acc": true
+    },
+    "uhura-arc-easy_yo_prompt_5": {
+      "f1": true,
+      "acc": true
+    },
+    "uhura-arc-easy_zu_prompt_1": {
+      "f1": true,
+      "acc": true
+    },
+    "uhura-arc-easy_zu_prompt_2": {
+      "f1": true,
+      "acc": true
+    },
+    "uhura-arc-easy_zu_prompt_3": {
+      "f1": true,
+      "acc": true
+    },
+    "uhura-arc-easy_zu_prompt_4": {
+      "f1": true,
+      "acc": true
+    },
+    "uhura-arc-easy_zu_prompt_5": {
+      "f1": true,
+      "acc": true
+    }
+  },
+  "n-samples": {
+    "uhura-arc-easy_sw_prompt_2": {
+      "original": 491,
+      "effective": 2
+    },
+    "uhura-arc-easy_nso_prompt_2": {
+      "original": 509,
+      "effective": 2
+    },
+    "uhura-arc-easy_zu_prompt_2": {
+      "original": 300,
+      "effective": 2
+    },
+    "uhura-arc-easy_en_prompt_2": {
+      "original": 520,
+      "effective": 2
+    },
+    "uhura-arc-easy_yo_prompt_2": {
+      "original": 494,
+      "effective": 2
+    },
+    "uhura-arc-easy_ha_prompt_2": {
+      "original": 452,
+      "effective": 2
+    },
+    "uhura-arc-easy_am_prompt_2": {
+      "original": 491,
+      "effective": 2
+    },
+    "uhura-arc-easy_sw_prompt_5": {
+      "original": 491,
+      "effective": 2
+    },
+    "uhura-arc-easy_nso_prompt_5": {
+      "original": 509,
+      "effective": 2
+    },
+    "uhura-arc-easy_zu_prompt_5": {
+      "original": 300,
+      "effective": 2
+    },
+    "uhura-arc-easy_en_prompt_5": {
+      "original": 520,
+      "effective": 2
+    },
+    "uhura-arc-easy_yo_prompt_5": {
+      "original": 494,
+      "effective": 2
+    },
+    "uhura-arc-easy_ha_prompt_5": {
+      "original": 452,
+      "effective": 2
+    },
+    "uhura-arc-easy_am_prompt_5": {
+      "original": 491,
+      "effective": 2
+    },
+    "uhura-arc-easy_sw_prompt_4": {
+      "original": 491,
+      "effective": 2
+    },
+    "uhura-arc-easy_nso_prompt_4": {
+      "original": 509,
+      "effective": 2
+    },
+    "uhura-arc-easy_zu_prompt_4": {
+      "original": 300,
+      "effective": 2
+    },
+    "uhura-arc-easy_en_prompt_4": {
+      "original": 520,
+      "effective": 2
+    },
+    "uhura-arc-easy_yo_prompt_4": {
+      "original": 494,
+      "effective": 2
+    },
+    "uhura-arc-easy_ha_prompt_4": {
+      "original": 452,
+      "effective": 2
+    },
+    "uhura-arc-easy_am_prompt_4": {
+      "original": 491,
+      "effective": 2
+    },
+    "uhura-arc-easy_sw_prompt_3": {
+      "original": 491,
+      "effective": 2
+    },
+    "uhura-arc-easy_nso_prompt_3": {
+      "original": 509,
+      "effective": 2
+    },
+    "uhura-arc-easy_zu_prompt_3": {
+      "original": 300,
+      "effective": 2
+    },
+    "uhura-arc-easy_en_prompt_3": {
+      "original": 520,
+      "effective": 2
+    },
+    "uhura-arc-easy_yo_prompt_3": {
+      "original": 494,
+      "effective": 2
+    },
+    "uhura-arc-easy_ha_prompt_3": {
+      "original": 452,
+      "effective": 2
+    },
+    "uhura-arc-easy_am_prompt_3": {
+      "original": 491,
+      "effective": 2
+    },
+    "uhura-arc-easy_sw_prompt_1": {
+      "original": 491,
+      "effective": 2
+    },
+    "uhura-arc-easy_nso_prompt_1": {
+      "original": 509,
+      "effective": 2
+    },
+    "uhura-arc-easy_zu_prompt_1": {
+      "original": 300,
+      "effective": 2
+    },
+    "uhura-arc-easy_en_prompt_1": {
+      "original": 520,
+      "effective": 2
+    },
+    "uhura-arc-easy_yo_prompt_1": {
+      "original": 494,
+      "effective": 2
+    },
+    "uhura-arc-easy_ha_prompt_1": {
+      "original": 452,
+      "effective": 2
+    },
+    "uhura-arc-easy_am_prompt_1": {
+      "original": 491,
+      "effective": 2
+    }
+  },
+  "config": {
+    "model": "hf",
+    "model_args": "pretrained=McGill-NLP/AfriqueQwen3.5-0.8B-50Langs,dtype=bfloat16",
+    "model_num_parameters": 752393024,
+    "model_dtype": "torch.bfloat16",
+    "model_revision": "main",
+    "model_sha": "f49099d79e51bbb783fae622877c4c3415142c82",
+    "batch_size": "1",
+    "batch_sizes": [],
+    "device": null,
+    "use_cache": null,
+    "limit": 2.0,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": {
+      "do_sample": false
+    },
+    "random_seed": 0,
+    "numpy_seed": 1234,
+    "torch_seed": 1234,
+    "fewshot_seed": 1234
+  },
+  "git_hash": "78aaa6e",
+  "date": 1793443433.5056522,
+  "pretty_env_info": "PyTorch version: 2.14.1+cu130\nIs debug build: False\nCUDA used to build PyTorch: 13.0\nROCM used to build PyTorch: N/A\n\nOS: Ubuntu 24.04.3 LTS (aarch64)\nGCC version: (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0\nClang version: Could not collect\nCMake version: version 3.28.3\nLibc version: glibc-2.39\n\nPython version: 3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0] (64-bit runtime)\nPython platform: Linux-6.14.0-1013-nvidia-aarch64-with-glibc2.39\nIs CUDA available: True\nCUDA runtime version: 13.0.88\nCUDA_MODULE_LOADING set to: \nGPU models and configuration: GPU 0: NVIDIA GB10\nNvidia driver version: 580.95.05\ncuDNN version: Could not collect\nIs XPU available: False\nHIP runtime version: N/A\nMIOpen runtime version: N/A\nIs XNNPACK available: False\nCaching allocator config: N/A\n\nCPU:\nArchitektur:                             aarch64\nCPU Operationsmodus:                     64-bit\nByte-Reihenfolge:                        Little Endian\nCPU(s):                                  20\nListe der Online-CPU(s):                 0-19\nAnbieterkennung:                         ARM\nModellname:                              Cortex-X925\nModell:                                  1\nThread(s) pro Kern:                      1\nKern(e) pro Socket:                      10\nSockel:                                  1\nStepping:                                r0p1\nCPU(s) scaling MHz:                      109%\nMaximale Taktfrequenz der CPU:           4004,0000\nMinimale Taktfrequenz der CPU:           1378,0000\nBogoMIPS:                                2000,00\nMarkierungen:                            fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 dgh bti ecv afp wfxt\nModellname:                              Cortex-A725\nModell:                                  1\nThread(s) pro Kern:                      1\nKern(e) pro Socket:                      10\nSockel:                                  1\nStepping:                                r0p1\nCPU(s) scaling MHz:                      109%\nMaximale Taktfrequenz der CPU:           2860,0000\nMinimale Taktfrequenz der CPU:           338,0000\nBogoMIPS:                                2000,00\nMarkierungen:                            fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 dgh bti ecv afp wfxt\nL1d Cache:                               1,3 MiB (20 instances)\nL1i Cache:                               1,3 MiB (20 instances)\nL2 Cache:                                25 MiB (20 instances)\nL3 Cache:                                24 MiB (2 instances)\nNUMA-Knoten:                             1\nNUMA-Knoten0 CPU(s):                     0-19\nSchwachstelle Gather data sampling:      Not affected\nSchwachstelle Ghostwrite:                Not affected\nSchwachstelle Indirect target selection: Not affected\nSchwachstelle Itlb multihit:             Not affected\nSchwachstelle L1tf:                      Not affected\nSchwachstelle Mds:                       Not affected\nSchwachstelle Meltdown:                  Not affected\nSchwachstelle Mmio stale data:           Not affected\nSchwachstelle Reg file data sampling:    Not affected\nSchwachstelle Retbleed:                  Not affected\nSchwachstelle Spec rstack overflow:      Not affected\nSchwachstelle Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl\nSchwachstelle Spectre v1:                Mitigation; __user pointer sanitization\nSchwachstelle Spectre v2:                Mitigation; CSV2, BHB\nSchwachstelle Srbds:                     Not affected\nSchwachstelle Tsa:                       Not affected\nSchwachstelle Tsx async abort:           Not affected\nSchwachstelle Vmscape:                   Not affected\n\nVersions of relevant libraries:\n[pip3] Could not collect\n[conda] Could not collect",
+  "transformers_version": "5.22.1",
+  "lm_eval_version": "0.4.9",
+  "upper_git_hash": null,
+  "tokenizer_pad_token": [
+    "<|endoftext|>",
+    "248044"
+  ],
+  "tokenizer_eos_token": [
+    "<|endoftext|>",
+    "248044"
+  ],
+  "tokenizer_bos_token": [
+    null,
+    "None"
+  ],
+  "eot_token_id": 248044,
+  "max_length": 262144,
+  "task_hashes": {},
+  "model_source": "hf",
+  "model_name": "McGill-NLP/AfriqueQwen3.5-0.8B-50Langs",
+  "model_name_sanitized": "McGill-NLP__AfriqueQwen3.5-0.8B-50Langs",
+  "system_instruction": null,
+  "system_instruction_sha": null,
+  "fewshot_as_multiturn": false,
+  "chat_template": null,
+  "chat_template_sha": null,
+  "start_time": 11140574.79023354,
+  "end_time": 11140637.475977238,
+  "total_evaluation_time_seconds": "62.685743698850274"
+}

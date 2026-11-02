@@ -1,0 +1,1034 @@
+2026-11-01:20:58:22 WARNING  [__main__:369]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2026-11-01:20:58:22 INFO     [__main__:441] Selected Tasks: ['afrixnli_tasks']
+2026-11-01:20:58:22 INFO     [evaluator:190] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234 | Setting fewshot manual seed to 1234
+2026-11-01:20:58:22 WARNING  [evaluator:202] generation_kwargs: {'do_sample': False} specified through cli, these settings will update set parameters in yaml tasks. Ensure 'do_sample=True' for non-greedy decoding!
+2026-11-01:20:58:22 INFO     [evaluator:228] Initializing hf model, with arguments: {'pretrained': 'McGill-NLP/AfriqueQwen3.5-0.8B-50Langs', 'dtype': 'bfloat16'}
+2026-11-01:20:58:23 INFO     [models.huggingface:138] Using device 'cuda'
+2026-11-01:20:58:23 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/models/McGill-NLP/AfriqueQwen3.5-0.8B-50Langs/revision/main "HTTP/1.1 200 OK"
+2026-11-01:20:58:23 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/models/McGill-NLP/AfriqueQwen3.5-0.8B-50Langs/revision/main "HTTP/1.1 200 OK"
+2026-11-01:20:58:23 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/models/McGill-NLP/AfriqueQwen3.5-0.8B-50Langs/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:23 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/models/McGill-NLP/AfriqueQwen3.5-0.8B-50Langs/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-11-01:20:58:24 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/models/McGill-NLP/AfriqueQwen3.5-0.8B-50Langs "HTTP/1.1 200 OK"
+2026-11-01:20:58:24 INFO     [models.huggingface:391] Model parallel was set to False, max memory was not set, and device map was set to {'': 'cuda'}
+2026-11-01:20:58:24 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/models/McGill-NLP/AfriqueQwen3.5-0.8B-50Langs/revision/main "HTTP/1.1 200 OK"
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/321 [00:00<?, ?it/s]Loading weights:   0%|          | 1/321 [00:00<00:43,  7.33it/s]Loading weights:   4%|▍         | 14/321 [00:00<00:05, 61.27it/s]Loading weights:   7%|▋         | 23/321 [00:00<00:04, 65.81it/s]Loading weights:   9%|▉         | 30/321 [00:00<00:04, 61.41it/s]Loading weights:  12%|█▏        | 39/321 [00:00<00:05, 50.14it/s]Loading weights:  20%|█▉        | 63/321 [00:00<00:02, 93.63it/s]Loading weights:  23%|██▎       | 75/321 [00:01<00:02, 89.91it/s]Loading weights:  27%|██▋       | 86/321 [00:01<00:03, 61.33it/s]Loading weights:  30%|██▉       | 95/321 [00:01<00:03, 64.45it/s]Loading weights:  32%|███▏      | 103/321 [00:01<00:04, 51.02it/s]Loading weights:  36%|███▌      | 115/321 [00:01<00:03, 63.34it/s]Loading weights:  39%|███▊      | 124/321 [00:01<00:03, 63.69it/s]Loading weights:  41%|████      | 132/321 [00:02<00:03, 49.69it/s]Loading weights:  45%|████▌     | 145/321 [00:02<00:02, 63.31it/s]Loading weights:  48%|████▊     | 153/321 [00:02<00:02, 56.83it/s]Loading weights:  50%|████▉     | 160/321 [00:02<00:02, 59.20it/s]Loading weights:  53%|█████▎    | 171/321 [00:02<00:02, 68.15it/s]Loading weights:  56%|█████▌    | 179/321 [00:02<00:02, 60.02it/s]Loading weights:  58%|█████▊    | 187/321 [00:03<00:02, 61.66it/s]Loading weights:  61%|██████    | 195/321 [00:03<00:01, 65.30it/s]Loading weights:  66%|██████▌   | 211/321 [00:03<00:01, 85.54it/s]Loading weights:  69%|██████▉   | 221/321 [00:03<00:01, 85.50it/s]Loading weights:  72%|███████▏  | 230/321 [00:03<00:01, 77.23it/s]Loading weights:  74%|███████▍  | 239/321 [00:03<00:01, 73.05it/s]Loading weights:  78%|███████▊  | 249/321 [00:03<00:00, 73.17it/s]Loading weights:  80%|████████  | 257/321 [00:04<00:01, 56.41it/s]Loading weights:  85%|████████▍ | 272/321 [00:04<00:00, 65.13it/s]Loading weights:  87%|████████▋ | 279/321 [00:04<00:00, 58.78it/s]Loading weights:  91%|█████████ | 291/321 [00:04<00:00, 69.52it/s]Loading weights:  93%|█████████▎| 299/321 [00:04<00:00, 66.24it/s]Loading weights:  95%|█████████▌| 306/321 [00:04<00:00, 62.93it/s]Loading weights:  98%|█████████▊| 313/321 [00:04<00:00, 52.23it/s]Loading weights: 100%|██████████| 321/321 [00:05<00:00, 64.02it/s]
+2026-11-01:20:58:30 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:58:30 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:58:30 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:30 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:30 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/masakhane/afrixnli/revision/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56 "HTTP/1.1 200 OK"
+2026-11-01:20:58:31 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:31 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:58:31 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/masakhane/afrixnli/tree/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/data%2Famh?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-11-01:20:58:31 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:31 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/masakhane/afrixnli/tree/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/data%2Fewe?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-11-01:20:58:31 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:58:31 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:58:31 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:32 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:32 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:32 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:58:32 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:32 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/masakhane/afrixnli/tree/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/data%2Fhau?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-11-01:20:58:32 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:58:32 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:58:32 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:33 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:33 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:33 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:58:33 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:33 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/masakhane/afrixnli/tree/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/data%2Flin?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-11-01:20:58:33 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:58:33 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:58:33 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:33 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:34 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:34 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:58:34 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:34 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/masakhane/afrixnli/tree/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/data%2Fyor?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-11-01:20:58:34 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:58:34 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:58:34 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:34 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:34 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:35 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:58:35 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:35 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/masakhane/afrixnli/tree/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/data%2Fwol?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-11-01:20:58:35 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:58:35 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:58:35 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:35 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:35 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:36 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:58:36 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:36 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/masakhane/afrixnli/tree/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/data%2Ffra?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-11-01:20:58:36 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:58:36 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:58:36 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:36 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:36 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:36 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:58:37 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:37 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/masakhane/afrixnli/tree/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/data%2Feng?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-11-01:20:58:37 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:58:37 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:58:37 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:37 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:37 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:37 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:58:38 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:38 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:58:38 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:58:38 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:38 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:38 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:38 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:58:38 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:38 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/masakhane/afrixnli/tree/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/data%2Fzul?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-11-01:20:58:39 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:58:39 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:58:39 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:39 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:39 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:39 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:58:39 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:39 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/masakhane/afrixnli/tree/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/data%2Flug?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-11-01:20:58:40 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:58:40 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:58:40 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:40 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:40 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:40 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:58:40 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:40 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/masakhane/afrixnli/tree/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/data%2Fswa?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-11-01:20:58:40 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:58:40 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:58:41 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:41 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:41 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:41 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:58:41 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:41 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/masakhane/afrixnli/tree/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/data%2Fsot?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-11-01:20:58:41 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:58:41 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:58:42 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:42 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:42 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:42 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:58:42 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:42 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/masakhane/afrixnli/tree/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/data%2Ftwi?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-11-01:20:58:42 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:58:42 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:58:42 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:43 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:43 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:43 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:58:43 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:43 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/masakhane/afrixnli/tree/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/data%2Fibo?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-11-01:20:58:43 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:58:43 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:58:43 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:43 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:44 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:44 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:58:44 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:44 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/masakhane/afrixnli/tree/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/data%2Fsna?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-11-01:20:58:44 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:58:44 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:58:44 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:44 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:45 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:45 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:58:45 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:45 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/masakhane/afrixnli/tree/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/data%2Form?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-11-01:20:58:45 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:58:45 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:58:45 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:45 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:45 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:46 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:58:46 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:46 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/masakhane/afrixnli/tree/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/data%2Fxho?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-11-01:20:58:46 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:58:46 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:58:46 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:46 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:46 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:47 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:58:47 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:47 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/datasets/masakhane/afrixnli/tree/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/data%2Fkin?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-11-01:20:58:47 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:58:47 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:58:47 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:47 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:47 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:47 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:58:48 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:48 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:58:48 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:58:48 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:48 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:48 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:48 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:58:48 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:48 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:58:49 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:58:49 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:49 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:49 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:49 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:58:49 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:49 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:58:49 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:58:49 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:50 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:50 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:50 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:58:50 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:50 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:58:50 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:58:50 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:50 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:50 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:51 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:58:51 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:51 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:58:51 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:58:51 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:51 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:51 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:51 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:58:51 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:52 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:58:52 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:58:52 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:52 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:52 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:52 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:58:52 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:52 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:58:52 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:58:52 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:53 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:53 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:53 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:58:53 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:53 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:58:53 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:58:53 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:53 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:53 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:54 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:58:54 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:54 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:58:54 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:58:54 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:54 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:54 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:54 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:58:55 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:55 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:58:55 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:58:55 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:55 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:55 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:55 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:58:55 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:55 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:58:55 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:58:56 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:56 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:56 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:56 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:58:56 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:56 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:58:56 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:58:56 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:56 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:57 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:57 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:58:57 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:57 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:58:57 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:58:57 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:57 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:57 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:58 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:58:58 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:58 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:58:58 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:58:58 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:58 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:58 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:58 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:58:58 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:59 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:58:59 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:58:59 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:59 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:59 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:59 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:58:59 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:58:59 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:58:59 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:58:59 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:00 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:00 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:00 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:00 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:00 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:00 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:00 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:00 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:00 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:01 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:01 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:01 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:01 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:01 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:01 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:01 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:01 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:02 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:02 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:02 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:02 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:02 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:02 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:02 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:02 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:02 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:02 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:03 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:03 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:03 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:03 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:03 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:03 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:03 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:03 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:03 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:04 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:04 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:04 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:04 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:04 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:04 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:04 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:04 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:05 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:05 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:05 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:05 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:05 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:05 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:05 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:05 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:05 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:06 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:06 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:06 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:06 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:06 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:06 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:06 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:06 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:06 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:06 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:07 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:07 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:07 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:07 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:07 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:07 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:07 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:07 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:07 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:08 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:08 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:08 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:08 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:08 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:08 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:08 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:08 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:08 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:09 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:09 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:09 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:09 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:09 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:09 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:09 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:09 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:09 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:10 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:10 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:10 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:10 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:10 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:10 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:10 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:10 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:10 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:11 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:11 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:11 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:11 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:11 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:11 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:11 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:11 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:11 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:12 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:12 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:12 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:12 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:12 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:12 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:12 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:12 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:12 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:12 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:13 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:13 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:13 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:13 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:13 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:13 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:13 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:13 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:13 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:14 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:14 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:14 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:14 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:14 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:14 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:14 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:14 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:15 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:15 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:15 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:15 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:15 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:15 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:15 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:15 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:15 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:16 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:16 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:16 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:16 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:16 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:16 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:16 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:16 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:16 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:16 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:17 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:17 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:17 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:17 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:17 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:17 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:17 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:17 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:17 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:18 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:18 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:18 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:18 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:18 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:18 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:18 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:18 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:19 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:19 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:19 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:19 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:19 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:19 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:19 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:19 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:19 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:19 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:20 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:20 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:20 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:20 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:20 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:20 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:20 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:20 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:20 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:21 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:21 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:21 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:21 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:21 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:21 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:21 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:21 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:21 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:22 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:22 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:22 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:22 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:22 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:22 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:22 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:22 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:22 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:22 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:23 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:23 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:23 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:23 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:23 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:23 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:23 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:23 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:24 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:24 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:24 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:24 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:24 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:24 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:24 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:24 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:24 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:25 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:25 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:25 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:25 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:25 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:25 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:25 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:25 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:25 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:26 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:26 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:26 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:26 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:26 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:26 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:26 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:26 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:26 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:26 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:27 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:27 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:27 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:27 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:27 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:27 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:27 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:27 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:27 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:28 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:28 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:28 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:28 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:28 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:28 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:28 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:28 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:29 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:29 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:29 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:29 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:29 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:29 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:29 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:29 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:29 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:29 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:30 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:30 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:30 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:30 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:30 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:30 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:30 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:30 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:30 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:31 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:31 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:31 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:31 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:31 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:31 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:31 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:31 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:31 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:32 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:32 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:32 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:32 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:32 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:32 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:32 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:32 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:32 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:32 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:33 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:33 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:33 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:33 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:33 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:33 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:33 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:33 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:34 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:34 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:34 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:34 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:34 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:34 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:34 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:34 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:34 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:35 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:35 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:35 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:35 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:35 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:35 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:35 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:35 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:35 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:36 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:36 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:36 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:36 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:36 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:36 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:36 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:36 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:36 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:37 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:37 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:37 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:37 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:37 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:37 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:37 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:37 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:37 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:37 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:38 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:38 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:38 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:38 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:38 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:38 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:38 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:38 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:39 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:39 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:39 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:39 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:39 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:39 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:39 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:39 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:39 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:39 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:40 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:40 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:40 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:40 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:40 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:40 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:40 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:40 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:40 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:41 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:41 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:41 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:41 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:41 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:41 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:41 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:41 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:41 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:42 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:42 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-01:20:59:42 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/masakhane/afrixnli/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/README.md?%2Fdatasets%2Fmasakhane%2Fafrixnli%2Fresolve%2Fmain%2FREADME.md=&etag=%2222a506e81b102b41a65a63bd9905cd35694ba2c9%22 "HTTP/1.1 200 OK"
+2026-11-01:20:59:42 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:42 INFO     [httpx2:1084] HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/masakhane/afrixnli/masakhane/afrixnli.py "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:42 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:42 INFO     [httpx2:1084] HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=masakhane/afrixnli "HTTP/1.1 200 OK"
+2026-11-01:20:59:42 INFO     [httpx2:1084] HTTP Request: HEAD https://huggingface.co/datasets/masakhane/afrixnli/resolve/e3ca06b30f3e7af2a86f6c8609ea76fee326bc56/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_kin_prompt_2 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 1664.74it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_xho_prompt_2 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2539.69it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_orm_prompt_2 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2656.30it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_sna_prompt_2 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2529.74it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_ibo_prompt_2 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2635.44it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_twi_prompt_2 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2331.46it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_sot_prompt_2 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2556.72it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_swa_prompt_2 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2665.59it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_lug_prompt_2 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2591.48it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_zul_prompt_2 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2584.29it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_amh_prompt_2 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2614.90it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_eng_prompt_2 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2655.46it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_fra_prompt_2 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2636.27it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_wol_prompt_2 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2628.83it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_yor_prompt_2 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2621.44it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_lin_prompt_2 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2706.00it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_hau_prompt_2 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2622.26it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_ewe_prompt_2 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2646.25it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_kin_prompt_5 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2584.29it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_xho_prompt_5 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2302.66it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_orm_prompt_5 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2576.35it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_sna_prompt_5 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2597.90it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_ibo_prompt_5 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2574.77it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_twi_prompt_5 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2611.65it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_sot_prompt_5 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2645.41it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_swa_prompt_5 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2591.48it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_lug_prompt_5 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2653.78it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_zul_prompt_5 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2606.78it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_amh_prompt_5 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2634.61it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_eng_prompt_5 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2603.54it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_fra_prompt_5 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2614.09it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_wol_prompt_5 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2647.08it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_yor_prompt_5 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 2266.58it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_lin_prompt_5 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 4433.73it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_hau_prompt_5 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 4779.83it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_ewe_prompt_5 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6034.97it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_kin_prompt_4 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 5769.33it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_xho_prompt_4 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6069.90it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_orm_prompt_4 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6083.11it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_sna_prompt_4 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6190.85it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_ibo_prompt_4 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6274.20it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_twi_prompt_4 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6246.17it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_sot_prompt_4 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6241.52it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_swa_prompt_4 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6083.11it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_lug_prompt_4 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6418.22it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_zul_prompt_4 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6350.20it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_amh_prompt_4 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6260.16it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_eng_prompt_4 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6355.01it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_fra_prompt_4 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6288.31it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_wol_prompt_4 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 5346.47it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_yor_prompt_4 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 5979.05it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_lin_prompt_4 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6136.51it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_hau_prompt_4 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6293.03it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_ewe_prompt_4 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6379.17it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_kin_prompt_3 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6512.89it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_xho_prompt_3 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6442.86it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_orm_prompt_3 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6413.31it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_sna_prompt_3 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6600.01it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_ibo_prompt_3 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6615.62it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_twi_prompt_3 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6523.02it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_sot_prompt_3 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6403.52it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_swa_prompt_3 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6369.48it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_lug_prompt_3 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6423.13it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_zul_prompt_3 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6437.92it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_amh_prompt_3 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 5433.04it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_eng_prompt_3 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6241.52it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_fra_prompt_3 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6492.73it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_wol_prompt_3 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6388.89it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_yor_prompt_3 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6497.76it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_lin_prompt_3 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6641.81it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_hau_prompt_3 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6423.13it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_ewe_prompt_3 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 6497.76it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_kin_prompt_1 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 9765.55it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_xho_prompt_1 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 10022.23it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_orm_prompt_1 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 10740.86it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_sna_prompt_1 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 10578.32it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_ibo_prompt_1 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 10658.97it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_twi_prompt_1 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 10525.23it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_sot_prompt_1 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 10591.68it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_swa_prompt_1 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 8272.79it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_lug_prompt_1 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 10267.57it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_zul_prompt_1 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 10618.49it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_amh_prompt_1 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 10837.99it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_eng_prompt_1 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 10936.91it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_fra_prompt_1 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 10852.02it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_wol_prompt_1 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 10699.76it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_yor_prompt_1 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 11008.67it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_lin_prompt_1 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 10852.02it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_hau_prompt_1 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 11125.47it/s]
+2026-11-01:20:59:42 INFO     [api.task:434] Building contexts for afrixnli_ewe_prompt_1 on rank 0...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 10727.12it/s]
+2026-11-01:20:59:42 INFO     [evaluator:560] Running loglikelihood requests
+Running loglikelihood requests:   0%|          | 0/540 [00:00<?, ?it/s][transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+Running loglikelihood requests:   0%|          | 1/540 [00:00<04:57,  1.81it/s]Running loglikelihood requests:   1%|          | 5/540 [00:00<00:57,  9.35it/s]Running loglikelihood requests:   2%|▏         | 10/540 [00:00<00:29, 17.71it/s]Running loglikelihood requests:   3%|▎         | 14/540 [00:00<00:23, 22.74it/s]Running loglikelihood requests:   4%|▎         | 20/540 [00:00<00:16, 31.85it/s]Running loglikelihood requests:   5%|▍         | 26/540 [00:01<00:13, 38.73it/s]Running loglikelihood requests:   6%|▌         | 32/540 [00:01<00:12, 41.59it/s]Running loglikelihood requests:   7%|▋         | 38/540 [00:01<00:11, 43.50it/s]Running loglikelihood requests:   8%|▊         | 43/540 [00:01<00:11, 42.36it/s]Running loglikelihood requests:   9%|▉         | 49/540 [00:01<00:11, 44.04it/s]Running loglikelihood requests:  10%|█         | 56/540 [00:01<00:10, 47.68it/s]Running loglikelihood requests:  11%|█▏        | 61/540 [00:01<00:10, 45.62it/s]Running loglikelihood requests:  13%|█▎        | 68/540 [00:01<00:09, 48.49it/s]Running loglikelihood requests:  14%|█▎        | 74/540 [00:02<00:09, 48.23it/s]Running loglikelihood requests:  15%|█▍        | 80/540 [00:02<00:09, 48.15it/s]Running loglikelihood requests:  16%|█▌        | 85/540 [00:02<00:09, 46.22it/s]Running loglikelihood requests:  17%|█▋        | 92/540 [00:02<00:09, 49.51it/s]Running loglikelihood requests:  18%|█▊        | 98/540 [00:02<00:08, 49.65it/s]Running loglikelihood requests:  19%|█▉        | 104/540 [00:02<00:08, 50.86it/s]Running loglikelihood requests:  20%|██        | 110/540 [00:02<00:08, 51.23it/s]Running loglikelihood requests:  21%|██▏       | 116/540 [00:02<00:08, 51.19it/s]Running loglikelihood requests:  23%|██▎       | 122/540 [00:03<00:08, 51.82it/s]Running loglikelihood requests:  24%|██▎       | 128/540 [00:03<00:08, 49.00it/s]Running loglikelihood requests:  25%|██▌       | 135/540 [00:03<00:07, 52.84it/s]Running loglikelihood requests:  26%|██▌       | 141/540 [00:03<00:07, 52.77it/s]Running loglikelihood requests:  27%|██▋       | 147/540 [00:03<00:07, 52.44it/s]Running loglikelihood requests:  28%|██▊       | 153/540 [00:03<00:07, 52.87it/s]Running loglikelihood requests:  29%|██▉       | 159/540 [00:03<00:07, 52.68it/s]Running loglikelihood requests:  31%|███       | 165/540 [00:03<00:07, 53.49it/s]Running loglikelihood requests:  32%|███▏      | 171/540 [00:03<00:06, 53.17it/s]Running loglikelihood requests:  33%|███▎      | 177/540 [00:04<00:06, 52.96it/s]Running loglikelihood requests:  34%|███▍      | 183/540 [00:04<00:06, 52.81it/s]Running loglikelihood requests:  35%|███▌      | 189/540 [00:04<00:06, 53.37it/s]Running loglikelihood requests:  36%|███▌      | 195/540 [00:04<00:06, 49.80it/s]Running loglikelihood requests:  38%|███▊      | 203/540 [00:04<00:06, 55.71it/s]Running loglikelihood requests:  39%|███▊      | 209/540 [00:04<00:06, 51.01it/s]Running loglikelihood requests:  40%|████      | 217/540 [00:04<00:05, 56.45it/s]Running loglikelihood requests:  41%|████▏     | 223/540 [00:04<00:05, 55.75it/s]Running loglikelihood requests:  42%|████▏     | 229/540 [00:05<00:05, 55.29it/s]Running loglikelihood requests:  44%|████▎     | 236/540 [00:05<00:05, 57.63it/s]Running loglikelihood requests:  45%|████▌     | 244/540 [00:05<00:04, 61.69it/s]Running loglikelihood requests:  46%|████▋     | 251/540 [00:05<00:04, 58.05it/s]Running loglikelihood requests:  48%|████▊     | 257/540 [00:05<00:04, 56.97it/s]Running loglikelihood requests:  49%|████▊     | 263/540 [00:05<00:04, 55.99it/s]Running loglikelihood requests:  50%|█████     | 270/540 [00:05<00:04, 58.51it/s]Running loglikelihood requests:  51%|█████▏    | 277/540 [00:05<00:04, 59.75it/s]Running loglikelihood requests:  52%|█████▏    | 283/540 [00:05<00:04, 58.44it/s]Running loglikelihood requests:  54%|█████▎    | 289/540 [00:06<00:04, 57.58it/s]Running loglikelihood requests:  55%|█████▍    | 295/540 [00:06<00:04, 53.46it/s]Running loglikelihood requests:  56%|█████▌    | 302/540 [00:06<00:04, 56.11it/s]Running loglikelihood requests:  58%|█████▊    | 311/540 [00:06<00:03, 63.46it/s]Running loglikelihood requests:  59%|█████▉    | 320/540 [00:06<00:03, 68.46it/s]Running loglikelihood requests:  61%|██████    | 327/540 [00:06<00:03, 68.43it/s]Running loglikelihood requests:  63%|██████▎   | 338/540 [00:06<00:02, 76.65it/s]Running loglikelihood requests:  64%|██████▍   | 347/540 [00:06<00:02, 78.39it/s]Running loglikelihood requests:  66%|██████▌   | 355/540 [00:06<00:02, 72.57it/s]Running loglikelihood requests:  68%|██████▊   | 365/540 [00:07<00:02, 79.50it/s]Running loglikelihood requests:  70%|██████▉   | 376/540 [00:07<00:01, 85.13it/s]Running loglikelihood requests:  71%|███████▏  | 386/540 [00:07<00:01, 86.99it/s]Running loglikelihood requests:  73%|███████▎  | 395/540 [00:07<00:01, 80.50it/s]Running loglikelihood requests:  75%|███████▌  | 406/540 [00:07<00:01, 87.22it/s]Running loglikelihood requests:  83%|████████▎ | 449/540 [00:07<00:00, 177.30it/s]Running loglikelihood requests:  98%|█████████▊| 529/540 [00:07<00:00, 335.22it/s]Running loglikelihood requests: 100%|██████████| 540/540 [00:07<00:00, 68.76it/s] 
+2026-11-01:20:59:51 INFO     [httpx2:1084] HTTP Request: GET https://huggingface.co/api/models/McGill-NLP/AfriqueQwen3.5-0.8B-50Langs/revision/main "HTTP/1.1 200 OK"
+2026-11-01:20:59:51 INFO     [loggers.evaluation_tracker:209] Saving results aggregated
+hf (pretrained=McGill-NLP/AfriqueQwen3.5-0.8B-50Langs,dtype=bfloat16), gen_kwargs: (do_sample=False), limit: 2.0, num_fewshot: None, batch_size: 1
+|        Tasks        |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|---------------------|------:|------|-----:|------|---|-----:|---|------|
+|afrixnli_amh_prompt_1|      1|none  |     0|acc   |↑  |0.5000|±  |   0.5|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_amh_prompt_2|      1|none  |     0|acc   |↑  |0.5000|±  |   0.5|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_amh_prompt_3|      1|none  |     0|acc   |↑  |0.5000|±  |   0.5|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_amh_prompt_4|      1|none  |     0|acc   |↑  |0.0000|±  |     0|
+|                     |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|afrixnli_amh_prompt_5|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_eng_prompt_1|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_eng_prompt_2|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_eng_prompt_3|      1|none  |     0|acc   |↑  |1.0000|±  |0.0000|
+|                     |       |none  |     0|f1    |↑  |1.0000|±  |   N/A|
+|afrixnli_eng_prompt_4|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_eng_prompt_5|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_ewe_prompt_1|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_ewe_prompt_2|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_ewe_prompt_3|      1|none  |     0|acc   |↑  |1.0000|±  |0.0000|
+|                     |       |none  |     0|f1    |↑  |1.0000|±  |   N/A|
+|afrixnli_ewe_prompt_4|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_ewe_prompt_5|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_fra_prompt_1|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_fra_prompt_2|      1|none  |     0|acc   |↑  |0.0000|±  |0.0000|
+|                     |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|afrixnli_fra_prompt_3|      1|none  |     0|acc   |↑  |1.0000|±  |0.0000|
+|                     |       |none  |     0|f1    |↑  |1.0000|±  |   N/A|
+|afrixnli_fra_prompt_4|      1|none  |     0|acc   |↑  |1.0000|±  |0.0000|
+|                     |       |none  |     0|f1    |↑  |1.0000|±  |   N/A|
+|afrixnli_fra_prompt_5|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.5000|±  |   N/A|
+|afrixnli_hau_prompt_1|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_hau_prompt_2|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_hau_prompt_3|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.5000|±  |   N/A|
+|afrixnli_hau_prompt_4|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_hau_prompt_5|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_ibo_prompt_1|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_ibo_prompt_2|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_ibo_prompt_3|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_ibo_prompt_4|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_ibo_prompt_5|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_kin_prompt_1|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_kin_prompt_2|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_kin_prompt_3|      1|none  |     0|acc   |↑  |0.0000|±  |0.0000|
+|                     |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|afrixnli_kin_prompt_4|      1|none  |     0|acc   |↑  |0.0000|±  |0.0000|
+|                     |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|afrixnli_kin_prompt_5|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_lin_prompt_1|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_lin_prompt_2|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_lin_prompt_3|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.5000|±  |   N/A|
+|afrixnli_lin_prompt_4|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.5000|±  |   N/A|
+|afrixnli_lin_prompt_5|      1|none  |     0|acc   |↑  |0.0000|±  |0.0000|
+|                     |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|afrixnli_lug_prompt_1|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_lug_prompt_2|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_lug_prompt_3|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_lug_prompt_4|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_lug_prompt_5|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_orm_prompt_1|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_orm_prompt_2|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_orm_prompt_3|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_orm_prompt_4|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_orm_prompt_5|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_sna_prompt_1|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_sna_prompt_2|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_sna_prompt_3|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_sna_prompt_4|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_sna_prompt_5|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_sot_prompt_1|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_sot_prompt_2|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_sot_prompt_3|      1|none  |     0|acc   |↑  |1.0000|±  |0.0000|
+|                     |       |none  |     0|f1    |↑  |1.0000|±  |   N/A|
+|afrixnli_sot_prompt_4|      1|none  |     0|acc   |↑  |1.0000|±  |0.0000|
+|                     |       |none  |     0|f1    |↑  |1.0000|±  |   N/A|
+|afrixnli_sot_prompt_5|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.5000|±  |   N/A|
+|afrixnli_swa_prompt_1|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_swa_prompt_2|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_swa_prompt_3|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.5000|±  |   N/A|
+|afrixnli_swa_prompt_4|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_swa_prompt_5|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.5000|±  |   N/A|
+|afrixnli_twi_prompt_1|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_twi_prompt_2|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_twi_prompt_3|      1|none  |     0|acc   |↑  |0.0000|±  |0.0000|
+|                     |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|afrixnli_twi_prompt_4|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_twi_prompt_5|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_wol_prompt_1|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_wol_prompt_2|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_wol_prompt_3|      1|none  |     0|acc   |↑  |0.0000|±  |0.0000|
+|                     |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|afrixnli_wol_prompt_4|      1|none  |     0|acc   |↑  |0.0000|±  |0.0000|
+|                     |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|afrixnli_wol_prompt_5|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_xho_prompt_1|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_xho_prompt_2|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_xho_prompt_3|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.5000|±  |   N/A|
+|afrixnli_xho_prompt_4|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.5000|±  |   N/A|
+|afrixnli_xho_prompt_5|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_yor_prompt_1|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_yor_prompt_2|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_yor_prompt_3|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_yor_prompt_4|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_yor_prompt_5|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_zul_prompt_1|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_zul_prompt_2|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+|afrixnli_zul_prompt_3|      1|none  |     0|acc   |↑  |0.0000|±  |0.0000|
+|                     |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|afrixnli_zul_prompt_4|      1|none  |     0|acc   |↑  |0.0000|±  |0.0000|
+|                     |       |none  |     0|f1    |↑  |0.0000|±  |   N/A|
+|afrixnli_zul_prompt_5|      1|none  |     0|acc   |↑  |0.5000|±  |0.5000|
+|                     |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+
