@@ -1,8 +1,10 @@
 
 # Fix for nollysenti
+- probably not needed bc its in the repo no
+
 
 ```sh
-/home/cosmic-lilac-maple/AfroBench/AfroBench/lm-evaluation-harness/lm_eval/tasks/afrobench/nollysenti/custom_script.sh
+~/AfroBench/AfroBench/lm-evaluation-harness/lm_eval/tasks/afrobench/nollysenti/custom_script.sh
 ```
 
 # Fix for afrobench/masakhapos

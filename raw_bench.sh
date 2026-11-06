@@ -3,10 +3,11 @@
 
 case "$1" in 
 	0.8B) ACTIVE="McGill-NLP/AfriqueQwen3.5-0.8B-50Langs" ;;
+	0.8B_plain) ACTIVE="Qwen/Qwen3.5-0.8B" ;;
 	4B) ACTIVE="McGill-NLP/AfriqueQwen3.5-4B-50Langs-Instruct-v1" ;;
+	4B_plain) ACTIVE="Qwen/Qwen3.5-4B" ;;
 	9B) ACTIVE="McGill-NLP/AfriqueQwen3.5-9B-50Langs-Instruct-v1" ;;
-	14B) ACTIVE="McGill-NLP/AfriqueQwen-14B" ;;
-	27B) ACTIVE="Qwen/Qwen3.5-27B" ;;
+	9B_plain) ACTIVE="Qwen/Qwen3.5-9B" ;;
 	*) echo "Arg 1 requires: $0 <0.8B|4B|9B|14B|27B> [smoke|raw|smoke_offline|raw_offline]"; exit 1 ;;
 esac
 
@@ -27,13 +28,21 @@ case "$2" in
 	*) echo "Arg 2 requires: $0 $1 [smoke|offline]"; exit 1 ;;
 esac
 
+if [ "$3" != "" ]; then
+	MULTI_TASK="accelerate launch --num_processes $3 -m "
+else
+	MULTI_TASK=""
+fi
+
 mkdir -p results/cache
 
-lm_eval --model hf \
+$MULTI_TASK lm_eval \
+	--model hf \
 	--model_args pretrained=$ACTIVE,dtype=bfloat16 \
 	--tasks afrobench \
-	--batch_size 32 \
+	--batch_size 64 \
 	--gen_kwargs do_sample=False \
 	--use_cache results/cache/$(basename $ACTIVE) \
+	--bootstrap_iters 0 \
 	$LIMIT --output_path $OUT
 
