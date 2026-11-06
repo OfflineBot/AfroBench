@@ -1,4 +1,8 @@
 #!/bin/bash
+
+# This is not required anymore!
+# It was used for the default harness (when cloning the original)
+
 set -e
 
 HARNESS=~/AfroBench/AfroBench/lm-evaluation-harness

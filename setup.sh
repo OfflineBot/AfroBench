@@ -22,7 +22,8 @@ echo "== HuggingFace Login =="
 hf auth login
 
 echo "== AfroBench Task-Fixes =="
-./fix.sh
+echo "fix.sh not required with the clone from OfflineBot. otherwise run ./fix.sh"
+# ./fix.sh
 
 source .venv/bin/activate
 echo "done"
