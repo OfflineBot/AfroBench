@@ -43,6 +43,5 @@ $MULTI_TASK lm_eval \
 	--batch_size 64 \
 	--gen_kwargs do_sample=False \
 	--use_cache results/cache/$(basename $ACTIVE) \
-	--bootstrap_iters 0 \
 	$LIMIT --output_path $OUT
 
