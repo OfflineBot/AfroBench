@@ -40,7 +40,7 @@ $MULTI_TASK lm_eval \
 	--model hf \
 	--model_args pretrained=$ACTIVE,dtype=bfloat16 \
 	--tasks afrobench \
-	--batch_size 64 \
+	--batch_size 1 \
 	--gen_kwargs do_sample=False \
 	--use_cache results/cache/$(basename $ACTIVE) \
 	$LIMIT --output_path $OUT
