@@ -1,8 +1,7 @@
 #!/bin/bash
 
 # batch_size orientation:
-## 0.4B: first at 64, after crash 1
-## 4B: (not sure yet) first 32 after crash 1
+## 0.4B: first at 64, after crash 1; did run with --model hf.
 
 case "$1" in 
 	0.8B) ACTIVE="McGill-NLP/AfriqueQwen3.5-0.8B-50Langs" ;;
@@ -16,17 +15,17 @@ esac
 
 case "$2" in
 	smoke_offline)
-		LIMIT="--limit 2"; OUT="results/smoke/$(basename $ACTIVE)";
+		LIMIT="--limit 2"; OUT="results/smoke_lite/$(basename $ACTIVE)";
 		export HF_HUB_OFFLINE=1; export HF_DATASETS_OFFLINE=1; ;;
 	smoke) 
-		LIMIT="--limit 2"; OUT="results/smoke/$(basename $ACTIVE)"; ;;
+		LIMIT="--limit 2"; OUT="results/smoke_lite/$(basename $ACTIVE)"; ;;
 	raw_offline) 
 		LIMIT=""; 
-		OUT="results/full/$(basename $ACTIVE)"
+		OUT="results/lite/$(basename $ACTIVE)"
 		export HF_HUB_OFFLINE=1; export HF_DATASETS_OFFLINE=1; ;;
 	raw)
 		LIMIT=""; 
-		OUT="results/full/$(basename $ACTIVE)" ;;
+		OUT="results/lite/$(basename $ACTIVE)" ;;
 
 	*) echo "Arg 2 requires: $0 $1 [smoke|offline]"; exit 1 ;;
 esac
@@ -41,9 +40,9 @@ mkdir -p results/cache
 
 $MULTI_TASK lm_eval \
 	--model hf \
-	--model_args pretrained=$ACTIVE,dtype=bfloat16 \
-	--tasks afrobench \
-	--batch_size 32 \
+	--model_args pretrained=$ACTIVE,dtype=float16 \
+	--tasks afrobench_lite \
+	--batch_size 64 \
 	--gen_kwargs do_sample=False \
 	--use_cache results/cache/$(basename $ACTIVE) \
 	$LIMIT --output_path $OUT
