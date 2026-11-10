@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# batch_size orientation:
+## 0.4B: first at 64, after crash 1
+## 4B: (not sure yet) first 32 after crash 1
 
 case "$1" in 
 	0.8B) ACTIVE="McGill-NLP/AfriqueQwen3.5-0.8B-50Langs" ;;
@@ -40,7 +43,7 @@ $MULTI_TASK lm_eval \
 	--model hf \
 	--model_args pretrained=$ACTIVE,dtype=bfloat16 \
 	--tasks afrobench \
-	--batch_size 1 \
+	--batch_size 32 \
 	--gen_kwargs do_sample=False \
 	--use_cache results/cache/$(basename $ACTIVE) \
 	$LIMIT --output_path $OUT
